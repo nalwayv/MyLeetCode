@@ -315,10 +315,10 @@ def case5() -> None:
         print("error")
 
 def main() -> None:
-    # case1()
-    # case2()
-    # case3()
-    # case4()
+    case1()
+    case2()
+    case3()
+    case4()
     case5()
 
 if __name__ == "__main__":
