@@ -26,8 +26,7 @@ class Solution:
         # start with right as total sum
         # then as pivot moves up
         # subtract current [i] from right
-        # check if left and right equil else
-        # add current [i] to left
+        # check if left and right equil else add current [i] to left
 
         n: int = len(nums)
         right: int = sum(nums)

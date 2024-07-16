@@ -45,30 +45,6 @@ class Solution:
                         return False
 
         return True
-    
-# def print_rows(board: list[list[str]]) -> None:
-#     for i in range(9):
-#         for j in range(9):
-#             print(board[i][j], end=" ")
-#         print("")            
-
-
-# def print_cols(board: list[list[str]]) -> None:
-#     for j in range(9):
-#         for i in range(9):
-#             print(board[i][j], end=" ")
-#         print("")    
-
-# def print3x3(board: list[list[str]]) -> None:
-#         for k in range(9):
-#             i = k//3
-#             j = k%3
-#             for row in range(i*3, i*3+3):
-#                 for col in range(j*3, j*3+3):
-#                     print(board[row][col], end=" ")
-#                 print("")
-#             print("-"*5)
-
 
 def main() -> None:
     solution = Solution()

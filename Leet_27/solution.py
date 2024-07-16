@@ -9,7 +9,6 @@ def remove_element(nums: list[int], val: int) -> int:
     k: int = n
     for i in reversed(range(n)):
         if nums[i] == val:
-            # swap with last
             nums[i], nums[k - 1] = nums[k - 1], nums[i]
             k -= 1
 

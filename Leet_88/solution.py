@@ -24,22 +24,6 @@
 # The result of the merge is [1].
 # Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
 
-
-# def merge_b(nums1: list[int], m: int, nums2: list[int], n: int) -> None:
-#     """pythonic"""
-#     if m + n != len(nums1):
-#         return
-
-#     if n <= 0:
-#         return 
-
-#     arr: list[int] = sorted(nums1[0 : m] + nums2)
-
-#     for i, _ in enumerate(nums1):
-#         nums1[i] = arr[i]
-
-
-# 
 def merge(nums1: list[int], m: int, nums2: list[int], n: int) -> None:
     lo: int = 0
     hi: int = m + n
@@ -48,15 +32,10 @@ def merge(nums1: list[int], m: int, nums2: list[int], n: int) -> None:
     p1: int = 0
     p2: int = mid
 
-    # concat nums1 and nums2
+    # pythonic concat nums1 and nums2
     arr: list[int] = nums1[0 : m] + nums2
 
-    # add back to nums1 in sorted order
     for p3 in range(lo, hi):
-        # use values nums1 if
-        #   p1 in range and
-        #   p2 out of range or value at p1 less then or equil to value at p2
-        # else use values in nums2
         if p1 < mid and (p2 >= hi or arr[p1] <= arr[p2]):
             nums1[p3] = arr[p1]
             p1 += 1

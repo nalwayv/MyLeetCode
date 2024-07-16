@@ -34,7 +34,6 @@ class Solution:
         result: list[str] = ['0'] * n
         at: int = 0
         while True:
-            # only subtract if result is above zero
             if (num - p1) >= 0:
                 num -= p1
                 result[at] = '1'

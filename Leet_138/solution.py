@@ -11,7 +11,6 @@ class Node:
 
 
 class Solution:
-
     def get_length(self, head:Node|None) -> int:
         count: int = 0
         current: Node|None = head
@@ -83,18 +82,12 @@ class Solution:
 def main() -> None:
     solution = Solution()
 
-    # CASE 1
-    # a = Node(7)
-    # b = Node(13)
-    # a.next = b
-    # b.random = b
-
-    # CASE 2
     a = Node(7)
     b = Node(13)
     c = Node(11)
     d = Node(10)
     e = Node(1)
+
     a.next = b
     b.next = c
     c.next = d
