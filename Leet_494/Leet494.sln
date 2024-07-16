@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E8EFF59-F710-48DE-8D6F-215008757971}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leet494", "src\Leet494\Leet494.csproj", "{D35F2E7B-81C9-4944-86E6-8EC869993D77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D35F2E7B-81C9-4944-86E6-8EC869993D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35F2E7B-81C9-4944-86E6-8EC869993D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35F2E7B-81C9-4944-86E6-8EC869993D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35F2E7B-81C9-4944-86E6-8EC869993D77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D35F2E7B-81C9-4944-86E6-8EC869993D77} = {4E8EFF59-F710-48DE-8D6F-215008757971}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E66ED2C3-9165-462F-A774-82B158F00AA0}
+	EndGlobalSection
+EndGlobal

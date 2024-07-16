@@ -1,0 +1,14 @@
+C:\Users\nalwa\Documents\C#\Leet95\bin\Debug\net8.0\Leet95.exe
+C:\Users\nalwa\Documents\C#\Leet95\bin\Debug\net8.0\Leet95.deps.json
+C:\Users\nalwa\Documents\C#\Leet95\bin\Debug\net8.0\Leet95.runtimeconfig.json
+C:\Users\nalwa\Documents\C#\Leet95\bin\Debug\net8.0\Leet95.dll
+C:\Users\nalwa\Documents\C#\Leet95\bin\Debug\net8.0\Leet95.pdb
+C:\Users\nalwa\Documents\C#\Leet95\obj\Debug\net8.0\Leet95.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nalwa\Documents\C#\Leet95\obj\Debug\net8.0\Leet95.AssemblyInfoInputs.cache
+C:\Users\nalwa\Documents\C#\Leet95\obj\Debug\net8.0\Leet95.AssemblyInfo.cs
+C:\Users\nalwa\Documents\C#\Leet95\obj\Debug\net8.0\Leet95.csproj.CoreCompileInputs.cache
+C:\Users\nalwa\Documents\C#\Leet95\obj\Debug\net8.0\Leet95.dll
+C:\Users\nalwa\Documents\C#\Leet95\obj\Debug\net8.0\refint\Leet95.dll
+C:\Users\nalwa\Documents\C#\Leet95\obj\Debug\net8.0\Leet95.pdb
+C:\Users\nalwa\Documents\C#\Leet95\obj\Debug\net8.0\Leet95.genruntimeconfig.cache
+C:\Users\nalwa\Documents\C#\Leet95\obj\Debug\net8.0\ref\Leet95.dll

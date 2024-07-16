@@ -1,0 +1,14 @@
+C:\Users\nalwa\Documents\C#\Leet841\bin\Debug\net8.0\Leet841.exe
+C:\Users\nalwa\Documents\C#\Leet841\bin\Debug\net8.0\Leet841.deps.json
+C:\Users\nalwa\Documents\C#\Leet841\bin\Debug\net8.0\Leet841.runtimeconfig.json
+C:\Users\nalwa\Documents\C#\Leet841\bin\Debug\net8.0\Leet841.dll
+C:\Users\nalwa\Documents\C#\Leet841\bin\Debug\net8.0\Leet841.pdb
+C:\Users\nalwa\Documents\C#\Leet841\obj\Debug\net8.0\Leet841.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nalwa\Documents\C#\Leet841\obj\Debug\net8.0\Leet841.AssemblyInfoInputs.cache
+C:\Users\nalwa\Documents\C#\Leet841\obj\Debug\net8.0\Leet841.AssemblyInfo.cs
+C:\Users\nalwa\Documents\C#\Leet841\obj\Debug\net8.0\Leet841.csproj.CoreCompileInputs.cache
+C:\Users\nalwa\Documents\C#\Leet841\obj\Debug\net8.0\Leet841.dll
+C:\Users\nalwa\Documents\C#\Leet841\obj\Debug\net8.0\refint\Leet841.dll
+C:\Users\nalwa\Documents\C#\Leet841\obj\Debug\net8.0\Leet841.pdb
+C:\Users\nalwa\Documents\C#\Leet841\obj\Debug\net8.0\Leet841.genruntimeconfig.cache
+C:\Users\nalwa\Documents\C#\Leet841\obj\Debug\net8.0\ref\Leet841.dll

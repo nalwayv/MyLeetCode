@@ -1,0 +1,14 @@
+C:\Users\nalwa\Documents\C#\Leet50\bin\Debug\net8.0\Leet50.exe
+C:\Users\nalwa\Documents\C#\Leet50\bin\Debug\net8.0\Leet50.deps.json
+C:\Users\nalwa\Documents\C#\Leet50\bin\Debug\net8.0\Leet50.runtimeconfig.json
+C:\Users\nalwa\Documents\C#\Leet50\bin\Debug\net8.0\Leet50.dll
+C:\Users\nalwa\Documents\C#\Leet50\bin\Debug\net8.0\Leet50.pdb
+C:\Users\nalwa\Documents\C#\Leet50\obj\Debug\net8.0\Leet50.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nalwa\Documents\C#\Leet50\obj\Debug\net8.0\Leet50.AssemblyInfoInputs.cache
+C:\Users\nalwa\Documents\C#\Leet50\obj\Debug\net8.0\Leet50.AssemblyInfo.cs
+C:\Users\nalwa\Documents\C#\Leet50\obj\Debug\net8.0\Leet50.csproj.CoreCompileInputs.cache
+C:\Users\nalwa\Documents\C#\Leet50\obj\Debug\net8.0\Leet50.dll
+C:\Users\nalwa\Documents\C#\Leet50\obj\Debug\net8.0\refint\Leet50.dll
+C:\Users\nalwa\Documents\C#\Leet50\obj\Debug\net8.0\Leet50.pdb
+C:\Users\nalwa\Documents\C#\Leet50\obj\Debug\net8.0\Leet50.genruntimeconfig.cache
+C:\Users\nalwa\Documents\C#\Leet50\obj\Debug\net8.0\ref\Leet50.dll

@@ -1,0 +1,14 @@
+C:\Users\nalwa\Documents\C#\Leet232\bin\Debug\net8.0\Leet232.exe
+C:\Users\nalwa\Documents\C#\Leet232\bin\Debug\net8.0\Leet232.deps.json
+C:\Users\nalwa\Documents\C#\Leet232\bin\Debug\net8.0\Leet232.runtimeconfig.json
+C:\Users\nalwa\Documents\C#\Leet232\bin\Debug\net8.0\Leet232.dll
+C:\Users\nalwa\Documents\C#\Leet232\bin\Debug\net8.0\Leet232.pdb
+C:\Users\nalwa\Documents\C#\Leet232\obj\Debug\net8.0\Leet232.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nalwa\Documents\C#\Leet232\obj\Debug\net8.0\Leet232.AssemblyInfoInputs.cache
+C:\Users\nalwa\Documents\C#\Leet232\obj\Debug\net8.0\Leet232.AssemblyInfo.cs
+C:\Users\nalwa\Documents\C#\Leet232\obj\Debug\net8.0\Leet232.csproj.CoreCompileInputs.cache
+C:\Users\nalwa\Documents\C#\Leet232\obj\Debug\net8.0\Leet232.dll
+C:\Users\nalwa\Documents\C#\Leet232\obj\Debug\net8.0\refint\Leet232.dll
+C:\Users\nalwa\Documents\C#\Leet232\obj\Debug\net8.0\Leet232.pdb
+C:\Users\nalwa\Documents\C#\Leet232\obj\Debug\net8.0\Leet232.genruntimeconfig.cache
+C:\Users\nalwa\Documents\C#\Leet232\obj\Debug\net8.0\ref\Leet232.dll

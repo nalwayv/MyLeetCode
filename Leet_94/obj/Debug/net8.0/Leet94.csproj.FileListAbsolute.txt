@@ -1,0 +1,14 @@
+C:\Users\nalwa\Documents\C#\Leet94\bin\Debug\net8.0\Leet94.exe
+C:\Users\nalwa\Documents\C#\Leet94\bin\Debug\net8.0\Leet94.deps.json
+C:\Users\nalwa\Documents\C#\Leet94\bin\Debug\net8.0\Leet94.runtimeconfig.json
+C:\Users\nalwa\Documents\C#\Leet94\bin\Debug\net8.0\Leet94.dll
+C:\Users\nalwa\Documents\C#\Leet94\bin\Debug\net8.0\Leet94.pdb
+C:\Users\nalwa\Documents\C#\Leet94\obj\Debug\net8.0\Leet94.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nalwa\Documents\C#\Leet94\obj\Debug\net8.0\Leet94.AssemblyInfoInputs.cache
+C:\Users\nalwa\Documents\C#\Leet94\obj\Debug\net8.0\Leet94.AssemblyInfo.cs
+C:\Users\nalwa\Documents\C#\Leet94\obj\Debug\net8.0\Leet94.csproj.CoreCompileInputs.cache
+C:\Users\nalwa\Documents\C#\Leet94\obj\Debug\net8.0\Leet94.dll
+C:\Users\nalwa\Documents\C#\Leet94\obj\Debug\net8.0\refint\Leet94.dll
+C:\Users\nalwa\Documents\C#\Leet94\obj\Debug\net8.0\Leet94.pdb
+C:\Users\nalwa\Documents\C#\Leet94\obj\Debug\net8.0\Leet94.genruntimeconfig.cache
+C:\Users\nalwa\Documents\C#\Leet94\obj\Debug\net8.0\ref\Leet94.dll
