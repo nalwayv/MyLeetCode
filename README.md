@@ -23,6 +23,7 @@
 - 66\. Plus One
 - 67\. Add Binary
 - 70\. Climbing Stairs
+- 83\. Remove Duplicates from Sorted List
 - 88\. Merge Sorted Array
 - 94\. Binary Tree Inorder Traversal
 - 95\. Unique Binary Search Trees II
