@@ -22,24 +22,24 @@ class Solution:
             "I" : 1,
         }
         
+        i: int = len(s) - 1
         num: int = 0
-        p1: int = len(s) - 1
 
-        while p1 >= 0:
-            sym1: str = s[p1]
+        while i >= 0:
+            sym1: str = s[i]
 
-            if p1 - 1 >= 0:
-                sym2: str = s[p1 - 1]
+            if i - 1 >= 0:
+                sym2: str = s[i - 1]
                 
                 if self.test_I(sym2, sym1) or self.test_X(sym2, sym1) or self.test_C(sym2, sym1):
                     num += symbols[sym1] - symbols[sym2]
-                    p1 -= 2
+                    i -= 2
                 else:
                     num += symbols[sym1]
-                    p1 -= 1
+                    i -= 1
             else:
                 num += symbols[sym1]
-                p1 -= 1
+                i -= 1
 
         return num
 
