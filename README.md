@@ -36,6 +36,7 @@
 - 112\. Path Sum
 - 118\. Pascal's Triangle
 - 119\. Pascal's Triangle II
+- 125\. Valid Palindrome
 - 133\. Clone Graph
 - 136\. Single Number
 - 138\. Copy List with Random Pointer
