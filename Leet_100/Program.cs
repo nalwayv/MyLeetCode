@@ -14,6 +14,25 @@
 
 public class Solution
 {
+    private void PrintTreeR(TreeNode? node)
+    {
+        if (node == null)
+        {
+            return;
+        }
+
+        Console.Write($" {node.val} ");
+        PrintTreeR(node.left);
+        PrintTreeR(node.right);
+    }
+
+    public void PrintTree(TreeNode? node)
+    {
+        Console.Write("[");
+        PrintTreeR(node);
+        Console.WriteLine("]");
+    }
+
     public bool IsSameTree(TreeNode? p, TreeNode? q)
     {
         if (p == null && q == null)
@@ -21,77 +40,63 @@ public class Solution
             return true;
         }
 
-        if (p != null && q != null && p.val == q.val)
+        if (p == null || q == null)
         {
-            bool left = IsSameTree(p.left, q.left);
-            bool right = IsSameTree(p.right, q.right);
-
-            return left && right;
+            return false;
         }
 
-        return false;
+        if (p.val != q.val)
+        {
+            return false;
+        }
+
+        return IsSameTree(p.left, q.left) && IsSameTree(p.right, q.right);
     }
 }
 
 internal class Program
 {
-    private static void Check1(Solution sol)
+    private static TreeNode? Build(int[] arr, int i = 0)
     {
-        TreeNode? a1 = new(1);
-        TreeNode? b1 = new(2);
-        TreeNode? c1 = new(3);
+        TreeNode? root = null;
+        
+        if (i < arr.Length && arr[i] != int.MaxValue)
+        {
+            root = new(arr[i])
+            {
+                left = Build(arr, 2 * i + 1),
+                right = Build(arr, 2 * i + 2)
+            };
+        }
+        return root;
+    }
 
-        a1.left = b1;
-        a1.right = c1;
+    private static void Check1(Solution sol)
+    {        
+        TreeNode? tree1 = Build([1,2,3]);
+        TreeNode? tree2 = Build([1,2,3]);
 
-        TreeNode? a2 = new(1);
-        TreeNode? b2 = new(2);
-        TreeNode? c2 = new(3);
-
-        a2.left = b2;
-        a2.right = c2;
-
-        bool check = sol.IsSameTree(a1, a2);
-
-        Console.WriteLine($"[1,2,3] = [1,2,3] ? {check}");
+        bool check = sol.IsSameTree(tree1, tree2);
+        Console.WriteLine($"TreeA = TreeB ? {check}");
     }
 
     private static void Check2(Solution sol)
     {
-        TreeNode a1 = new(1);
-        TreeNode b1 = new(2);
+        TreeNode? tree1 = Build([1,2]);
+        TreeNode? tree2 = Build([1,int.MaxValue,2]);
 
-        a1.left = b1;
-
-        TreeNode a2 = new(1);
-        TreeNode b2 = new(2);
-
-        a2.right = b2;
-
-        bool check = sol.IsSameTree(a1, a2);
-
-        Console.WriteLine($"[1,2] = [1,null,2] ? {check}");
+        bool check = sol.IsSameTree(tree1, tree2);
+        Console.WriteLine($"TreeA = TreeB ? {check}");
     }
 
     private static void Check3(Solution sol)
     {
-        TreeNode a1 = new(1);
-        TreeNode b1 = new(2);
-        TreeNode c1 = new(1);
 
-        a1.left = b1;
-        a1.right = c1;
+        TreeNode? tree1 = Build([1,2,1]);
+        TreeNode? tree2 = Build([1,1,2]);
 
-        TreeNode a2 = new(1);
-        TreeNode b2 = new(1);
-        TreeNode c2 = new(2);
-
-        a2.left = b2;
-        a2.right = c2;
-
-        bool check = sol.IsSameTree(a1, a2);
-
-        Console.WriteLine($"[1,2,1] = [1,1,2] ? {check}");
+        bool check = sol.IsSameTree(tree1, tree2);
+        Console.WriteLine($"TreeA = TreeB ? {check}");
     }
 
     private static void Main(string[] args)
