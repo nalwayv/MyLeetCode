@@ -13,23 +13,36 @@
 
 public class Solution
 {
-    private struct Node
+    private struct State
     {
-        public TreeNode? Root;
+        public TreeNode? Node;
         public int Depth;
+    }
+
+    /// <summary>
+    /// Has no children
+    /// </summary>
+    private bool IsLeaf(TreeNode? node)
+    {
+        if (node == null)
+        {
+            return false;
+        }
+
+        return node.left == null && node.right == null;
     }
 
     public int MinDepth(TreeNode? root)
     {
-        Queue<Node> que = new();
-        que.Enqueue(new Node { Root = root, Depth = 1 });
+        Queue<State> que = new();
+        que.Enqueue(new State { Node = root, Depth = 1 });
 
         while (que.Count > 0)
         {
             for (int i = 0; i < que.Count; i++)
             {
-                Node curr = que.Dequeue();
-                TreeNode? node = curr.Root;
+                State curr = que.Dequeue();
+                TreeNode? node = curr.Node;
                 int depth = curr.Depth;
 
                 if (node == null)
@@ -37,19 +50,19 @@ public class Solution
                     continue;
                 }
 
-                if (node.left == null && node.right == null)
+                if (IsLeaf(node))
                 {
                     return depth;
                 }
 
                 if (node.left != null)
                 {
-                    que.Enqueue(new Node { Root = node.left, Depth = depth + 1 });
+                    que.Enqueue(new State { Node = node.left, Depth = depth + 1 });
                 }
 
                 if (node.right != null)
                 {
-                    que.Enqueue(new Node { Root = node.right, Depth = depth + 1 });
+                    que.Enqueue(new State { Node = node.right, Depth = depth + 1 });
                 }
             }
 

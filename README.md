@@ -6,6 +6,7 @@
 
 - 1\. Two Sum
 - 2\. Add Two Numbers
+- 7\. Reverse Integer
 - 9\. Palindrome Number
 - 12\. Integer to Roman
 - 13\. Roman To Integer
