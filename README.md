@@ -94,6 +94,7 @@
 - 622\. Design Circular Queue
 - 652\. Find Duplicate Subtrees
 - 700\. Search in a Binary Search Tree
+- 704\. Binary Search
 - 705\. Design HashSet
 - 706\. Design HashMap
 - 707\. Design Linked List

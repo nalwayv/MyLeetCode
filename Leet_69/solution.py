@@ -8,6 +8,30 @@ class Solution:
             n2 = x // n1
         
         return n1
+    
+    def mySqrtBS(self, x: int) -> int:
+        """Using BinarySearch
+        """
+        if x == 1:
+            return 1
+        
+        lo: int = 1
+        hi: int = x//2
+        result: int = 0
+
+        while lo <= hi:
+            mi: int = (lo + hi) // 2
+
+            if mi*mi == x:
+                return mi
+            
+            if mi*mi < x:
+                lo = mi + 1
+                result = mi
+            else:
+                hi = mi - 1
+
+        return result
 
 
 def main() -> None:
