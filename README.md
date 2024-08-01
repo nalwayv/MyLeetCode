@@ -20,6 +20,7 @@
 - 28\. Find the Index of the First Occurrence in a String
 - 35\. Search Insert Position
 - 36\. Valid Sudoku
+- 46\. Permutations
 - 49\. Group Anagrams
 - 50\. Pow(x, n)
 - 54\. Spiral Matrix
