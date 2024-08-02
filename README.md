@@ -74,6 +74,7 @@
 - 347\. Top K Frequent Elements
 - 349\. Intersection of Two Arrays
 - 350\. Intersection of Two Arrays II
+- 374\. Guess Number Higher or Lower
 - 380\. Insert Delete GetRandom O(1)
 - 383\. Ransom Note
 - 387\. First Unique Character in a String
