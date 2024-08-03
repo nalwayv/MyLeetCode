@@ -68,6 +68,7 @@
 - 225\. Implement Stack using Queues
 - 232\. Implement Queue using Stacks
 - 234\. Palindrome Linked List
+- 278\. First Bad Version
 - 279\. Perfect Squares
 - 283\. Move Zeroes
 - 328\. Odd Even Linked List
@@ -118,6 +119,7 @@
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1342\. Number of Steps to Reduce a Number to Zero
 - 1346\. Check If N and Its Double Exist
+- 1460\. Make Two Arrays Equal by Reversing Subarrays
 - 1480\. Running Sum of 1d Array
 - 1550\. Three Consecutive Odds
 - 1672\. Richest Customer Wealth
