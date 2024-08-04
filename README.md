@@ -122,6 +122,7 @@
 - 1346\. Check If N and Its Double Exist
 - 1460\. Make Two Arrays Equal by Reversing Subarrays
 - 1480\. Running Sum of 1d Array
+- 1508\. Range Sum of Sorted Subarray Sums
 - 1550\. Three Consecutive Odds
 - 1672\. Richest Customer Wealth
 - 2235\. Add Two Integers
