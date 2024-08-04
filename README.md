@@ -55,6 +55,7 @@
 - 151\. Reverse Words in a String
 - 155\. Min Stack
 - 160\. Intersection of Two Linked Lists
+- 162\. Find Peak Element
 - 167\. Two Sum II - Input Array Is Sorted
 - 189\. Rotate Array
 - 200\. Number of Islands
