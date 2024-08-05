@@ -125,5 +125,6 @@
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1550\. Three Consecutive Odds
 - 1672\. Richest Customer Wealth
+- 2053\. Kth Distinct String in an Array
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
