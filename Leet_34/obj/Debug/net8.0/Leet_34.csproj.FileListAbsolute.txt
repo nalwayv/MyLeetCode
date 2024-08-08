@@ -1,0 +1,15 @@
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\bin\Debug\net8.0\Leet_34.exe
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\bin\Debug\net8.0\Leet_34.deps.json
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\bin\Debug\net8.0\Leet_34.runtimeconfig.json
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\bin\Debug\net8.0\Leet_34.dll
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\bin\Debug\net8.0\Leet_34.pdb
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\Leet_34.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\Leet_34.AssemblyInfoInputs.cache
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\Leet_34.AssemblyInfo.cs
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\Leet_34.csproj.CoreCompileInputs.cache
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\Leet_34.sourcelink.json
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\Leet_34.dll
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\refint\Leet_34.dll
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\Leet_34.pdb
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\Leet_34.genruntimeconfig.cache
+C:\Users\nalwa\Documents\MyLeetCode\Leet_34\obj\Debug\net8.0\ref\Leet_34.dll

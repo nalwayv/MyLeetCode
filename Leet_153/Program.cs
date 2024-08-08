@@ -6,17 +6,19 @@
         int hi = nums.Length - 1;
         int min = int.MaxValue;
 
+        // bisect_right
+
         while (lo <= hi)
         {
             int mid = lo + (hi - lo) / 2;
 
-            if (nums[mid] > nums[hi])
+            if (nums[mid] < nums[hi])
             {
-                lo = mid + 1;
+                hi = mid;
             }
             else
             {
-                hi = mid - 1;
+                lo = mid + 1;
             }
 
             min = int.Min(min, nums[mid]);
