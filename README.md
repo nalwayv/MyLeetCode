@@ -111,6 +111,7 @@
 - 752\. Open the Lock
 - 771\. Jewels and Stones
 - 779\. K-th Symbol in Grammar
+- 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
 - 876\. Middle of the Linked List
 - 905\. Sort Array By Parity
