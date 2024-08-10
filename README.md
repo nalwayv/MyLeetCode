@@ -83,6 +83,7 @@
 - 380\. Insert Delete GetRandom O(1)
 - 383\. Ransom Note
 - 387\. First Unique Character in a String
+- 389\. Find the Difference
 - 394\. Decode String
 - 412\. Fizz Buzz
 - 414\. Third Maximum Number
