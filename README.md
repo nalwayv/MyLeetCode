@@ -55,6 +55,7 @@
 - 150\. Evaluate Reverse Polish Notation
 - 151\. Reverse Words in a String
 - 153\. Find Minimum in Rotated Sorted Array
+- 154\. Find Minimum in Rotated Sorted Array II
 - 155\. Min Stack
 - 160\. Intersection of Two Linked Lists
 - 162\. Find Peak Element
@@ -109,6 +110,7 @@
 - 724\. Find Pivot Index
 - 733\. Flood Fill
 - 739\. Daily Temperatures
+- 744\. Find Smallest Letter Greater Than Target
 - 747\. Largest Number At Least Twice of Others
 - 752\. Open the Lock
 - 771\. Jewels and Stones
