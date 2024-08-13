@@ -103,6 +103,7 @@
 - 622\. Design Circular Queue
 - 652\. Find Duplicate Subtrees
 - 700\. Search in a Binary Search Tree
+- 703\. Kth Largest Element in a Stream
 - 704\. Binary Search
 - 705\. Design HashSet
 - 706\. Design HashMap
@@ -132,6 +133,7 @@
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1550\. Three Consecutive Odds
 - 1672\. Richest Customer Wealth
+- 1768\. Merge Strings Alternately
 - 2053\. Kth Distinct String in an Array
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
