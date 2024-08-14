@@ -77,6 +77,7 @@
 - 283\. Move Zeroes
 - 328\. Odd Even Linked List
 - 344\. Reverse String
+- 345\. Reverse Vowels of a String
 - 347\. Top K Frequent Elements
 - 349\. Intersection of Two Arrays
 - 350\. Intersection of Two Arrays II

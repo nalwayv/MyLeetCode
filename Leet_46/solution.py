@@ -24,9 +24,12 @@ class Solution:
 
 def main() -> None:
     solution = Solution()
-    print(f"{solution.permute([1, 2, 3])}")
-    print(f"{solution.permute([0, 1])}")
-    print(f"{solution.permute([1])}")
+    # print(f"{solution.permute([1, 2, 3])}")
+    # print(f"{solution.permute([0, 1])}")
+    # print(f"{solution.permute([1])}")
+
+
+    print(f"{solution.permute([1, 3, 1])}")
 
 
 if __name__ == "__main__":
