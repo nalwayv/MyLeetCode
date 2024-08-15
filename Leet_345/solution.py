@@ -21,8 +21,9 @@ class Solution:
 
         return "".join(s2)
     
-    
+
 def main() -> None:
+    print("345. Reverse Vowels of a String")
     sol = Solution()
     print(sol.reverseVowels("hello"))
 
