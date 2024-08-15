@@ -91,6 +91,7 @@
 - 412\. Fizz Buzz
 - 414\. Third Maximum Number
 - 430\. Flatten a Multilevel Doubly Linked List
+- 443\. String Compression
 - 448\. Find All Numbers Disappeared in an Array
 - 454\. 4Sum II
 - 485\. Max Consecutive Ones
