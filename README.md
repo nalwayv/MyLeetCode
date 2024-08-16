@@ -103,6 +103,7 @@
 - 561\. Array Partition
 - 599\. Minimum Index Sum of Two Lists
 - 622\. Design Circular Queue
+- 624\. Maximum Distance in Arrays
 - 652\. Find Duplicate Subtrees
 - 700\. Search in a Binary Search Tree
 - 703\. Kth Largest Element in a Stream
