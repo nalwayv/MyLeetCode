@@ -10,7 +10,7 @@ class TreeNode:
 
 class Solution:
     def rightSideView(self, root: TreeNode|None) -> list[int]:
-        def right_side_view_level_order_values(root: TreeNode|None) -> list[int]:
+        def get_right_side_view_values(root: TreeNode|None) -> list[int]:
             """collect all right most values in view
             """
             # depth | vals
@@ -54,7 +54,7 @@ class Solution:
 
             return result
 
-        return right_side_view_level_order_values(root)
+        return get_right_side_view_values(root)
 
 
 def case1(sol: Solution):
