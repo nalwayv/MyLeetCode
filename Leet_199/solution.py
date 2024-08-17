@@ -11,7 +11,7 @@ class TreeNode:
 class Solution:
     def rightSideView(self, root: TreeNode|None) -> list[int]:
         def right_side_view_level_order_values(root: TreeNode|None) -> list[int]:
-            """collect all right move values in view
+            """collect all right most values in view
             """
             # depth | vals
             # ------+-----
