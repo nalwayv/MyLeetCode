@@ -51,3 +51,22 @@ class Solution:
                 result.append(current_level)
                 
         return result
+    
+
+def main() -> None:
+    sol = Solution()
+
+    a = TreeNode(1)
+    b = TreeNode(2)
+    c = TreeNode(3)
+    d = TreeNode(4)
+
+    a.left = b
+    b.right = d
+    a.right = c
+
+    print(sol.levelOrder(a))
+
+
+if __name__ == "__main__":
+    main()
