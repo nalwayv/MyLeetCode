@@ -133,6 +133,7 @@
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1342\. Number of Steps to Reduce a Number to Zero
 - 1346\. Check If N and Its Double Exist
+- 1431\. Kids With the Greatest Number of Candies
 - 1460\. Make Two Arrays Equal by Reversing Subarrays
 - 1480\. Running Sum of 1d Array
 - 1508\. Range Sum of Sorted Subarray Sums
