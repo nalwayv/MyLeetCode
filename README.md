@@ -8,6 +8,7 @@
 - 2\. Add Two Numbers
 - 7\. Reverse Integer
 - 9\. Palindrome Number
+- 11\. Container With Most Water
 - 12\. Integer to Roman
 - 13\. Roman To Integer
 - 14\. Longest Common Prefix
@@ -103,6 +104,7 @@
 - 557\. Reverse Words in a String III
 - 561\. Array Partition
 - 599\. Minimum Index Sum of Two Lists
+- 605\. Can Place Flowers
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
 - 652\. Find Duplicate Subtrees
@@ -139,6 +141,7 @@
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1550\. Three Consecutive Odds
 - 1672\. Richest Customer Wealth
+- 1732\. Find the Highest Altitude
 - 1768\. Merge Strings Alternately
 - 2053\. Kth Distinct String in an Array
 - 2235\. Add Two Integers
