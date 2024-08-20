@@ -146,3 +146,4 @@
 - 2053\. Kth Distinct String in an Array
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
+- 2678\. Number of Senior Citizens
