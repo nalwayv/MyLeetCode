@@ -50,7 +50,7 @@ def print_list(head: ListNode|None) -> None:
     current: ListNode|None = head
     while current:
         print(f"{current.val}",end="")
-        if current.next != None:
+        if current.next:
             print("->",end="")
         current = current.next
     print("")
