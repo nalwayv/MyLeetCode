@@ -109,6 +109,7 @@
 - 605\. Can Place Flowers
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
+- 643\. Maximum Average Subarray I
 - 652\. Find Duplicate Subtrees
 - 700\. Search in a Binary Search Tree
 - 703\. Kth Largest Element in a Stream
