@@ -151,4 +151,5 @@
 - 2215\. Find the Difference of Two Arrays
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
+- 2390\. Removing Stars From a String
 - 2678\. Number of Senior Citizens
