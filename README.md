@@ -104,6 +104,7 @@
 - 542\. 01 Matrix
 - 557\. Reverse Words in a String III
 - 561\. Array Partition
+- 590\. N-ary Tree Postorder Traversal
 - 592\. Fraction Addition and Subtraction
 - 599\. Minimum Index Sum of Two Lists
 - 605\. Can Place Flowers
