@@ -2,7 +2,7 @@
  
  My Current [**Leet Code**](https://leetcode.com/u/nalway/) Progression.
 
-### Questions
+### Problems Solved
 
 - 1\. Two Sum
 - 2\. Add Two Numbers
