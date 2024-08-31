@@ -38,6 +38,7 @@
 - 88\. Merge Sorted Array
 - 94\. Binary Tree Inorder Traversal
 - 95\. Unique Binary Search Trees II
+- 98\. Validate Binary Search Tree
 - 100\. Same Tree
 - 101\. Symmetric Tree
 - 102\. Binary Tree Level Order Traversal
