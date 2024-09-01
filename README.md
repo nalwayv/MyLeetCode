@@ -149,6 +149,7 @@
 - 1672\. Richest Customer Wealth
 - 1732\. Find the Highest Altitude
 - 1768\. Merge Strings Alternately
+- 2022\. Convert 1D Array Into 2D Array
 - 2053\. Kth Distinct String in an Array
 - 2095\. Delete the Middle Node of a Linked List
 - 2130\. Maximum Twin Sum of a Linked List
