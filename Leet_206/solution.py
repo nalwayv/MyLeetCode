@@ -32,7 +32,7 @@ class Solution:
         current: ListNode|None = head
 
         while current:
-            next: ListNode | None = current.next
+            next: ListNode|None = current.next
             current.next = reversed
             reversed = current
             current = next
