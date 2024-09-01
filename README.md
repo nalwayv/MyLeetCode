@@ -151,6 +151,7 @@
 - 1768\. Merge Strings Alternately
 - 2053\. Kth Distinct String in an Array
 - 2095\. Delete the Middle Node of a Linked List
+- 2130\. Maximum Twin Sum of a Linked List
 - 2215\. Find the Difference of Two Arrays
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
