@@ -9,34 +9,34 @@ class ListNode:
 class Solution:
     def pairSum(self, head: ListNode|None) -> int:
         # Populate list
+        def populate_from_linkedlist(head: ListNode|None) -> list[int]:
+            result: list[int] = []
+            current: ListNode|None = head
+            while current:
+                result.append(current.val)
+                current = current.next
+            return result
         
-        def populate_from_linkedlist(head: ListNode|None, nums: list[int]):
-            if head == None:
-                return
-            nums.append(head.val)
-            populate_from_linkedlist(head.next, nums)
-        nums: list[int] = []
-        populate_from_linkedlist(head, nums)
+        nums: list[int] = populate_from_linkedlist(head)
 
         # Reverse second half
 
         n: int = len(nums)
-        p1: int = (n//2)
-        p2: int = n-1
+
+        p1: int = n // 2
+        p2: int = n - 1
         while p1 < p2:
             nums[p1], nums[p2] = nums[p2], nums[p1]
-            p1+=1
-            p2-=1
+            p1 += 1
+            p2 -= 1
 
         # Get max pair
 
         max_sum: int = 0
         p1 = 0
-        p2 = n//2
+        p2 = n // 2
         while p2 < n:
-            num_p1: int = nums[p1]
-            num_p2: int = nums[p2]
-            max_sum = max(max_sum, num_p1+num_p2)
+            max_sum = max(max_sum, nums[p1] + nums[p2])
             p1 += 1
             p2 += 1
 
