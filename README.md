@@ -150,6 +150,7 @@
 - 1672\. Richest Customer Wealth
 - 1732\. Find the Highest Altitude
 - 1768\. Merge Strings Alternately
+- 1894\. Find the Student that Will Replace the Chalk
 - 2022\. Convert 1D Array Into 2D Array
 - 2053\. Kth Distinct String in an Array
 - 2095\. Delete the Middle Node of a Linked List
