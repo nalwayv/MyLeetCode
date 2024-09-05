@@ -131,6 +131,7 @@
 - 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
 - 860\. Lemonade Change
+- 874\. Walking Robot Simulation
 - 876\. Middle of the Linked List
 - 905\. Sort Array By Parity
 - 941\. Valid Mountain Array
