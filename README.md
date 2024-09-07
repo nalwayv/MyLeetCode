@@ -143,6 +143,7 @@
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1342\. Number of Steps to Reduce a Number to Zero
 - 1346\. Check If N and Its Double Exist
+- 1367\. Linked List in Binary Tree
 - 1431\. Kids With the Greatest Number of Candies
 - 1460\. Make Two Arrays Equal by Reversing Subarrays
 - 1480\. Running Sum of 1d Array
@@ -163,3 +164,4 @@
 - 2352\. Equal Row and Column Pairs
 - 2390\. Removing Stars From a String
 - 2678\. Number of Senior Citizens
+- 3217\. Delete Nodes From Linked List Present in Array
