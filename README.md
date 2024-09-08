@@ -121,6 +121,7 @@
 - 706\. Design HashMap
 - 707\. Design Linked List
 - 724\. Find Pivot Index
+- 725\. Split Linked List in Parts
 - 733\. Flood Fill
 - 739\. Daily Temperatures
 - 744\. Find Smallest Letter Greater Than Target

@@ -46,27 +46,9 @@ class Solution:
 
         return False
 
-    # def _populate_paths_with_treenode_paths(self, root: TreeNode|None, current: list[int], paths: list[list[int]], i: int = 0):
-    #     if not root:
-    #         return
-        
-    #     if len(current) > i:
-    #         current[i] = root.val
-    #     else:
-    #         current.append(root.val)
-
-    #     i += 1
-
-    #     if not root.left and not root.right:
-    #         cpy: list[int] = [c for c in current]
-    #         paths.append(cpy)
-    #     else:
-    #         self._populate_paths_with_treenode_paths(root.left, current, paths, i)
-    #         self._populate_paths_with_treenode_paths(root.right, current, paths, i)
-
-    def _does_any_path_contain_listnode(self, root: TreeNode|None, head: ListNode|None, current: list[int], i: int = 0) -> bool:
+    def _populate_paths_with_treenode_paths(self, root: TreeNode|None, current: list[int], paths: list[list[int]], i: int = 0):
         if not root:
-            return False
+            return
         
         if len(current) > i:
             current[i] = root.val
@@ -76,24 +58,42 @@ class Solution:
         i += 1
 
         if not root.left and not root.right:
-            if self._contains_listnode(current, head):
-                return True
+            cpy: list[int] = [c for c in current]
+            paths.append(cpy)
+        else:
+            self._populate_paths_with_treenode_paths(root.left, current, paths, i)
+            self._populate_paths_with_treenode_paths(root.right, current, paths, i)
+
+    # def _does_any_path_contain_listnode(self, root: TreeNode|None, head: ListNode|None, current: list[int], i: int = 0) -> bool:
+    #     if not root:
+    #         return False
+        
+    #     if len(current) > i:
+    #         current[i] = root.val
+    #     else:
+    #         current.append(root.val)
+
+    #     i += 1
+
+    #     if not root.left and not root.right:
+    #         if self._contains_listnode(current, head):
+    #             return True
                     
-        return (self._does_any_path_contain_listnode(root.left,head, current, i) or 
-                self._does_any_path_contain_listnode(root.right,head, current, i))
+    #     return (self._does_any_path_contain_listnode(root.left,head, current, i) or 
+    #             self._does_any_path_contain_listnode(root.right,head, current, i))
 
     def isSubPath(self, head: ListNode|None, root: TreeNode|None) -> bool:
-        # current: list[int] = []
-        # paths: list[list[int]] = []
-        # self._populate_paths_with_treenode_paths(root, current, paths)
-
-        # for path in paths:
-        #     if self._contains_listnode(path, head): 
-        #         return True
-        # return False
-
         current: list[int] = []
-        return self._does_any_path_contain_listnode(root, head, current)
+        paths: list[list[int]] = []
+        self._populate_paths_with_treenode_paths(root, current, paths)
+
+        for path in paths:
+            if self._contains_listnode(path, head): 
+                return True
+        return False
+
+        # current: list[int] = []
+        # return self._does_any_path_contain_listnode(root, head, current)
         
 
 def create_ll(values: list[int]) -> ListNode|None:
