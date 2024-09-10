@@ -166,4 +166,5 @@
 - 2352\. Equal Row and Column Pairs
 - 2390\. Removing Stars From a String
 - 2678\. Number of Senior Citizens
+- 2807\. Insert Greatest Common Divisors in Linked List
 - 3217\. Delete Nodes From Linked List Present in Array
