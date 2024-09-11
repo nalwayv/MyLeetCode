@@ -160,6 +160,7 @@
 - 2095\. Delete the Middle Node of a Linked List
 - 2130\. Maximum Twin Sum of a Linked List
 - 2215\. Find the Difference of Two Arrays
+- 2220\. Minimum Bit Flips to Convert Number
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
 - 2326\. Spiral Matrix IV
