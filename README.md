@@ -151,6 +151,7 @@
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1550\. Three Consecutive Odds
 - 1672\. Richest Customer Wealth
+- 1684\. Count the Number of Consistent Strings
 - 1732\. Find the Highest Altitude
 - 1768\. Merge Strings Alternately
 - 1894\. Find the Student that Will Replace the Chalk
