@@ -103,6 +103,7 @@
 - 494\. Target Sum
 - 498\. Diagonal Traverse
 - 509\. Fibonacci Number
+- 539\. Minimum Time Difference
 - 542\. 01 Matrix
 - 557\. Reverse Words in a String III
 - 561\. Array Partition
