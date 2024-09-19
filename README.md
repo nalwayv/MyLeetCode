@@ -63,6 +63,7 @@
 - 160\. Intersection of Two Linked Lists
 - 162\. Find Peak Element
 - 167\. Two Sum II - Input Array Is Sorted
+- 179\. Largest Number
 - 189\. Rotate Array
 - 199\. Binary Tree Right Side View
 - 200\. Number of Islands
@@ -80,6 +81,7 @@
 - 279\. Perfect Squares
 - 283\. Move Zeroes
 - 328\. Odd Even Linked List
+- 338\. Counting Bits
 - 344\. Reverse String
 - 345\. Reverse Vowels of a String
 - 347\. Top K Frequent Elements
