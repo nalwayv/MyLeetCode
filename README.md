@@ -139,6 +139,7 @@
 - 876\. Middle of the Linked List
 - 884\. Uncommon Words from Two Sentences
 - 905\. Sort Array By Parity
+- 933\. Number of Recent Calls
 - 941\. Valid Mountain Array
 - 977\. Squares of a Sorted Array
 - 1051\. Height Checker
