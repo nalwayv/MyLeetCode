@@ -91,6 +91,7 @@
 - 374\. Guess Number Higher or Lower
 - 380\. Insert Delete GetRandom O(1)
 - 383\. Ransom Note
+- 386\. Lexicographical Numbers
 - 387\. First Unique Character in a String
 - 389\. Find the Difference
 - 394\. Decode String
@@ -144,6 +145,7 @@
 - 977\. Squares of a Sorted Array
 - 1051\. Height Checker
 - 1089\. Duplicate Zeros
+- 1137\. N-th Tribonacci Number
 - 1207\. Unique Number of Occurrences
 - 1295\. Find Numbers with Even Number of Digits
 - 1299\. Replace Elements with Greatest Element on Right Side
@@ -152,6 +154,7 @@
 - 1346\. Check If N and Its Double Exist
 - 1367\. Linked List in Binary Tree
 - 1431\. Kids With the Greatest Number of Candies
+- 1456\. Maximum Number of Vowels in a Substring of Given Length
 - 1460\. Make Two Arrays Equal by Reversing Subarrays
 - 1480\. Running Sum of 1d Array
 - 1508\. Range Sum of Sorted Subarray Sums
@@ -176,4 +179,5 @@
 - 2419\. Longest Subarray With Maximum Bitwise AND
 - 2678\. Number of Senior Citizens
 - 2807\. Insert Greatest Common Divisors in Linked List
+- 3043\. Find the Length of the Longest Common Prefix
 - 3217\. Delete Nodes From Linked List Present in Array
