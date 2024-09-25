@@ -72,6 +72,7 @@
 - 205\. Isomorphic Strings
 - 206\. Reverse Linked List
 - 209\. Minimum Size Subarray Sum
+- 215\. Kth Largest Element in an Array
 - 217\. Contains Duplicate
 - 219\. Contains Duplicate II
 - 225\. Implement Stack using Queues
