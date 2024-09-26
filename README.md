@@ -137,6 +137,7 @@
 - 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
 - 860\. Lemonade Change
+- 872\. Leaf-Similar Trees
 - 874\. Walking Robot Simulation
 - 876\. Middle of the Linked List
 - 884\. Uncommon Words from Two Sentences
