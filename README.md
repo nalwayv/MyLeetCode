@@ -117,6 +117,7 @@
 - 605\. Can Place Flowers
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
+- 641\. Design Circular Deque
 - 643\. Maximum Average Subarray I
 - 652\. Find Duplicate Subtrees
 - 700\. Search in a Binary Search Tree
@@ -142,6 +143,7 @@
 - 876\. Middle of the Linked List
 - 884\. Uncommon Words from Two Sentences
 - 905\. Sort Array By Parity
+- 912\. Sort an Array
 - 933\. Number of Recent Calls
 - 941\. Valid Mountain Array
 - 977\. Squares of a Sorted Array
