@@ -149,6 +149,7 @@
 - 977\. Squares of a Sorted Array
 - 1051\. Height Checker
 - 1089\. Duplicate Zeros
+- 1071\. Greatest Common Divisor of Strings
 - 1137\. N-th Tribonacci Number
 - 1207\. Unique Number of Occurrences
 - 1295\. Find Numbers with Even Number of Digits
@@ -157,6 +158,7 @@
 - 1342\. Number of Steps to Reduce a Number to Zero
 - 1346\. Check If N and Its Double Exist
 - 1367\. Linked List in Binary Tree
+- 1381\. Design a Stack With Increment Operation
 - 1431\. Kids With the Greatest Number of Candies
 - 1456\. Maximum Number of Vowels in a Substring of Given Length
 - 1460\. Make Two Arrays Equal by Reversing Subarrays
