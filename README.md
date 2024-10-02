@@ -155,6 +155,7 @@
 - 1295\. Find Numbers with Even Number of Digits
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1310\. XOR Queries of a Subarray
+- 1331\. Rank Transform of an Array
 - 1342\. Number of Steps to Reduce a Number to Zero
 - 1346\. Check If N and Its Double Exist
 - 1367\. Linked List in Binary Tree

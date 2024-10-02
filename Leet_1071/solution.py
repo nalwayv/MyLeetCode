@@ -1,7 +1,8 @@
 import math
 
+
 class Solution:
-    def gcdOfStrings(self, str1: str, str2: str) -> str:
+    def gcd_of_strings(self, str1: str, str2: str) -> str:
         s1: str = str1 + str2
         s2: str = str2 + str1
 
@@ -17,7 +18,7 @@ class Solution:
 
 def main() -> None:
     sol = Solution()
-    print(f"case1 { "pass" if sol.gcdOfStrings("ABCABC", "ABC") == "ABC" else "fail" }")
+    print(f"case1 { "pass" if sol.gcd_of_strings("ABCABC", "ABC") == "ABC" else "fail" }")
 
 
 if __name__ == "__main__":
