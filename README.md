@@ -161,6 +161,7 @@
 - 1367\. Linked List in Binary Tree
 - 1381\. Design a Stack With Increment Operation
 - 1431\. Kids With the Greatest Number of Candies
+- 1448\. Count Good Nodes in Binary Tree
 - 1456\. Maximum Number of Vowels in a Substring of Given Length
 - 1460\. Make Two Arrays Equal by Reversing Subarrays
 - 1480\. Running Sum of 1d Array
