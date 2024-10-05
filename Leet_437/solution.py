@@ -24,7 +24,6 @@ class Solution:
                 continue
 
             # inner stack to check current branch for target sum
-            # use of tuple to hold that current braches path value
 
             stk2: list[tuple[TreeNode|None, int]] = [(curr, targetSum - curr.val)]
             while stk2:
