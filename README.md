@@ -78,6 +78,7 @@
 - 225\. Implement Stack using Queues
 - 232\. Implement Queue using Stacks
 - 234\. Palindrome Linked List
+- 242\. Valid Anagram
 - 278\. First Bad Version
 - 279\. Perfect Squares
 - 283\. Move Zeroes
@@ -99,6 +100,7 @@
 - 412\. Fizz Buzz
 - 414\. Third Maximum Number
 - 430\. Flatten a Multilevel Doubly Linked List
+- 437\. Path Sum III
 - 443\. String Compression
 - 448\. Find All Numbers Disappeared in an Array
 - 454\. 4Sum II
