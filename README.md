@@ -78,6 +78,7 @@
 - 225\. Implement Stack using Queues
 - 232\. Implement Queue using Stacks
 - 234\. Palindrome Linked List
+- 236\. Lowest Common Ancestor of a Binary Tree
 - 242\. Valid Anagram
 - 278\. First Bad Version
 - 279\. Perfect Squares
@@ -96,6 +97,7 @@
 - 386\. Lexicographical Numbers
 - 387\. First Unique Character in a String
 - 389\. Find the Difference
+- 392\. Is Subsequence
 - 394\. Decode String
 - 412\. Fizz Buzz
 - 414\. Third Maximum Number
