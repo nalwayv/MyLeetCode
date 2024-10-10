@@ -28,6 +28,7 @@
 - 49\. Group Anagrams
 - 50\. Pow(x, n)
 - 54\. Spiral Matrix
+- 58\. Length of Last Word
 - 59\. Spiral Matrix II
 - 61\. Rotate List
 - 66\. Plus One
