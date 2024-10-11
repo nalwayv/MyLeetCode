@@ -25,6 +25,7 @@
 - 35\. Search Insert Position
 - 36\. Valid Sudoku
 - 46\. Permutations
+- 48\. Rotate Image"
 - 49\. Group Anagrams
 - 50\. Pow(x, n)
 - 54\. Spiral Matrix
