@@ -5,7 +5,7 @@ class Solution:
         """
         n: int = len(matrix)
 
-        matrix2: list[list[int]] =  [[0 for _ in range(n)] for _ in range(n)]
+        matrix2: list[list[int]] = [[0 for _ in range(n)] for _ in range(n)]
 
         for c in range(n):
             for r in range(n):

@@ -36,6 +36,7 @@
 - 67\. Add Binary
 - 69\. Sqrt(x)
 - 70\. Climbing Stairs
+- 73\. Set Matrix Zeroes
 - 83\. Remove Duplicates from Sorted List
 - 88\. Merge Sorted Array
 - 94\. Binary Tree Inorder Traversal
