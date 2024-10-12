@@ -8,7 +8,7 @@ class Solution:
                 print(f" {matrix[r][c]:02d} ", end="")
             print("")
 
-    def set_row(self, matrix: list[list[int]], row: int, value: int) -> None:
+    def _set_row(self, matrix: list[list[int]], row: int, value: int) -> None:
         if row < 0 or row > len(matrix) - 1:
             return
             
@@ -17,7 +17,7 @@ class Solution:
             if matrix[row][col] != value:
                 matrix[row][col] = value
 
-    def set_col(self, matrix: list[list[int]], col: int, value: int) -> None:
+    def _set_col(self, matrix: list[list[int]], col: int, value: int) -> None:
         if col < 0 or col > len(matrix[0]) - 1:
             return
             
@@ -33,16 +33,22 @@ class Solution:
         m: int = len(matrix)
         n: int = len(matrix[0])
 
-        coords: set[tuple[int, int]] = set()
+        rows: set[int] = set()
+        cols: set[int] = set()
             
         for r in range(m):
             for c in range(n):
                 if matrix[r][c] == 0:
-                    coords.add((r, c))
+                    if r not in rows:
+                        rows.add(r)
+                    if c not in cols:
+                        cols.add(c)
 
-        for coord in coords:
-            self.set_row(matrix, coord[0], 0)
-            self.set_col(matrix, coord[1], 0)
+        for r in rows:
+            self._set_row(matrix, r, 0)
+
+        for c in cols:
+            self._set_col(matrix, c, 0)
 
         
 def case1(sol: Solution) -> None:
