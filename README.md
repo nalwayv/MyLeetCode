@@ -67,6 +67,7 @@
 - 160\. Intersection of Two Linked Lists
 - 162\. Find Peak Element
 - 167\. Two Sum II - Input Array Is Sorted
+- 169\. Majority Element
 - 179\. Largest Number
 - 189\. Rotate Array
 - 199\. Binary Tree Right Side View
