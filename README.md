@@ -89,6 +89,7 @@
 - 278\. First Bad Version
 - 279\. Perfect Squares
 - 283\. Move Zeroes
+- 289\. Game of Life
 - 328\. Odd Even Linked List
 - 338\. Counting Bits
 - 344\. Reverse String
@@ -161,6 +162,7 @@
 - 1089\. Duplicate Zeros
 - 1071\. Greatest Common Divisor of Strings
 - 1137\. N-th Tribonacci Number
+- 1161\. Maximum Level Sum of a Binary Tree
 - 1207\. Unique Number of Occurrences
 - 1295\. Find Numbers with Even Number of Digits
 - 1299\. Replace Elements with Greatest Element on Right Side
