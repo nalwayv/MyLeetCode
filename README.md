@@ -90,6 +90,7 @@
 - 279\. Perfect Squares
 - 283\. Move Zeroes
 - 289\. Game of Life
+- 290\. Word Pattern"
 - 328\. Odd Even Linked List
 - 338\. Counting Bits
 - 344\. Reverse String
