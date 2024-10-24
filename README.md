@@ -36,6 +36,7 @@
 - 67\. Add Binary
 - 69\. Sqrt(x)
 - 70\. Climbing Stairs
+- 71\. Simplify Path
 - 73\. Set Matrix Zeroes
 - 80\. Remove Duplicates from Sorted Array II
 - 83\. Remove Duplicates from Sorted List
