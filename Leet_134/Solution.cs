@@ -2,7 +2,7 @@ namespace Leet_134;
 
 public static class Solution
 {
-    public static int CanCompleteCircuit(List<int> gas, List<int> cost)
+    public static int CanCompleteCircuit(IList<int> gas, IList<int> cost)
     {
         if (gas.Count != cost.Count)
         {
