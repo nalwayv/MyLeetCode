@@ -1,4 +1,3 @@
-# https://leetcode.com/problems/serialize-and-deserialize-binary-tree/submissions/1437460411/
 from collections import deque
 
 
