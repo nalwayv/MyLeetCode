@@ -2,7 +2,6 @@
 
 internal abstract class Program
 {
-
     private static void PrintConnections(Node? root, string msg)
     {
         if (root == null)
