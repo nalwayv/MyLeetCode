@@ -197,7 +197,6 @@ def case2(codec: Codec) -> None:
     print_treenode_in_preorder(deserialize, "case 2 deserialized")
 
 
-
 def main() -> None:
     print("297. Serialize and Deserialize Binary Tree")
 
