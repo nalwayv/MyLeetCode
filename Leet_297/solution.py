@@ -1,7 +1,7 @@
 from collections import deque
 
 
-class TreeNode(object):
+class TreeNode:
     def __init__(self, value: int):
         self.val: int = value
         self.left: TreeNode|None = None
@@ -9,27 +9,23 @@ class TreeNode(object):
 
 
 class Codec:
-    def _print_pre_order(self, root: TreeNode|None) -> None:
-        if root == None:
-            return
-        
-        print(f" {root.val} ", end="")
-        self._print_pre_order(root.left)
-        self._print_pre_order(root.right)
-
-    def print_pre_order(self, root: TreeNode|None, msg: str) -> None:
-        if root == None:
-            return
-        
-        print(f"{msg}: [", end="")
-        self._print_pre_order(root)
-        print("]")
-
+    """Used to serialize and deserialize TreeNode structures
+    """
     def serialize(self, root: TreeNode|None) -> str:
         """Encodes a tree to a single string.
         
-        :type root: TreeNode
-        :rtype: str
+        Args:
+            root: A TreeNode structure that can be serialized or None
+
+        Returns:
+            A string representation of a TreeNode structure
+
+        Example:
+        >>> root = TreeNode(1)
+        >>> root.left = TreeNode(2)
+        >>> root.right = TreeNode(3)
+        >>> codec = Codec()
+        >>> print(codec.serialize(root))
         """
         if root == None:
             return ""
@@ -81,8 +77,15 @@ class Codec:
     def deserialize(self, data: str) -> TreeNode|None:
         """Decodes your encoded data to tree.
         
-        :type data: str
-        :rtype: TreeNode
+        Args:
+            data: A serialized treenode structure that can be deserialized
+
+        Returns:
+            A TreeNode structure or None
+
+        Example:
+        >>> codec = Codec()
+        >>> root: TreeNode|None = codec.deserialize("1,2,3")
         """
 
         if len(data) == 0:
@@ -92,13 +95,13 @@ class Codec:
         if values[0] == "null":
             return None
         
-        
-        root = TreeNode(int(values[0]))
+        root: TreeNode|None = TreeNode(int(values[0]))
         que: deque[TreeNode|None] = deque()
         que.append(root)
 
         i: int = 1
         
+        # build tree
         while que and i < len(values):
             curr: TreeNode|None = que.popleft()
 
@@ -120,9 +123,40 @@ class Codec:
                 i += 1
                 
         return root     
+
+
+def _print_treenode_in_preorder(root: TreeNode|None) -> None:
+    """Helper recursive function for print_treenode_in_preorder
+    """
+    if root == None:
+        return
     
+    print(f" {root.val} ", end="")
+    _print_treenode_in_preorder(root.left)
+    _print_treenode_in_preorder(root.right)
+
+
+def print_treenode_in_preorder(root: TreeNode|None, msg: str|None = None) -> None:
+    """Print TreeNode structure
+
+    Args:
+        root: TreeNode to print
+        msg: message that is displayed before printing TreeNode if not None
+    """
+    if root == None:
+        return
+    
+    if msg == None:
+        print(f"[", end="")
+    else:
+        print(f"{msg}: [", end="")
+    _print_treenode_in_preorder(root)
+    print("]")
+
 
 def case1(codec: Codec) -> None:
+    """Test case 1
+    """
     root = TreeNode(1)
     root.left = TreeNode(2)
     root.right = TreeNode(3)
@@ -130,16 +164,18 @@ def case1(codec: Codec) -> None:
     root.right.right = TreeNode(5)
 
     # TEST
-    codec.print_pre_order(root, "case 1 input")
+    print_treenode_in_preorder(root, "case 1 tree")
 
     serialize: str = codec.serialize(root)
     print(f"case 1 serialized: {serialize}")
 
     deserialize: TreeNode|None = codec.deserialize(serialize)
-    codec.print_pre_order(deserialize, "case 1 deserialized")
+    print_treenode_in_preorder(deserialize, "case 1 deserialized")
 
 
 def case2(codec: Codec) -> None:
+    """Test case 2
+    """
     root = TreeNode(1)
 
     root.left = TreeNode(2)
@@ -152,13 +188,13 @@ def case2(codec: Codec) -> None:
     root.right.right.left = TreeNode(7)
 
     # TEST
-    codec.print_pre_order(root, "case 2 input")
+    print_treenode_in_preorder(root, "case 2 tree")
 
     serialize: str = codec.serialize(root)
     print(f"case 2 serialized: {serialize}")
 
     deserialize: TreeNode|None = codec.deserialize(serialize)
-    codec.print_pre_order(deserialize, "case 2 deserialized")
+    print_treenode_in_preorder(deserialize, "case 2 deserialized")
 
 
 
