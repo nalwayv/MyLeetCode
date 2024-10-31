@@ -142,6 +142,7 @@
 - 705\. Design HashSet
 - 706\. Design HashMap
 - 707\. Design Linked List
+- 709\. To Lower Case
 - 724\. Find Pivot Index
 - 725\. Split Linked List in Parts
 - 733\. Flood Fill
@@ -169,6 +170,7 @@
 - 1137\. N-th Tribonacci Number
 - 1161\. Maximum Level Sum of a Binary Tree
 - 1207\. Unique Number of Occurrences
+- 1232\. Check If It Is a Straight Line
 - 1295\. Find Numbers with Even Number of Digits
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1310\. XOR Queries of a Subarray
