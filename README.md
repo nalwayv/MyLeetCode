@@ -201,6 +201,7 @@
 - 2220\. Minimum Bit Flips to Convert Number
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
+- 2280\. Minimum Lines to Represent a Line Chart
 - 2326\. Spiral Matrix IV
 - 2352\. Equal Row and Column Pairs
 - 2390\. Removing Stars From a String
