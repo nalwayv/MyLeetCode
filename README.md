@@ -24,6 +24,7 @@
 - 34\. Find First and Last Position of Element in Sorted Array
 - 35\. Search Insert Position
 - 36\. Valid Sudoku
+- 43\. Multiply Strings
 - 46\. Permutations
 - 48\. Rotate Image"
 - 49\. Group Anagrams

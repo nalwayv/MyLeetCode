@@ -29,7 +29,7 @@ class Solution:
         l1: list[int] = sortedPrices[0]
         l2: list[int] = sortedPrices[1]
 
-        count:int = 1
+        count: int = 1
         
         for i in range(2, n):
             new_slope: float = self._slope(sortedPrices[i-1], sortedPrices[i])
