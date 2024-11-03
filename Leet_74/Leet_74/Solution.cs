@@ -5,9 +5,7 @@ public class Solution
     /// <summary>
     /// A Binary search
     /// </summary>
-    /// <param name="nums">1d matrix</param>
-    /// <param name="target">target to find</param>
-    /// <returns>True if contains target</returns>
+    /// <returns><c>True</c> if nums contains target</returns>
     private bool Contains(int[] nums, int target)
     {
         int lo = 0;
@@ -36,12 +34,9 @@ public class Solution
     }
 
     /// <summary>
-    /// Search each level of the matrix for target
+    /// Search matrix for target value
     /// </summary>
-    /// <param name="matrix">2D int matrix</param>
-    /// <param name="target">value to look for</param>
-    /// <param name="level">current layer of matrix to search</param>
-    /// <returns>true if 2d matrix contains target</returns>
+    /// <returns><c>True</c> if matrix contains target</returns>
     private bool Search(int[][] matrix, int target, int level = 0)
     {
         if (level >= matrix.Length)
