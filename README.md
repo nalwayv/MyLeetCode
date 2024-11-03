@@ -20,6 +20,7 @@
 - 26\. Remove Duplicates from Sorted Array
 - 27\. Remove Element
 - 28\. Find the Index of the First Occurrence in a String
+- 29\. Divide Two Integers
 - 33\. Search in Rotated Sorted Array
 - 34\. Find First and Last Position of Element in Sorted Array
 - 35\. Search Insert Position
@@ -39,6 +40,7 @@
 - 70\. Climbing Stairs
 - 71\. Simplify Path
 - 73\. Set Matrix Zeroes
+- 74\. Search a 2D Matrix
 - 80\. Remove Duplicates from Sorted Array II
 - 83\. Remove Duplicates from Sorted List
 - 88\. Merge Sorted Array

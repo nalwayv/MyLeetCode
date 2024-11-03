@@ -22,7 +22,7 @@ public class Solution
         {
             int count = que.Count;
             
-            for (int i = 0; i < count; i++)
+            for (var i = 0; i < count; i++)
             {
                 Node? current = que.Dequeue();
                 if (current == null) continue;
@@ -42,7 +42,7 @@ public class Solution
 
             if (nodes.Count > 1)
             {
-                for (int j = 1; j < nodes.Count; j++)
+                for (var j = 1; j < nodes.Count; j++)
                 {
                     nodes[j - 1].Next = nodes[j];
                 }

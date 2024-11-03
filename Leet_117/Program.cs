@@ -9,19 +9,17 @@ internal abstract class Program
             return;
         }
         
-        Node? current = root;
         Console.Write($"{msg} [");
-        while (current != null)
+        for (var current = root; current != null; current = current.Next)
         {
             Console.Write($" {current.Value} ");
-            current = current.Next;
         }
         Console.WriteLine("]");
     }
     
     private static void Case1(Solution solution)
     {
-        Node root = new Node { Value = 1 };
+        var root = new Node { Value = 1 };
         
         root.Left = new Node { Value = 2 };
         root.Right = new Node { Value = 3 };
@@ -35,8 +33,8 @@ internal abstract class Program
         PrintConnections(root.Left, "Case 1 level 2:");
         PrintConnections(root.Left.Left, "Case 1 level 3:");
     }
-    
-    static void Main()
+
+    private static void Main()
     {
         Console.WriteLine("117. Populating Next Right Pointers in Each Node II");
         
