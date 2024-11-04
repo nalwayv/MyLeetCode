@@ -37,26 +37,24 @@ public class Solution
     /// Search matrix for target value
     /// </summary>
     /// <returns><c>True</c> if matrix contains target</returns>
-    private bool Search(int[][] matrix, int target, int level = 0)
+    private bool Search(int[][] matrix, int target)
     {
-        if (level >= matrix.Length)
+        foreach (var row in matrix)
         {
-            return false;
+            // each level is sorted so if last value is less than target goto next
+            if (row[^1] < target)
+            {
+                continue;
+            }
+
+            // search for target on current level
+            if (Contains(row, target))
+            {
+                return true;
+            }
         }
 
-        // each level is sorted so if last value is less than target goto next
-        if (matrix[level][^1] < target)
-        {
-            return Search(matrix, target, level + 1);
-        }
-
-        // search for target on current level
-        if (Contains(matrix[level], target))
-        {
-            return true;
-        }
-
-        return Search(matrix, target, level + 1);
+        return false;
     }
 
     public bool SearchMatrix(int[][] matrix, int target)
