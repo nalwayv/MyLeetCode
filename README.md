@@ -215,4 +215,5 @@
 - 2678\. Number of Senior Citizens
 - 2807\. Insert Greatest Common Divisors in Linked List
 - 3043\. Find the Length of the Longest Common Prefix
+- 3163\. String Compression III
 - 3217\. Delete Nodes From Linked List Present in Array
