@@ -9,6 +9,13 @@ class TreeNode:
 
 def insert_into_binary_search_tree(root: TreeNode|None, value: int) -> TreeNode|None:
     """Add a value to the binary tree data structure
+
+    Args:
+        root (TreeNode|None): add value to this tree
+        value (int): value added
+
+    Returns:
+        TreeNode with added value
     """
     if root == None:
         return TreeNode(value)
@@ -21,8 +28,8 @@ def insert_into_binary_search_tree(root: TreeNode|None, value: int) -> TreeNode|
     return root
 
 
-def print_binary_tree_by_levels(root: TreeNode|None) -> None:
-    """Print each level of binaray tree to console
+def print_binary_tree_depths(root: TreeNode|None) -> None:
+    """Print each depths values of root binary tree
 
     Args:
         root (TreeNode|None) binary tree data structure
@@ -115,12 +122,12 @@ def main() -> None:
     root: TreeNode|None = deserialize_into_a_binary_tree("4,2,7,1,3")
 
     print("before insert: ",end="")
-    print_binary_tree_by_levels(root)
+    print_binary_tree_depths(root)
 
     root = insert_into_binary_search_tree(root, 5)
     
     print("after insert: ",end="")
-    print_binary_tree_by_levels(root)
+    print_binary_tree_depths(root)
 
 
 if __name__ == "__main__":
