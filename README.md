@@ -76,6 +76,7 @@
 - 169\. Majority Element
 - 179\. Largest Number
 - 189\. Rotate Array
+- 190\. Reverse Bits
 - 199\. Binary Tree Right Side View
 - 200\. Number of Islands
 - 202\. Happy Number
@@ -140,6 +141,7 @@
 - 643\. Maximum Average Subarray I
 - 652\. Find Duplicate Subtrees
 - 700\. Search in a Binary Search Tree
+- 701\. Insert into a Binary Search Tree
 - 703\. Kth Largest Element in a Stream
 - 704\. Binary Search
 - 705\. Design HashSet
