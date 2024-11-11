@@ -88,6 +88,7 @@
 - 217\. Contains Duplicate
 - 219\. Contains Duplicate II
 - 225\. Implement Stack using Queues
+- 230\. Kth Smallest Element in a BST
 - 232\. Implement Queue using Stacks
 - 234\. Palindrome Linked List
 - 236\. Lowest Common Ancestor of a Binary Tree
