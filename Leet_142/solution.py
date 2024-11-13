@@ -23,14 +23,16 @@ def has_cycle(head: ListNode|None) -> bool:
         return False
 
     # USING FAST AND SLOW POINTER
-    fast: ListNode|None = head
+    fast: ListNode|None = head.next
     slow: ListNode|None = head
     
     while fast != None and fast.next != None:
-        slow = slow.next
-        fast = fast.next.next
         if fast == slow:
             return True
+        
+        fast = fast.next.next
+        if slow:
+            slow = slow.next
 
     return False
 
@@ -57,8 +59,9 @@ def detect_cycle3(head: ListNode|None) -> ListNode|None:
     slow: ListNode|None = head
 
     while fast and fast.next:
-        slow = slow.next
         fast = fast.next.next
+        if slow:
+            slow = slow.next
 
         if fast == slow:
             # from start move p1 until it collides with p2
@@ -88,33 +91,31 @@ def reverse(head: ListNode|None) -> ListNode|None:
     head = reverse
 
 
-def list_move_to(headA:ListNode|None, n: int) -> ListNode|None:
-    current: ListNode|None = headA
-    while n != 0 and current:
+def list_move_to(head:ListNode|None, n: int) -> ListNode|None:
+    while n != 0 and head:
         n -= 1
-        current = current.next
+        head = head.next
+    return head
 
-    return current
 
-def list_len(headA:ListNode|None) -> int:
-    if headA == None:
+def list_len(head:ListNode|None) -> int:
+    if head == None:
         return 0
     
     n: int = 0
-    current: ListNode|None = headA
-    while current:
-        current = current.next
+    while head:
+        head = head.next
         n += 1
 
     return n
 
+
 def list_find_match(headA: ListNode|None, headB: ListNode|None) -> ListNode|None:
-    p1: ListNode|None = headA
-    p2: ListNode|None = headB
-    while p1 and p2 and p1 != p2:
-        p1 = p1.next
-        p2 = p2.next
-    return p1
+    while headA and headB and headA != headB:
+        headA = headA.next
+        headB = headB.next
+    return headA
+
 
 def intersect(headA: ListNode|None, headB: ListNode|None) -> ListNode|None:
     # USING DICT
@@ -144,12 +145,14 @@ def intersect(headA: ListNode|None, headB: ListNode|None) -> ListNode|None:
 
     return None
 
+
 def clamp(val:int, lo:int, hi: int) -> int:
     if val <= lo:
         return lo
     if val >= hi:
         return hi
     return val
+
 
 def nth_end(head: ListNode|None, nth: int) -> ListNode|None:
     p1: ListNode|None = head
@@ -167,6 +170,7 @@ def nth_end(head: ListNode|None, nth: int) -> ListNode|None:
             p2 = p2.next
 
     return p2
+
 
 def remove_nth_from_end(head: ListNode|None, n: int) -> ListNode|None:
     """
