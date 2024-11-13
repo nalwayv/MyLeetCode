@@ -4,13 +4,6 @@
      public int Val;
      public TreeNode? Left;
      public TreeNode? Right;
-     
-     public TreeNode(int val=0, TreeNode? left=null, TreeNode? right=null) 
-     {
-        this.Val = val;
-        this.Left = left;
-        this.Right = right;
-     }
  }
 
  public class Solution {
@@ -26,7 +19,6 @@
          {
              return left;
          }
-
          return ++count == k ? root : Kth(root.Right, k, ref count);
      }
 
@@ -46,16 +38,23 @@
 
 internal static class Program
 {
+    private static void Case1(Solution solution)
+    {
+        var root = new TreeNode { Val = 3 };
+        root.Left = new TreeNode { Val = 1 };
+        root.Right = new TreeNode { Val = 4 };
+        root.Left.Right = new TreeNode { Val = 2 };
+        
+        int result = solution.KthSmallest(root, 1);
+        
+        Console.WriteLine($"Case1: [3,1,4,null,2] Kth(1) == 1 ? {result == 1}");
+    }
+    
     private static void Main()
     {
         Console.WriteLine("Kth Smallest Element in a BST");
         
-        var root = new TreeNode(3);
-        root.Left = new TreeNode(1);
-        root.Right = new TreeNode(4);
-        root.Left.Right = new TreeNode(2);
-        
         var solution = new Solution();
-        Console.WriteLine($"[3,1,4,null,2] Kth(1) == {solution.KthSmallest(root, 1)}");
+        Case1(solution);
     }
 }
