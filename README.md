@@ -91,6 +91,7 @@
 - 230\. Kth Smallest Element in a BST
 - 232\. Implement Queue using Stacks
 - 234\. Palindrome Linked List
+- 235\. Lowest Common Ancestor of a Binary Search Tree
 - 236\. Lowest Common Ancestor of a Binary Tree
 - 242\. Valid Anagram
 - 274\. H-Index
