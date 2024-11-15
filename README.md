@@ -119,6 +119,7 @@
 - 394\. Decode String
 - 412\. Fizz Buzz
 - 414\. Third Maximum Number
+- 429\. N-ary Tree Level Order Traversal
 - 430\. Flatten a Multilevel Doubly Linked List
 - 437\. Path Sum III
 - 443\. String Compression
@@ -134,6 +135,7 @@
 - 542\. 01 Matrix
 - 557\. Reverse Words in a String III
 - 561\. Array Partition
+- 589\. N-ary Tree Preorder Traversal
 - 590\. N-ary Tree Postorder Traversal
 - 592\. Fraction Addition and Subtraction
 - 599\. Minimum Index Sum of Two Lists
