@@ -134,6 +134,7 @@
 - 539\. Minimum Time Difference
 - 542\. 01 Matrix
 - 557\. Reverse Words in a String III
+- 559\. Maximum Depth of N-ary Tree
 - 561\. Array Partition
 - 589\. N-ary Tree Preorder Traversal
 - 590\. N-ary Tree Postorder Traversal
