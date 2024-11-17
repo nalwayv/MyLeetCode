@@ -6,20 +6,14 @@
 namespace Leet
 {
     // ----------------------------------------------------------------------------------
-    namespace
-    {
-        using std::vector;
-    }
-
-    // ----------------------------------------------------------------------------------
     class Solution
     {
     public:
-        bool SearchMatrix(vector<vector<int>> &matrix, int target);
+        bool SearchMatrix(std::vector<std::vector<int>> &matrix, int target);
     };
 
     // ----------------------------------------------------------------------------------
-    bool Solution::SearchMatrix(vector<vector<int>> &matrix, int target)
+    bool Solution::SearchMatrix(std::vector<std::vector<int>> &matrix, int target)
     {
         // Example:
         // t = 3
