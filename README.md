@@ -97,6 +97,7 @@
 - 237\. Delete Node in a Linked List
 - 240\. Search a 2D Matrix II
 - 242\. Valid Anagram
+- 268\. Missing Number
 - 274\. H-Index
 - 278\. First Bad Version
 - 279\. Perfect Squares
