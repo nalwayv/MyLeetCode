@@ -78,6 +78,7 @@
 - 179\. Largest Number
 - 189\. Rotate Array
 - 190\. Reverse Bits
+- 191\. Number of 1 Bits
 - 199\. Binary Tree Right Side View
 - 200\. Number of Islands
 - 202\. Happy Number
