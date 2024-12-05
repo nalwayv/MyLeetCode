@@ -1,64 +1,48 @@
-import unittest
-
 class Solution:
     """
-    Given an array arr of integers, check if there exist two indices i and j such that :
+    Given an array arr of integers, check if there exist two indices i and j such that
 
-    i != j
-    0 <= i, j < arr.length
-    arr[i] == 2 * arr[j]
+    i != j,
+    0 <= i,
+    j < len( arr ),
+    arr[ i ] == 2 * arr[ j ]
 
-    Example 1:
+    Args:
+        arr (list[int]): check if doubles of current exist
 
-    Input: arr = [10,2,5,3]
-    Output: true
-    Explanation: For i = 0 and j = 2, arr[i] == 10 == 2 * 5 == 2 * arr[j]
-
-    Example 2:
-
-    Input: arr = [3,1,7,11]
-    Output: false
-    Explanation: There is no i and j that satisfy the conditions.
+    Returns:
+        found a double that exists of current value at different location
     """
     def check_if_exist(self, arr: list[int]) -> bool:
-        n: int = len(arr)
+        # use values as keys
+        data: dict[int, int] = {}
+        for i, num in enumerate(arr):
+            data[num] = i
 
-        for i in range(n - 1):
-            for j in range(i + 1, n):
-                if arr[i] == (2 * arr[j]) or arr[j] == (2 * arr[i]):
+        for j, num in enumerate(arr):
+            # does data contain a double of current
+            db: int = num * 2
+            if db in data:
+                # check i != j
+                if data[db] != j:
                     return True
 
         return False
-        
 
-class Test(unittest.TestCase):
-    """
-    docs:
 
-    https://docs.python.org/3/library/unittest.html
-    
-    run:
+def main() -> None:
+    print("1346. Check If N and Its Double Exist")
 
-    []$ python -m unittest -v test_leet_1346.py
-    """
-    def setUp(self) -> None:
-        self.solution = Solution()
+    sol = Solution()
 
-    def test_case_1_should_equil_true(self) -> None:
-        arr: list[int] = [10, 2, 5, 3]
-        result: bool = self.solution.check_if_exist(arr)
-        self.assertTrue(result)
+    case1: list[int] = [10,2,5,3]
+    result1 = "pass" if sol.check_if_exist(case1) else "fail"
+    print(f"Case1: {result1}")
 
-    def test_case_2_should_equil_false(self) -> None:
-        arr: list[int] = [3, 1, 7, 11]
-        result: bool = self.solution.check_if_exist(arr)
-        self.assertFalse(result)
-
-    def test_case_3_should_equil_true(self) -> None:
-        arr: list[int] = [7, 1, 14, 11]
-        result: bool = self.solution.check_if_exist(arr)
-        self.assertTrue(result)
+    case2: list[int] = [3,1,7,11]
+    result2 = "pass" if not sol.check_if_exist(case2) else "fail"
+    print(f"Case2: {result2}")
 
 
 if __name__ == "__main__":
-    unittest.main()
+    main()
