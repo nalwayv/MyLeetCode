@@ -199,6 +199,7 @@
 - 1381\. Design a Stack With Increment Operation
 - 1431\. Kids With the Greatest Number of Candies
 - 1448\. Count Good Nodes in Binary Tree
+- 1455\. Check If a Word Occurs As a Prefix of Any Word in a Sentence
 - 1456\. Maximum Number of Vowels in a Substring of Given Length
 - 1460\. Make Two Arrays Equal by Reversing Subarrays
 - 1480\. Running Sum of 1d Array
@@ -214,6 +215,7 @@
 - 2022\. Convert 1D Array Into 2D Array
 - 2053\. Kth Distinct String in an Array
 - 2095\. Delete the Middle Node of a Linked List
+- 2109\. Adding Spaces to a String
 - 2130\. Maximum Twin Sum of a Linked List
 - 2215\. Find the Difference of Two Arrays
 - 2220\. Minimum Bit Flips to Convert Number
