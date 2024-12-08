@@ -83,6 +83,7 @@
 - 200\. Number of Islands
 - 202\. Happy Number
 - 203\. Remove Linked List Elements
+- 204\. Count Primes
 - 205\. Isomorphic Strings
 - 206\. Reverse Linked List
 - 209\. Minimum Size Subarray Sum
