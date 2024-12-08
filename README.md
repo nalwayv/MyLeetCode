@@ -131,6 +131,7 @@
 - 448\. Find All Numbers Disappeared in an Array
 - 450\. Delete Node in a BST
 - 454\. 4Sum II
+- 461\. Hamming Distance
 - 476\. Number Complement
 - 485\. Max Consecutive Ones
 - 494\. Target Sum
