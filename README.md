@@ -107,6 +107,7 @@
 - 289\. Game of Life
 - 290\. Word Pattern"
 - 297\. Serialize and Deserialize Binary Tree
+- 326\. Power of Three
 - 328\. Odd Even Linked List
 - 338\. Counting Bits
 - 344\. Reverse String
@@ -118,6 +119,7 @@
 - 374\. Guess Number Higher or Lower
 - 380\. Insert Delete GetRandom O(1)
 - 383\. Ransom Note
+- 384\. Shuffle an Array
 - 386\. Lexicographical Numbers
 - 387\. First Unique Character in a String
 - 389\. Find the Difference
