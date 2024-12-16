@@ -238,3 +238,4 @@
 - 3043\. Find the Length of the Longest Common Prefix
 - 3163\. String Compression III
 - 3217\. Delete Nodes From Linked List Present in Array
+- 3264\. Final Array State After K Multiplication Operations I
