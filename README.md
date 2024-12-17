@@ -169,6 +169,7 @@
 - 733\. Flood Fill
 - 739\. Daily Temperatures
 - 744\. Find Smallest Letter Greater Than Target
+- 746\. Min Cost Climbing Stairs
 - 747\. Largest Number At Least Twice of Others
 - 752\. Open the Lock
 - 771\. Jewels and Stones
