@@ -231,6 +231,7 @@
 - 2326\. Spiral Matrix IV
 - 2352\. Equal Row and Column Pairs
 - 2390\. Removing Stars From a String
+- 2415\. Reverse Odd Levels of Binary Tree
 - 2419\. Longest Subarray With Maximum Bitwise AND
 - 2490\. Circular Sentence
 - 2678\. Number of Senior Citizens
