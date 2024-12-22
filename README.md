@@ -42,6 +42,7 @@
 - 73\. Set Matrix Zeroes
 - 74\. Search a 2D Matrix
 - 80\. Remove Duplicates from Sorted Array II
+- 82\. Remove Duplicates from Sorted List II
 - 83\. Remove Duplicates from Sorted List
 - 88\. Merge Sorted Array
 - 94\. Binary Tree Inorder Traversal
