@@ -41,6 +41,7 @@
 - 71\. Simplify Path
 - 73\. Set Matrix Zeroes
 - 74\. Search a 2D Matrix
+- 75\. Sort Colors
 - 80\. Remove Duplicates from Sorted Array II
 - 82\. Remove Duplicates from Sorted List II
 - 83\. Remove Duplicates from Sorted List

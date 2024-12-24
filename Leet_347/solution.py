@@ -1,3 +1,5 @@
+from collections import Counter
+
 class Solution:
     """
     Given an integer array nums and an integer k, 
@@ -11,27 +13,8 @@ class Solution:
         Output: [1,2]
     """
     def topKFrequent(self, nums: list[int], k: int) -> list[int]:
-        table: dict[int, int] = {}
-        for n in nums:
-            if n in table:
-                table[n] += 1
-            else:
-                table[n] = 1
-
-        result: list[int] = []
-        for _ in range(k):
-            hi: int = -1
-            num: int = 0
-            for key, val in table.items():
-                if val > hi:
-                    hi = val
-                    num = key
-
-            result.append(num)
-            table.pop(num)
-            
-        return result
-
+        counter: Counter[int] = Counter(nums)
+        return [k for k,_ in counter.most_common(k)]
 
 def test_1(solution: Solution) -> None:
     # [1, 2]
