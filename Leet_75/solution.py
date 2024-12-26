@@ -4,16 +4,13 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         n: int = len(nums)
-        lo: int = -1
-        for i in range(n):
-            lo = i
-            
-            # get next smallest value to the right of current
-            for j in range(i + 1, n):
-                if nums[j] < nums[lo]:
-                    lo = j
-            # swap
-            nums[lo], nums[i] = nums[i], nums[lo]
+        for i in range(1, n):
+
+            curr: int = i
+            # sort to the left of current
+            while curr and nums[curr-1] > nums[curr]:
+                nums[curr], nums[curr-1] = nums[curr-1], nums[curr]
+                curr-=1
 
 
 def main() -> None:
