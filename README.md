@@ -94,6 +94,7 @@
 - 217\. Contains Duplicate
 - 219\. Contains Duplicate II
 - 225\. Implement Stack using Queues
+- 226\. Invert Binary Tree
 - 230\. Kth Smallest Element in a BST
 - 232\. Implement Queue using Stacks
 - 234\. Palindrome Linked List
