@@ -10,8 +10,6 @@ class TreeNode:
 
 class Solution:
     def invertTree(self, root: TreeNode|None) -> TreeNode|None:
-        """Reverse all nodes on odd levels of the tree
-        """
         if not root:
             return root
         
