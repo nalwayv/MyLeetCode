@@ -94,6 +94,7 @@
 - 215\. Kth Largest Element in an Array
 - 217\. Contains Duplicate
 - 219\. Contains Duplicate II
+- 222\. Count Complete Tree Nodes
 - 225\. Implement Stack using Queues
 - 226\. Invert Binary Tree
 - 230\. Kth Smallest Element in a BST
@@ -132,6 +133,7 @@
 - 394\. Decode String
 - 412\. Fizz Buzz
 - 414\. Third Maximum Number
+- 415\. Add Strings
 - 429\. N-ary Tree Level Order Traversal
 - 430\. Flatten a Multilevel Doubly Linked List
 - 437\. Path Sum III
