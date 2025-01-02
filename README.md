@@ -243,6 +243,7 @@
 - 2415\. Reverse Odd Levels of Binary Tree
 - 2419\. Longest Subarray With Maximum Bitwise AND
 - 2490\. Circular Sentence
+- 2559\. Count Vowel Strings in Ranges
 - 2678\. Number of Senior Citizens
 - 2807\. Insert Greatest Common Divisors in Linked List
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
