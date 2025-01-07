@@ -199,6 +199,7 @@
 - 1071\. Greatest Common Divisor of Strings
 - 1137\. N-th Tribonacci Number
 - 1161\. Maximum Level Sum of a Binary Tree
+- 1200\. Minimum Absolute Difference
 - 1207\. Unique Number of Occurrences
 - 1232\. Check If It Is a Straight Line
 - 1295\. Find Numbers with Even Number of Digits
