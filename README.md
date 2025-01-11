@@ -77,6 +77,7 @@
 - 155\. Min Stack
 - 160\. Intersection of Two Linked Lists
 - 162\. Find Peak Element
+- 164\. Maximum Gap
 - 167\. Two Sum II - Input Array Is Sorted
 - 169\. Majority Element
 - 179\. Largest Number
@@ -228,6 +229,7 @@
 - 1894\. Find the Student that Will Replace the Chalk
 - 1945\. Sum of Digits of String After Convert
 - 1957\. Delete Characters to Make Fancy String
+- 1971\. Find if Path Exists in Graph
 - 2022\. Convert 1D Array Into 2D Array
 - 2053\. Kth Distinct String in an Array
 - 2095\. Delete the Middle Node of a Linked List
