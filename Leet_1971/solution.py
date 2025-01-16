@@ -1,3 +1,5 @@
+from collections import deque
+
 class Solution:
     def validPath(self, n: int, edges: list[list[int]], source: int, destination: int) -> bool:
         """Chech if these is a valid path from source to destination.
@@ -15,18 +17,20 @@ class Solution:
             else:
                 graph[edge[1]].append(edge[0])
 
-        # dfs
+        # bfs
         visited: set[int] = set()
-        stk: list[int] = [source]
-        while stk:
-            curr: int = stk.pop()
-            if curr == destination:
+        que: deque[int] = deque()
+        que.append(source)
+        
+        while que:
+            current: int = que.popleft()
+            if current == destination:
                 return True
-
-            for node in graph[curr]:
+            
+            for node in graph[current]:
                 if node not in visited:
                     visited.add(node)
-                    stk.append(node)
+                    que.append(node)
 
         return False
 

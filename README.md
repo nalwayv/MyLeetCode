@@ -107,6 +107,7 @@
 - 240\. Search a 2D Matrix II
 - 242\. Valid Anagram
 - 257\. Binary Tree Paths
+- 263\. Ugly Number
 - 268\. Missing Number
 - 274\. H-Index
 - 278\. First Bad Version
