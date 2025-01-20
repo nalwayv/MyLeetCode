@@ -118,6 +118,7 @@
 - 289\. Game of Life
 - 290\. Word Pattern"
 - 297\. Serialize and Deserialize Binary Tree
+- 303\. Range Sum Query - Immutable
 - 326\. Power of Three
 - 328\. Odd Even Linked List
 - 338\. Counting Bits
