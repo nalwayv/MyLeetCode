@@ -145,6 +145,7 @@
 - 415\. Add Strings
 - 429\. N-ary Tree Level Order Traversal
 - 430\. Flatten a Multilevel Doubly Linked List
+- 434\. Number of Segments in a String
 - 437\. Path Sum III
 - 443\. String Compression
 - 448\. Find All Numbers Disappeared in an Array
