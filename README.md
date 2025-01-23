@@ -81,6 +81,7 @@
 - 167\. Two Sum II - Input Array Is Sorted
 - 168\. Excel Sheet Column Title
 - 169\. Majority Element
+- 171\. Excel Sheet Column Number
 - 179\. Largest Number
 - 189\. Rotate Array
 - 190\. Reverse Bits
