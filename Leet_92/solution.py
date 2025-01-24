@@ -74,8 +74,8 @@ def main() -> None:
     nums: list[int] = [1,2,3,4,5]
     head: ListNode|None = create_linked_list(nums)
     
-    left: int = 1
-    right: int = 5
+    left: int = 2
+    right: int = 4
     head = sol.reverseBetween(head, left, right)
 
     print_linked_list(head)
