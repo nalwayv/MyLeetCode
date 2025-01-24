@@ -46,6 +46,7 @@
 - 82\. Remove Duplicates from Sorted List II
 - 83\. Remove Duplicates from Sorted List
 - 88\. Merge Sorted Array
+- 92\. Reverse Linked List II
 - 94\. Binary Tree Inorder Traversal
 - 95\. Unique Binary Search Trees II
 - 98\. Validate Binary Search Tree
