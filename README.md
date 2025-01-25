@@ -71,6 +71,7 @@
 - 142\. Linked List Cycle II
 - 144\. Binary Tree Preorder Traversal
 - 145\. Binary Tree Postorder Traversal
+- 148\. Sort List
 - 150\. Evaluate Reverse Polish Notation
 - 151\. Reverse Words in a String
 - 153\. Find Minimum in Rotated Sorted Array
