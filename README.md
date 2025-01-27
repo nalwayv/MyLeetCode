@@ -58,6 +58,7 @@
 - 110\. Balanced Binary Tree
 - 111\. Minimum Depth of Binary Tree
 - 112\. Path Sum
+- 114\. Flatten Binary Tree to Linked List
 - 116\. Populating Next Right Pointers in Each Node
 - 118\. Pascal's Triangle
 - 119\. Pascal's Triangle II
