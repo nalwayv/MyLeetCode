@@ -215,6 +215,7 @@
 - 1200\. Minimum Absolute Difference
 - 1207\. Unique Number of Occurrences
 - 1232\. Check If It Is a Straight Line
+- 1290\. Convert Binary Number in a Linked List to Integer
 - 1295\. Find Numbers with Even Number of Digits
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1310\. XOR Queries of a Subarray
