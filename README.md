@@ -268,6 +268,7 @@
 - 2807\. Insert Greatest Common Divisors in Linked List
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
 - 3043\. Find the Length of the Longest Common Prefix
+- 3151\. Special Array I
 - 3163\. String Compression III
 - 3217\. Delete Nodes From Linked List Present in Array
 - 3264\. Final Array State After K Multiplication Operations I
