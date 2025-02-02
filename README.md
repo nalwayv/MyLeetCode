@@ -240,6 +240,7 @@
 - 1684\. Count the Number of Consistent Strings
 - 1721\. Swapping Nodes in a Linked List
 - 1732\. Find the Highest Altitude
+- 1752\. Check if Array Is Sorted and Rotated
 - 1768\. Merge Strings Alternately
 - 1894\. Find the Student that Will Replace the Chalk
 - 1945\. Sum of Digits of String After Convert
