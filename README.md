@@ -242,6 +242,7 @@
 - 1732\. Find the Highest Altitude
 - 1752\. Check if Array Is Sorted and Rotated
 - 1768\. Merge Strings Alternately
+- 1800\. Maximum Ascending Subarray Sum
 - 1894\. Find the Student that Will Replace the Chalk
 - 1945\. Sum of Digits of String After Convert
 - 1957\. Delete Characters to Make Fancy String
