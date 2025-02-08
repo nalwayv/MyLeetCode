@@ -273,6 +273,7 @@
 - 3043\. Find the Length of the Longest Common Prefix
 - 3105\. Longest Strictly Increasing or Strictly Decreasing Subarray
 - 3151\. Special Array I
+- 3160\. Find the Number of Distinct Colors Among the Balls
 - 3163\. String Compression III
 - 3217\. Delete Nodes From Linked List Present in Array
 - 3264\. Final Array State After K Multiplication Operations I
