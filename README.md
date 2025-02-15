@@ -269,6 +269,7 @@
 - 2490\. Circular Sentence
 - 2559\. Count Vowel Strings in Ranges
 - 2678\. Number of Senior Citizens
+- 2769\. Find the Maximum Achievable Number
 - 2807\. Insert Greatest Common Divisors in Linked List
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
 - 3043\. Find the Length of the Longest Common Prefix
