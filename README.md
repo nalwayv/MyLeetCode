@@ -172,6 +172,7 @@
 - 592\. Fraction Addition and Subtraction
 - 599\. Minimum Index Sum of Two Lists
 - 605\. Can Place Flowers
+- 617\. Merge Two Binary Trees
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
 - 641\. Design Circular Deque
