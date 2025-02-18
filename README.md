@@ -240,6 +240,7 @@
 - 1669\. Merge In Between Linked Lists
 - 1672\. Richest Customer Wealth
 - 1684\. Count the Number of Consistent Strings
+- 1689\. Partitioning Into Minimum Number Of Deci-Binary Numbers
 - 1721\. Swapping Nodes in a Linked List
 - 1732\. Find the Highest Altitude
 - 1752\. Check if Array Is Sorted and Rotated
