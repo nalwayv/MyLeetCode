@@ -176,6 +176,7 @@
 - 617\. Merge Two Binary Trees
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
+- 637\. Average of Levels in Binary Tree
 - 641\. Design Circular Deque
 - 643\. Maximum Average Subarray I
 - 652\. Find Duplicate Subtrees
