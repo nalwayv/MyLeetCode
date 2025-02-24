@@ -161,6 +161,7 @@
 - 485\. Max Consecutive Ones
 - 494\. Target Sum
 - 498\. Diagonal Traverse
+- 501\. Find Mode in Binary Search Tree
 - 509\. Fibonacci Number
 - 539\. Minimum Time Difference
 - 542\. 01 Matrix
