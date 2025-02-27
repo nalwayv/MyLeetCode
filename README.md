@@ -148,6 +148,7 @@
 - 405\. Convert a Number to Hexadecimal
 - 409\. Longest Palindrome
 - 412\. Fizz Buzz
+- 413\. Arithmetic Slices
 - 414\. Third Maximum Number
 - 415\. Add Strings
 - 429\. N-ary Tree Level Order Traversal
