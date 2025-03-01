@@ -275,6 +275,7 @@
 - 2390\. Removing Stars From a String
 - 2415\. Reverse Odd Levels of Binary Tree
 - 2419\. Longest Subarray With Maximum Bitwise AND
+- 2460\. Apply Operations to an Array
 - 2487\. Remove Nodes From Linked List
 - 2490\. Circular Sentence
 - 2559\. Count Vowel Strings in Ranges
