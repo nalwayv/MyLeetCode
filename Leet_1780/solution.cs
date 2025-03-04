@@ -9,7 +9,7 @@ namespace Solution
             double current = 0;
             while (current <= n)
             {
-                current = Math.Pow(3, i++);
+                current = double.Pow(3, i++);
                 powers.Add(current);
             }
 
