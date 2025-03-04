@@ -253,6 +253,7 @@
 - 1732\. Find the Highest Altitude
 - 1752\. Check if Array Is Sorted and Rotated
 - 1768\. Merge Strings Alternately
+- 1780\. Check if Number is a Sum of Powers of Three
 - 1790\. Check if One String Swap Can Make Strings Equal
 - 1800\. Maximum Ascending Subarray Sum
 - 1894\. Find the Student that Will Replace the Chalk
