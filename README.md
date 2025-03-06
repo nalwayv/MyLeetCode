@@ -112,6 +112,7 @@
 - 235\. Lowest Common Ancestor of a Binary Search Tree
 - 236\. Lowest Common Ancestor of a Binary Tree
 - 237\. Delete Node in a Linked List
+- 238\. Product of Array Except Self
 - 240\. Search a 2D Matrix II
 - 242\. Valid Anagram
 - 257\. Binary Tree Paths
@@ -287,6 +288,7 @@
 - 2769\. Find the Maximum Achievable Number
 - 2807\. Insert Greatest Common Divisors in Linked List
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
+- 2965\. Find Missing and Repeated Values
 - 3043\. Find the Length of the Longest Common Prefix
 - 3105\. Longest Strictly Increasing or Strictly Decreasing Subarray
 - 3110\. Score of a String
