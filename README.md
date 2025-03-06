@@ -258,6 +258,7 @@
 - 1790\. Check if One String Swap Can Make Strings Equal
 - 1800\. Maximum Ascending Subarray Sum
 - 1894\. Find the Student that Will Replace the Chalk
+- 1941\. Check if All Characters Have Equal Number of Occurrences
 - 1945\. Sum of Digits of String After Convert
 - 1957\. Delete Characters to Make Fancy String
 - 1971\. Find if Path Exists in Graph
@@ -273,6 +274,7 @@
 - 2236\. Root Equals Sum of Children
 - 2270\. Number of Ways to Split Array
 - 2280\. Minimum Lines to Represent a Line Chart
+- 2283\. Check if Number Has Equal Digit Count and Digit Value
 - 2326\. Spiral Matrix IV
 - 2352\. Equal Row and Column Pairs
 - 2390\. Removing Stars From a String
