@@ -283,6 +283,7 @@
 - 2460\. Apply Operations to an Array
 - 2487\. Remove Nodes From Linked List
 - 2490\. Circular Sentence
+- 2523\. Closest Prime Numbers in Range
 - 2559\. Count Vowel Strings in Ranges
 - 2570\. Merge Two 2D Arrays by Summing Values
 - 2579\. Count Total Number of Colored Cells
