@@ -277,6 +277,7 @@
 - 2283\. Check if Number Has Equal Digit Count and Digit Value
 - 2326\. Spiral Matrix IV
 - 2352\. Equal Row and Column Pairs
+- 2379\. Minimum Recolors to Get K Consecutive Black Blocks
 - 2390\. Removing Stars From a String
 - 2415\. Reverse Odd Levels of Binary Tree
 - 2419\. Longest Subarray With Maximum Bitwise AND
