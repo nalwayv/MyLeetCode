@@ -299,5 +299,6 @@
 - 3151\. Special Array I
 - 3160\. Find the Number of Distinct Colors Among the Balls
 - 3163\. String Compression III
+- 3206\. Alternating Groups I
 - 3217\. Delete Nodes From Linked List Present in Array
 - 3264\. Final Array State After K Multiplication Operations I
