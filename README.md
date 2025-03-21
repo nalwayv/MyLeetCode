@@ -27,7 +27,7 @@
 - 36\. Valid Sudoku
 - 43\. Multiply Strings
 - 46\. Permutations
-- 48\. Rotate Image"
+- 48\. Rotate Image
 - 49\. Group Anagrams
 - 50\. Pow(x, n)
 - 54\. Spiral Matrix
@@ -124,7 +124,7 @@
 - 279\. Perfect Squares
 - 283\. Move Zeroes
 - 289\. Game of Life
-- 290\. Word Pattern"
+- 290\. Word Pattern
 - 297\. Serialize and Deserialize Binary Tree
 - 303\. Range Sum Query - Immutable
 - 326\. Power of Three
@@ -217,6 +217,7 @@
 - 912\. Sort an Array
 - 933\. Number of Recent Calls
 - 941\. Valid Mountain Array
+- 965\. Univalued Binary Tree
 - 977\. Squares of a Sorted Array
 - 1051\. Height Checker
 - 1089\. Duplicate Zeros
