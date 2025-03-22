@@ -218,6 +218,7 @@
 - 933\. Number of Recent Calls
 - 941\. Valid Mountain Array
 - 965\. Univalued Binary Tree
+- 976\. Largest Perimeter Triangle
 - 977\. Squares of a Sorted Array
 - 1051\. Height Checker
 - 1089\. Duplicate Zeros
