@@ -172,6 +172,7 @@
 - 507\. Perfect Number
 - 509\. Fibonacci Number
 - 539\. Minimum Time Difference
+- 541\. Reverse String II
 - 542\. 01 Matrix
 - 557\. Reverse Words in a String III
 - 559\. Maximum Depth of N-ary Tree
