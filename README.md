@@ -248,6 +248,7 @@
 - 1456\. Maximum Number of Vowels in a Substring of Given Length
 - 1460\. Make Two Arrays Equal by Reversing Subarrays
 - 1464\. Maximum Product of Two Elements in an Array
+- 1470\. Shuffle the Array
 - 1472\. Design Browser History
 - 1480\. Running Sum of 1d Array
 - 1508\. Range Sum of Sorted Subarray Sums
