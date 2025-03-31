@@ -1,16 +1,4 @@
 class Solution:
-    def is_land(self, grid: list[list[int]], coord: tuple[int, int]) -> bool:
-        return grid[coord[0]][coord[1]] == 1
-    
-    def is_on_grid(self, grid: list[list[int]], coord: tuple[int, int]) -> bool:
-        rows: int = len(grid)
-        cols: int = len(grid[0])
-        
-        check_x: bool = coord[0] >= 0 and coord[0] < rows
-        check_y: bool = coord[1] >= 0 and coord[1] < cols
-
-        return check_x and check_y
-
     def islandPerimeter(self, grid: list[list[int]]) -> int:
         """ Given a row x col gridou are given row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water
         and with exacly one island on the map itself return the permneter of that island
@@ -21,42 +9,25 @@ class Solution:
         Returns:
             int: perimeter of the island on the grid
         """
-
         rows: int = len(grid)
         cols: int = len(grid[0])
-
-        stk: list[tuple[int, int]] = []
-        explored: set[tuple[int, int]] = set()
-        directions: list[tuple[int, int]] = [(0, 1), (1, 0), (0, -1), (-1, 0)]
-        perimeter: int = 0
+        result: int = 0
 
         for r in range(rows):
             for c in range(cols):
+        
+                if grid[r][c] == 1:
+        
+                    perimeter: int = 4
+                    for dir in [(0, 1), (1, 0), (0, -1), (-1, 0)]:
+                        r2: int = r + dir[0]
+                        c2: int = c + dir[1]
+                        if (r2 >= 0 and r2 < rows and c2 >= 0 and c2 < cols) and (grid[r2][c2] == 1):
+                            perimeter -= 1
+        
+                    result += perimeter
 
-                coord: tuple[int, int] = (r, c)
-                
-                if self.is_land(grid, coord) and coord not in explored:
-                    stk.append(coord)
-                    explored.add(coord)
-
-                    while stk:
-                        curr: tuple[int, int] = stk.pop()
-
-                        neighbours: int = 4
-                        for dir in directions:
-                            neighbour: tuple[int, int] = (curr[0] + dir[0], curr[1] + dir[1])
-
-                            if self.is_on_grid(grid, neighbour) and self.is_land(grid, neighbour):
-                                neighbours -= 1
-
-                                if neighbour not in explored:
-                                    stk.append(neighbour)
-                                    explored.add(neighbour)
-
-                        perimeter += neighbours
-
-
-        return perimeter
+        return result
 
 
 def case_1(sol: Solution) -> None:
