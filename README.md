@@ -302,6 +302,7 @@
 - 2769\. Find the Maximum Achievable Number
 - 2807\. Insert Greatest Common Divisors in Linked List
 - 2873\. Maximum Value of an Ordered Triplet I
+- 2874\. Maximum Value of an Ordered Triplet II
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
 - 2965\. Find Missing and Repeated Values
 - 3043\. Find the Length of the Longest Common Prefix
