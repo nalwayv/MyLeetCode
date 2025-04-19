@@ -179,6 +179,7 @@
 - 559\. Maximum Depth of N-ary Tree
 - 561\. Array Partition
 - 563\. Binary Tree Tilt
+- 566\. Reshape the Matrix
 - 589\. N-ary Tree Preorder Traversal
 - 590\. N-ary Tree Postorder Traversal
 - 592\. Fraction Addition and Subtraction
