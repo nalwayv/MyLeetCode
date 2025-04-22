@@ -180,6 +180,7 @@
 - 561\. Array Partition
 - 563\. Binary Tree Tilt
 - 566\. Reshape the Matrix
+- 572\. Subtree of Another Tree
 - 589\. N-ary Tree Preorder Traversal
 - 590\. N-ary Tree Postorder Traversal
 - 592\. Fraction Addition and Subtraction
