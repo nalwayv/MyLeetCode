@@ -218,6 +218,7 @@
 - 872\. Leaf-Similar Trees
 - 874\. Walking Robot Simulation
 - 876\. Middle of the Linked List
+- 883\. Projection Area of 3D Shapes
 - 884\. Uncommon Words from Two Sentences
 - 905\. Sort Array By Parity
 - 912\. Sort an Array
