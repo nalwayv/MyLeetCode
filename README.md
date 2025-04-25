@@ -168,6 +168,7 @@
 - 476\. Number Complement
 - 485\. Max Consecutive Ones
 - 494\. Target Sum
+- 496\. Next Greater Element I
 - 498\. Diagonal Traverse
 - 501\. Find Mode in Binary Search Tree
 - 507\. Perfect Number
