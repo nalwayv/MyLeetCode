@@ -214,6 +214,7 @@
 - 771\. Jewels and Stones
 - 779\. K-th Symbol in Grammar
 - 796\. Rotate String
+- 819\. Most Common Word
 - 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
 - 860\. Lemonade Change
