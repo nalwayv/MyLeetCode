@@ -185,6 +185,7 @@
 - 589\. N-ary Tree Preorder Traversal
 - 590\. N-ary Tree Postorder Traversal
 - 592\. Fraction Addition and Subtraction
+- 594\. Longest Harmonious Subsequence
 - 599\. Minimum Index Sum of Two Lists
 - 605\. Can Place Flowers
 - 617\. Merge Two Binary Trees
