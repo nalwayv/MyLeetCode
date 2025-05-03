@@ -195,6 +195,7 @@
 - 641\. Design Circular Deque
 - 643\. Maximum Average Subarray I
 - 652\. Find Duplicate Subtrees
+- 654\. Maximum Binary Tree
 - 697\. Degree of an Array
 - 700\. Search in a Binary Search Tree
 - 701\. Insert into a Binary Search Tree
