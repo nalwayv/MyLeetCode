@@ -329,3 +329,4 @@
 - 3217\. Delete Nodes From Linked List Present in Array
 - 3264\. Final Array State After K Multiplication Operations I
 - 3375\. Minimum Operations to Make Array Values Equal to K
+- 3516\. Find Closest Person
