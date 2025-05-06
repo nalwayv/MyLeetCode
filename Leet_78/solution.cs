@@ -2,10 +2,8 @@ namespace Leet78;
 
 public class Solution
 {
-    private readonly IList<int> _subset = [];
-
     /// <summary>
-    /// Generates all possible subsets (the power set) in an array of integers.
+    /// Generates all possible subsets in an array of integers.
     /// This method is a recursive helper function that explores all possibilities
     /// by including or excluding each element.
     /// </summary>
