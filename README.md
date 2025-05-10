@@ -269,6 +269,7 @@
 - 1480\. Running Sum of 1d Array
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1550\. Three Consecutive Odds
+- 1603\. Design Parking System"
 - 1669\. Merge In Between Linked Lists
 - 1672\. Richest Customer Wealth
 - 1684\. Count the Number of Consistent Strings
