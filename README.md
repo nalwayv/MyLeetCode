@@ -212,6 +212,7 @@
 - 709\. To Lower Case
 - 724\. Find Pivot Index
 - 725\. Split Linked List in Parts
+- 729\. My Calendar I
 - 733\. Flood Fill
 - 739\. Daily Temperatures
 - 744\. Find Smallest Letter Greater Than Target
