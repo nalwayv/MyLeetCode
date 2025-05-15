@@ -131,6 +131,7 @@
 - 290\. Word Pattern
 - 297\. Serialize and Deserialize Binary Tree
 - 303\. Range Sum Query - Immutable
+- 304\. Range Sum Query 2D - Immutable
 - 326\. Power of Three
 - 328\. Odd Even Linked List
 - 338\. Counting Bits
@@ -305,6 +306,7 @@
 - 2280\. Minimum Lines to Represent a Line Chart
 - 2283\. Check if Number Has Equal Digit Count and Digit Value
 - 2326\. Spiral Matrix IV
+- 2349\. Design a Number Container System
 - 2352\. Equal Row and Column Pairs
 - 2379\. Minimum Recolors to Get K Consecutive Black Blocks
 - 2390\. Removing Stars From a String

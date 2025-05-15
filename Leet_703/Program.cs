@@ -22,7 +22,7 @@ public class KthLargest
     {
         if (nums.Length < k)
         {
-            throw new KthLargestException("k size is too small and needs to be equil to or more then nums.Count");
+            throw new KthLargestException("k size is too small and needs to be equal to or more then nums.Count");
         }
 
         _nums = [];
