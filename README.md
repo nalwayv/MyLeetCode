@@ -102,6 +102,7 @@
 - 204\. Count Primes
 - 205\. Isomorphic Strings
 - 206\. Reverse Linked List
+- 208\. Implement Trie (Prefix Tree)
 - 209\. Minimum Size Subarray Sum
 - 215\. Kth Largest Element in an Array
 - 217\. Contains Duplicate
