@@ -276,6 +276,7 @@
 - 1603\. Design Parking System
 - 1656\. Design an Ordered Stream
 - 1669\. Merge In Between Linked Lists
+- 1670\. Design Front Middle Back Queue
 - 1672\. Richest Customer Wealth
 - 1684\. Count the Number of Consistent Strings
 - 1689\. Partitioning Into Minimum Number Of Deci-Binary Numbers
