@@ -242,6 +242,7 @@
 - 965\. Univalued Binary Tree
 - 976\. Largest Perimeter Triangle
 - 977\. Squares of a Sorted Array
+- 1004\. Max Consecutive Ones III
 - 1051\. Height Checker
 - 1089\. Duplicate Zeros
 - 1071\. Greatest Common Divisor of Strings
