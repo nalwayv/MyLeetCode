@@ -1,53 +1,23 @@
 class Solution:
     def simplifyPath(self, path: str) -> str:
         """
-        Simplify a unix string path for use
-
-        Example:
-        >>> simplifyPath("/.../a/../b/c/../d/./")
-        /.../b/d
+        Simplifies a given Unix-style file path.
+        Args:
+            path (str): The input file path as a string.
+        Returns:
+            str: The simplified path.
         """
-
-        stk: list[str] = ["/"]
-        for p in path.split("/"):
-            if p != "":
-
-                # . ignore home path
-                if p == ".":
-                    continue
-
-                # .. go back a directory
-                if p == "..":
-                    # dont remove first / from path
-                    if len(stk) == 1 and stk[-1] == "/":
-                        continue
-
-                    # remove any / before last directory name
-                    while len(stk) > 0 and stk[-1] == "/":
-                        stk.pop()
-                    
-                    if len(stk) > 0:
-                        stk.pop()
-                else:
-                    # add path seperator if needed
-                    if len(stk) > 0 and stk[-1] != "/":
-                        stk.append("/")
-
-                    stk.append(p)
+        stk: list[str] = []
+        for value in path.split("/"):
+            if value == "..":
+                if stk:
+                    stk.pop()
             else:
-                if len(stk) > 0 and stk[-1] != "/":
-                    stk.append("/")
+                if value in [".", ""]:
+                    continue
+                stk.append(value)
 
-        # remove end /
-        if len(stk) > 0 and stk[-1] == "/":
-            stk.pop()
-            
-        # default
-        if len(stk) == 0:
-            return "/"
-        
-        # str builder
-        return "".join(stk)
+        return "/" + "/".join(stk)
 
 
 def case1(sol : Solution) -> None:

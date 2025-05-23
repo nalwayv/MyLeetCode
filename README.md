@@ -311,6 +311,7 @@
 - 2280\. Minimum Lines to Represent a Line Chart
 - 2283\. Check if Number Has Equal Digit Count and Digit Value
 - 2326\. Spiral Matrix IV
+- 2336\. Smallest Number in Infinite Set
 - 2349\. Design a Number Container System
 - 2352\. Equal Row and Column Pairs
 - 2379\. Minimum Recolors to Get K Consecutive Black Blocks
