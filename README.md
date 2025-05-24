@@ -237,6 +237,7 @@
 - 884\. Uncommon Words from Two Sentences
 - 905\. Sort Array By Parity
 - 912\. Sort an Array
+- 919\. Complete Binary Tree Inserter
 - 933\. Number of Recent Calls
 - 941\. Valid Mountain Array
 - 965\. Univalued Binary Tree
