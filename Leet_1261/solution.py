@@ -6,9 +6,9 @@ class TreeNode:
 
 
 class FindElements:
-
     def __init__(self, root: TreeNode|None):
         self.root = root
+        self.values: set[int] = set()
         self.update_root(root)
 
     def update_root(self, root: TreeNode|None) -> None:
@@ -17,36 +17,26 @@ class FindElements:
 
         stk: list[TreeNode|None] = [root]
         root.val = 0
+        self.values.add(root.val)
 
         while stk:
-            curr = stk.pop()
+            curr: TreeNode|None = stk.pop()
             if not curr:
                 continue
 
             if curr.left:
                 curr.left.val = (curr.val * 2) + 1
+                self.values.add(curr.left.val)
                 stk.append(curr.left)
+
 
             if curr.right:
                 curr.right.val = (curr.val * 2) + 2
+                self.values.add(curr.right.val)
                 stk.append(curr.right)
 
     def find(self, target: int) -> bool:
-        stk: list[TreeNode|None] = [self.root]
-
-        while stk:
-            curr: TreeNode|None = stk.pop()
-
-            if not curr:
-                continue
-
-            if curr.val == target:
-                return True
-            
-            stk.append(curr.left)
-            stk.append(curr.right)
-
-        return False
+        return target in self.values
 
 
 # Your FindElements object will be instantiated and called as such:
