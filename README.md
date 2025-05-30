@@ -262,6 +262,7 @@
 - 1331\. Rank Transform of an Array
 - 1342\. Number of Steps to Reduce a Number to Zero
 - 1346\. Check If N and Its Double Exist
+- 1352\. Product of the Last K Numbers
 - 1367\. Linked List in Binary Tree
 - 1372\. Longest ZigZag Path in a Binary Tree"
 - 1381\. Design a Stack With Increment Operation
