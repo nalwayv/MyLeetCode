@@ -330,6 +330,7 @@
 - 2490\. Circular Sentence
 - 2502\. Design Memory Allocator
 - 2523\. Closest Prime Numbers in Range
+- 2526\. Find Consecutive Integers from a Data Stream
 - 2559\. Count Vowel Strings in Ranges
 - 2570\. Merge Two 2D Arrays by Summing Values
 - 2579\. Count Total Number of Colored Cells
