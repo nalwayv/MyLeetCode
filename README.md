@@ -267,6 +267,7 @@
 - 1367\. Linked List in Binary Tree
 - 1372\. Longest ZigZag Path in a Binary Tree"
 - 1381\. Design a Stack With Increment Operation
+- 1396\. Design Underground System
 - 1422\. Maximum Score After Splitting a String
 - 1431\. Kids With the Greatest Number of Candies
 - 1448\. Count Good Nodes in Binary Tree
