@@ -283,6 +283,7 @@
 - 1480\. Running Sum of 1d Array
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1550\. Three Consecutive Odds
+- 1600\. Throne Inheritance
 - 1603\. Design Parking System
 - 1656\. Design an Ordered Stream
 - 1669\. Merge In Between Linked Lists
