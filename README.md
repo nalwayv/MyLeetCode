@@ -306,6 +306,7 @@
 - 1945\. Sum of Digits of String After Convert
 - 1957\. Delete Characters to Make Fancy String
 - 1971\. Find if Path Exists in Graph
+- 2016\. Maximum Difference Between Increasing Elements
 - 2022\. Convert 1D Array Into 2D Array
 - 2053\. Kth Distinct String in an Array
 - 2095\. Delete the Middle Node of a Linked List
