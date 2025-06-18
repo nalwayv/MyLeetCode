@@ -308,6 +308,7 @@
 - 1971\. Find if Path Exists in Graph
 - 2016\. Maximum Difference Between Increasing Elements
 - 2022\. Convert 1D Array Into 2D Array
+- 2043\. Simple Bank System
 - 2053\. Kth Distinct String in an Array
 - 2095\. Delete the Middle Node of a Linked List
 - 2109\. Adding Spaces to a String
@@ -340,6 +341,7 @@
 - 2559\. Count Vowel Strings in Ranges
 - 2570\. Merge Two 2D Arrays by Summing Values
 - 2579\. Count Total Number of Colored Cells
+- 2642\. Design Graph With Shortest Path Calculator
 - 2678\. Number of Senior Citizens
 - 2769\. Find the Maximum Achievable Number
 - 2807\. Insert Greatest Common Divisors in Linked List
