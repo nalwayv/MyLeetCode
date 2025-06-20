@@ -128,6 +128,7 @@
 - 278\. First Bad Version
 - 279\. Perfect Squares
 - 283\. Move Zeroes
+- 284\. Peeking Iterator
 - 289\. Game of Life
 - 290\. Word Pattern
 - 297\. Serialize and Deserialize Binary Tree
