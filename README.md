@@ -330,6 +330,7 @@
 - 2336\. Smallest Number in Infinite Set
 - 2349\. Design a Number Container System
 - 2352\. Equal Row and Column Pairs
+- 2373\. Largest Local Values in a Matrix
 - 2379\. Minimum Recolors to Get K Consecutive Black Blocks
 - 2390\. Removing Stars From a String
 - 2396\. Strictly Palindromic Number
