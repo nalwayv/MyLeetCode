@@ -315,6 +315,7 @@
 - 2095\. Delete the Middle Node of a Linked List
 - 2109\. Adding Spaces to a String
 - 2130\. Maximum Twin Sum of a Linked List
+- 2138\. Divide a String Into Groups of Size k
 - 2161\. Partition Array According to Given Pivot
 - 2181\. Merge Nodes in Between Zeros
 - 2215\. Find the Difference of Two Arrays
