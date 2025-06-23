@@ -345,6 +345,7 @@
 - 2526\. Find Consecutive Integers from a Data Stream
 - 2559\. Count Vowel Strings in Ranges
 - 2570\. Merge Two 2D Arrays by Summing Values
+- 2574\. Left and Right Sum Differences
 - 2579\. Count Total Number of Colored Cells
 - 2642\. Design Graph With Shortest Path Calculator
 - 2678\. Number of Senior Citizens
