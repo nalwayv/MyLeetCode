@@ -301,6 +301,7 @@
 - 1780\. Check if Number is a Sum of Powers of Three
 - 1790\. Check if One String Swap Can Make Strings Equal
 - 1800\. Maximum Ascending Subarray Sum
+- 1828\. Queries on Number of Points Inside a Circle
 - 1845\. Seat Reservation Manager
 - 1863\. Sum of All Subset XOR Totals
 - 1894\. Find the Student that Will Replace the Chalk
