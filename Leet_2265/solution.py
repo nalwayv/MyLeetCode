@@ -6,34 +6,25 @@ class TreeNode:
 
 
 class Solution:
-    def _get_tree_sum_and_count(self, root: TreeNode|None, total: list[int], count: list[int]) -> None:
+    def get_count(self, root: TreeNode|None, ref_count: list[int]) -> tuple[int, int]:
         if not root:
-            return
+            return (0, 0)
         
-        total[0] += root.val
-        count[0] += 1
+        left_sum, left_count = self.get_count(root.left, ref_count)
+        right_sum, right_count = self.get_count(root.right, ref_count)
 
-        self._get_tree_sum_and_count(root.left, total, count)
-        self._get_tree_sum_and_count(root.right, total, count)
-
-    def _get_count_were_subtree_average_equals_root(self, root: TreeNode|None, subtree_count: list[int]) -> None:
-        if not root:
-            return
+        subtree_sum: int = left_sum + right_sum + root.val
+        subtree_count: int  = left_count + right_count + 1
         
-        total: list[int] = [0]
-        count: list[int] = [0]
-        self._get_tree_sum_and_count(root, total, count)
+        if root.val == (subtree_sum // subtree_count):
+            ref_count[0] += 1
 
-        if total[0] // count[0] == root.val:
-            subtree_count[0] += 1
-        
-        self._get_count_were_subtree_average_equals_root(root.left, subtree_count)
-        self._get_count_were_subtree_average_equals_root(root.right, subtree_count)
+        return (subtree_sum, subtree_count)
 
     def averageOfSubtree(self, root: TreeNode) -> int:
-        subtree_count: list[int] = [0]
-        self._get_count_were_subtree_average_equals_root(root, subtree_count)
-        return subtree_count[0]
+        ref_count:list[int] = [0]
+        _,_ = self.get_count(root, ref_count)
+        return ref_count[0]
 
     
 # -- TestCases
