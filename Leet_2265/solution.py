@@ -26,7 +26,7 @@ class Solution:
         _,_ = self.get_count(root, ref_count)
         return ref_count[0]
 
-    
+
 # -- TestCases
 
 
