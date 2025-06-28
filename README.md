@@ -352,6 +352,7 @@
 - 2579\. Count Total Number of Colored Cells
 - 2610\. Convert an Array Into a 2D Array With Conditions
 - 2642\. Design Graph With Shortest Path Calculator
+- 2657\. Find the Prefix Common Array of Two Arrays
 - 2678\. Number of Senior Citizens
 - 2769\. Find the Maximum Achievable Number
 - 2807\. Insert Greatest Common Divisors in Linked List
