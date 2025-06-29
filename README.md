@@ -261,6 +261,7 @@
 - 1290\. Convert Binary Number in a Linked List to Integer
 - 1295\. Find Numbers with Even Number of Digits
 - 1299\. Replace Elements with Greatest Element on Right Side
+- 1302\. Deepest Leaves Sum
 - 1310\. XOR Queries of a Subarray
 - 1331\. Rank Transform of an Array
 - 1342\. Number of Steps to Reduce a Number to Zero
