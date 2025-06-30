@@ -227,6 +227,7 @@
 - 779\. K-th Symbol in Grammar
 - 796\. Rotate String
 - 806\. Number of Lines To Write String
+- 807\. Max Increase to Keep City Skyline
 - 819\. Most Common Word
 - 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
