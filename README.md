@@ -264,6 +264,7 @@
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1302\. Deepest Leaves Sum
 - 1310\. XOR Queries of a Subarray
+- 1315\. Sum of Nodes with Even-Valued Grandparent
 - 1331\. Rank Transform of an Array
 - 1342\. Number of Steps to Reduce a Number to Zero
 - 1346\. Check If N and Its Double Exist
