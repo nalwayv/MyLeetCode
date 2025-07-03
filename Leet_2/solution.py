@@ -4,6 +4,7 @@ class ListNode:
         self.val:int = val
         self.next:ListNode|None = None
 
+
 class Solution:
     """
     You are given two non-empty linked lists representing two non-negative integers. 
@@ -26,73 +27,56 @@ class Solution:
 
         number in list should be within range 0-9
     """
-    def concat_ints_reversed(self, l1: ListNode|None) -> int:
-        stk:list[int] = []
-        count: int = 0
-        current: ListNode | None = l1
-        while current:
-            stk.append(current.val)
-            current = current.next
-            count += 1
-
-        result: int = 0
-        for i in reversed(range(count)):
-            result *= 10
-            result += stk[i]
-
-        return result
-    
-    def deconstruct_int_to_list(self, num: int) -> ListNode|None:
-        head: ListNode|None = None
-        tail: ListNode|None = None
+    def build_int(self, head: ListNode|None, ref: list[int]):
+        if not head:
+            return
         
-        while True:
-            current: int = num % 10
-            if not head:
-                head = ListNode(current)
-                tail = head
-            elif tail:
-                tail.next = ListNode(current)
-                tail = tail.next
+        self.build_int(head.next, ref)
 
-            num //= 10
-            if num == 0:
-                break
-            
-        return head
+        ref[0] *= 10
+        ref[0] += head.val
 
     def addTwoNumbers(self, l1: ListNode|None, l2: ListNode|None) -> ListNode|None:
-        num1: int = self.concat_ints_reversed(l1)
-        num2: int = self.concat_ints_reversed(l2)
-        num3: int = num1 + num2
-        return self.deconstruct_int_to_list(num3)
-    
-    def print_list(self, head: ListNode|None) -> None:
-        current: ListNode|None = head
-        while current:
-            print(f"{current.val}")
-            current = current.next
+        num_1: list[int] = [0]
+        self.build_int(l1, num_1)
 
-    def new_list_from_list(self, nums: list[int]) -> ListNode|None:
+        num_2: list[int] = [0]
+        self.build_int(l2, num_2)
+
+        result: int = num_1[0] + num_2[0]
+        if result == 0:
+            return ListNode(0)
+
         head: ListNode|None = None
         tail: ListNode|None = None
-        for num in nums:
+        while result:
             if not head:
-                head = ListNode(num)
+                head = ListNode(result % 10)
                 tail = head
             elif tail:
-                tail.next = ListNode(num)
+                tail.next = ListNode(result % 10)
                 tail = tail.next
+            result //= 10
+
         return head
 
 
 def main() -> None:
-    solution = Solution()
-    a: ListNode|None = solution.new_list_from_list([1,2,6])
-    b: ListNode|None = solution.new_list_from_list([1,9,0])
+    print("2. Add Two Numbers")
 
-    result: ListNode|None = solution.addTwoNumbers(a, b)
-    solution.print_list(result)
+    head_1 = ListNode(2)
+    head_1.next = ListNode(4)
+    head_1.next.next = ListNode(3)
+
+    head_2 = ListNode(5)
+    head_2.next = ListNode(6)
+    head_2.next.next = ListNode(4)
+
+    sol = Solution()
+    current: ListNode|None = sol.addTwoNumbers(head_1, head_2)
+    while current:
+        print(current.val)
+        current = current.next
 
 
 if __name__ == "__main__":
