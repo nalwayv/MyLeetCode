@@ -349,6 +349,7 @@
 - 2502\. Design Memory Allocator
 - 2523\. Closest Prime Numbers in Range
 - 2526\. Find Consecutive Integers from a Data Stream
+- 2545\. Sort the Students by Their Kth Score
 - 2559\. Count Vowel Strings in Ranges
 - 2570\. Merge Two 2D Arrays by Summing Values
 - 2574\. Left and Right Sum Differences
@@ -369,6 +370,7 @@
 - 3151\. Special Array I
 - 3160\. Find the Number of Distinct Colors Among the Balls
 - 3163\. String Compression III
+- 3190\. Find Minimum Operations to Make All Elements Divisible by Three
 - 3206\. Alternating Groups I
 - 3217\. Delete Nodes From Linked List Present in Array
 - 3242\. Design Neighbor Sum Service
