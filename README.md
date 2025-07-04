@@ -289,6 +289,7 @@
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1512\. Number of Good Pairs
 - 1550\. Three Consecutive Odds
+- 1572\. Matrix Diagonal Sum
 - 1600\. Throne Inheritance
 - 1603\. Design Parking System
 - 1656\. Design an Ordered Stream
@@ -309,6 +310,7 @@
 - 1845\. Seat Reservation Manager
 - 1863\. Sum of All Subset XOR Totals
 - 1894\. Find the Student that Will Replace the Chalk
+- 1929\. Concatenation of Array
 - 1941\. Check if All Characters Have Equal Number of Occurrences
 - 1945\. Sum of Digits of String After Convert
 - 1957\. Delete Characters to Make Fancy String
