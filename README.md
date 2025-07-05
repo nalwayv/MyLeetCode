@@ -204,6 +204,7 @@
 - 643\. Maximum Average Subarray I
 - 652\. Find Duplicate Subtrees
 - 654\. Maximum Binary Tree
+- 670\. Maximum Swap
 - 677\. Map Sum Pairs
 - 697\. Degree of an Array
 - 700\. Search in a Binary Search Tree
@@ -274,6 +275,7 @@
 - 1367\. Linked List in Binary Tree
 - 1372\. Longest ZigZag Path in a Binary Tree"
 - 1381\. Design a Stack With Increment Operation
+- 1394\. Find Lucky Integer in an Array
 - 1396\. Design Underground System
 - 1422\. Maximum Score After Splitting a String
 - 1431\. Kids With the Greatest Number of Candies
