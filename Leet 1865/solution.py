@@ -10,7 +10,7 @@ class FindSumPairs:
     def add(self, index: int, val: int) -> None:
         if index >= 0 and index < len(self.nums2):
             # subtract frequency
-            self.table[self.nums2[index]] = max(0, self.table[self.nums2[index]] - 1)
+            self.table[self.nums2[index]] -= 1
             
             # update
             self.nums2[index] += val
