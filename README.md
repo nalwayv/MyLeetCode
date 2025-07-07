@@ -302,6 +302,7 @@
 - 1689\. Partitioning Into Minimum Number Of Deci-Binary Numbers
 - 1721\. Swapping Nodes in a Linked List
 - 1732\. Find the Highest Altitude
+- 1748\. Sum of Unique Elements
 - 1752\. Check if Array Is Sorted and Rotated
 - 1768\. Merge Strings Alternately
 - 1769\. Minimum Number of Operations to Move All Balls to Each Box
