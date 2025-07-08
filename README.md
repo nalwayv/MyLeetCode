@@ -370,6 +370,7 @@
 - 2873\. Maximum Value of an Ordered Triplet I
 - 2874\. Maximum Value of an Ordered Triplet II
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
+- 2956\. Find Common Elements Between Two Arrays
 - 2965\. Find Missing and Repeated Values
 - 3043\. Find the Length of the Longest Common Prefix
 - 3105\. Longest Strictly Increasing or Strictly Decreasing Subarray
