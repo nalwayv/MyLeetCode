@@ -313,6 +313,7 @@
 - 1845\. Seat Reservation Manager
 - 1863\. Sum of All Subset XOR Totals
 - 1865\. Finding Pairs With a Certain Sum
+- 1877\. Minimize Maximum Pair Sum in Array
 - 1894\. Find the Student that Will Replace the Chalk
 - 1929\. Concatenation of Array
 - 1941\. Check if All Characters Have Equal Number of Occurrences
