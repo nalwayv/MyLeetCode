@@ -67,7 +67,6 @@ def main() -> None:
 
     print("case 1")
     box_grid_1 = [["#",".","#"]]
-    print_grid(box_grid_1)
     print_grid(sol.rotateTheBox(box_grid_1))
 
     print("case 2")
