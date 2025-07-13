@@ -19,33 +19,29 @@ class Solution:
         rows: int = len(boxGrid)
         cols: int = len(boxGrid[0])
 
-        # create a copy to not destory the original
-        copy: list[list[str]] = []
-        for row in range(rows):
-            r: list[str] = []
-            for col in range(cols):
-                r.append(boxGrid[row][col])
-            copy.append(r)
+        # create 90 degrees clockwise rotated copy
 
-        # move falling cells if they are not blocked
-        for row in range(rows):
-            column: list[str] = copy[row]
-            j: int = 0
-            for i in range(cols):
-                if column[i] == "*":
-                    j = i + 1
-                elif column[i] != "#":
-                    column[j], column[i] = column[i], column[j]
-                    j += 1
-
-        # create rotated 90 clockwise result
         result: list[list[str]] = []
         for col in range(cols):
             arr: list[str] = []
             for row in range(rows):
-                arr.append(copy[rows - row - 1][col])
+                arr.append(boxGrid[rows - row - 1][col])
             result.append(arr)
-    
+
+        rows, cols = cols, rows
+
+        # simulate gravity
+
+        for col in range(cols):
+            j: int = rows - 1
+            for row in reversed(range(rows)):
+                if result[row][col] == "#":
+                    result[row][col], result[j][col] = result[j][col], result[row][col]
+                    j -= 1
+
+                if result[row][col] == "*":
+                    j = row - 1
+
         return result
 
 
