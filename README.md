@@ -312,6 +312,7 @@
 - 1800\. Maximum Ascending Subarray Sum
 - 1828\. Queries on Number of Points Inside a Circle
 - 1845\. Seat Reservation Manager
+- 1861\. Rotating the Box
 - 1863\. Sum of All Subset XOR Totals
 - 1865\. Finding Pairs With a Certain Sum
 - 1877\. Minimize Maximum Pair Sum in Array
