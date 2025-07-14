@@ -332,6 +332,7 @@
 - 2138\. Divide a String Into Groups of Size k
 - 2161\. Partition Array According to Given Pivot
 - 2181\. Merge Nodes in Between Zeros
+- 2196\. Create Binary Tree From Descriptions
 - 2200\. Find All K-Distant Indices in an Array
 - 2215\. Find the Difference of Two Arrays
 - 2220\. Minimum Bit Flips to Convert Number
