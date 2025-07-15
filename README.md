@@ -266,6 +266,7 @@
 - 1295\. Find Numbers with Even Number of Digits
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1302\. Deepest Leaves Sum
+- 1305\. All Elements in Two Binary Search Trees
 - 1310\. XOR Queries of a Subarray
 - 1315\. Sum of Nodes with Even-Valued Grandparent
 - 1331\. Rank Transform of an Array
@@ -326,6 +327,7 @@
 - 2022\. Convert 1D Array Into 2D Array
 - 2043\. Simple Bank System
 - 2053\. Kth Distinct String in an Array
+- 2079\. Watering Plants
 - 2095\. Delete the Middle Node of a Linked List
 - 2109\. Adding Spaces to a String
 - 2130\. Maximum Twin Sum of a Linked List
