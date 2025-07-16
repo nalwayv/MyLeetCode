@@ -122,6 +122,7 @@
 - 242\. Valid Anagram
 - 257\. Binary Tree Paths
 - 258\. Add Digits
+- 260\. Single Number III
 - 263\. Ugly Number
 - 268\. Missing Number
 - 274\. H-Index
