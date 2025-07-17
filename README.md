@@ -339,6 +339,7 @@
 - 2200\. Find All K-Distant Indices in an Array
 - 2215\. Find the Difference of Two Arrays
 - 2220\. Minimum Bit Flips to Convert Number
+- 2221\. Find Triangular Sum of an Array
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
 - 2241\. Design an ATM Machine
