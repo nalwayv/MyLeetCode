@@ -282,6 +282,7 @@
 - 1396\. Design Underground System
 - 1422\. Maximum Score After Splitting a String
 - 1431\. Kids With the Greatest Number of Candies
+- 1441\. Build an Array With Stack Operations
 - 1448\. Count Good Nodes in Binary Tree
 - 1455\. Check If a Word Occurs As a Prefix of Any Word in a Sentence
 - 1456\. Maximum Number of Vowels in a Substring of Given Length
