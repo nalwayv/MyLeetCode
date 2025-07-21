@@ -1,36 +1,23 @@
 class Solution:
     def makeFancyString(self, s: str) -> str:
-        """Convert string into a fancy string that is a string where no three consecutive characters are equal.
-
-        Args:
-            s (string): create a fancy string from this
-        
-        Returns:
-            a fancy copy of s
-
-        Example:
-        >>> not_fancy: str = "aaabbbccc"
-        >>> fancy: str = makeFancyString(not_fancy)
         """
-        p1: int = 0
-        p2: int = 0
-        n: int = len(s)
-
+        Returns a 'fancy' version of the input string `s` where no three consecutive characters are the same.
+        Args:
+            s (str): The input string.
+        Returns:
+            str: The modified string with no three consecutive identical characters.
+        """
         result: list[str] = []
+        n: int = len(s)
+        
+        lo: int = 0
+        for hi in range(n):
+            if s[lo] != s[hi]:
+                lo = hi
 
-        while p1 < n:
-            p2 = p1
-            while p2 < n and s[p1] == s[p2]:
-                p2 += 1
-
-            if (p2 - p1) >= 2:
-                for _ in range(2):
-                    result.append(s[p1])
-            else:
-                result.append(s[p1])
-
-            p1 = p2
-
+            if (hi - lo) < 2:
+                result.append(s[lo])
+                
         return "".join(result)
 
 
