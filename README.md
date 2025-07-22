@@ -262,6 +262,7 @@
 - 1207\. Unique Number of Occurrences
 - 1232\. Check If It Is a Straight Line
 - 1261\. Find Elements in a Contaminated Binary Tree
+- 1281\. Subtract the Product and Sum of Digits of an Integer
 - 1286\. Iterator for Combination
 - 1290\. Convert Binary Number in a Linked List to Integer
 - 1295\. Find Numbers with Even Number of Digits
@@ -320,6 +321,7 @@
 - 1865\. Finding Pairs With a Certain Sum
 - 1877\. Minimize Maximum Pair Sum in Array
 - 1894\. Find the Student that Will Replace the Chalk
+- 1920\. Build Array from Permutation
 - 1929\. Concatenation of Array
 - 1941\. Check if All Characters Have Equal Number of Occurrences
 - 1945\. Sum of Digits of String After Convert
