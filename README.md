@@ -305,6 +305,7 @@
 - 1672\. Richest Customer Wealth
 - 1684\. Count the Number of Consistent Strings
 - 1689\. Partitioning Into Minimum Number Of Deci-Binary Numbers
+- 1695\. Maximum Erasure Value
 - 1721\. Swapping Nodes in a Linked List
 - 1732\. Find the Highest Altitude
 - 1748\. Sum of Unique Elements
