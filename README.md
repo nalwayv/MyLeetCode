@@ -364,6 +364,7 @@
 - 2396\. Strictly Palindromic Number
 - 2415\. Reverse Odd Levels of Binary Tree
 - 2419\. Longest Subarray With Maximum Bitwise AND
+- 2442\. Count Number of Distinct Integers After Reverse Operations
 - 2460\. Apply Operations to an Array
 - 2487\. Remove Nodes From Linked List
 - 2490\. Circular Sentence
