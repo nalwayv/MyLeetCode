@@ -344,6 +344,7 @@
 - 2181\. Merge Nodes in Between Zeros
 - 2196\. Create Binary Tree From Descriptions
 - 2200\. Find All K-Distant Indices in an Array
+- 2210\. Count Hills and Valleys in an Array
 - 2215\. Find the Difference of Two Arrays
 - 2220\. Minimum Bit Flips to Convert Number
 - 2221\. Find Triangular Sum of an Array
