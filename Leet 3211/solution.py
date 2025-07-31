@@ -1,28 +1,17 @@
 class Solution:
-    def generate(self, builder: list[str], result: list[str], n: int = 0, k: int = 0) -> None:
-        if n < 1:
-            # check if valid
-            for i in range(0, len(builder)-1):
-                if builder[i] == '0' and builder[i+1] == '0':
-                    return
-            
-            result.append("".join(builder))
-
+    def generate(self, result: list[str], builder: str, n: int):
+        if len(builder) == n:
+            result.append(builder)
             return
         
-        for i in range(k):
-            tmp: str = builder[n-1]
+        self.generate(result, builder + '1', n)
 
-            builder[n - 1] = str(i)
-            self.generate(builder, result, n - 1, k)
-            builder[n - 1] = tmp
-
+        if not builder or builder[-1] != '0':
+            self.generate(result, builder + '0', n)
 
     def validStrings(self, n: int) -> list[str]:
-        builder: list[str] = ['0' for _ in range(n)]
         result: list[str] = []
-        
-        self.generate(builder, result, n, 2)
+        self.generate(result, "", n)
 
         return result
 
