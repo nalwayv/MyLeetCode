@@ -281,6 +281,7 @@
 - 1367\. Linked List in Binary Tree
 - 1372\. Longest ZigZag Path in a Binary Tree"
 - 1381\. Design a Stack With Increment Operation
+- 1382\. Balance a Binary Search Tree
 - 1394\. Find Lucky Integer in an Array
 - 1396\. Design Underground System
 - 1422\. Maximum Score After Splitting a String
@@ -318,6 +319,7 @@
 - 1780\. Check if Number is a Sum of Powers of Three
 - 1790\. Check if One String Swap Can Make Strings Equal
 - 1800\. Maximum Ascending Subarray Sum
+- 1823\. Find the Winner of the Circular Game
 - 1828\. Queries on Number of Points Inside a Circle
 - 1845\. Seat Reservation Manager
 - 1861\. Rotating the Box
