@@ -279,7 +279,7 @@
 - 1352\. Product of the Last K Numbers
 - 1357\. Apply Discount Every n Orders
 - 1367\. Linked List in Binary Tree
-- 1372\. Longest ZigZag Path in a Binary Tree"
+- 1372\. Longest ZigZag Path in a Binary Tree
 - 1381\. Design a Stack With Increment Operation
 - 1382\. Balance a Binary Search Tree
 - 1394\. Find Lucky Integer in an Array
@@ -392,6 +392,7 @@
 - 2873\. Maximum Value of an Ordered Triplet I
 - 2874\. Maximum Value of an Ordered Triplet II
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
+- 2942. Find Words Containing Character
 - 2956\. Find Common Elements Between Two Arrays
 - 2965\. Find Missing and Repeated Values
 - 2966\. Divide Array Into Arrays With Max Difference
