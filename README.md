@@ -318,6 +318,7 @@
 - 1769\. Minimum Number of Operations to Move All Balls to Each Box
 - 1780\. Check if Number is a Sum of Powers of Three
 - 1790\. Check if One String Swap Can Make Strings Equal
+- 1791\. Find Center of Star Graph
 - 1800\. Maximum Ascending Subarray Sum
 - 1823\. Find the Winner of the Circular Game
 - 1828\. Queries on Number of Points Inside a Circle
