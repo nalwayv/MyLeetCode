@@ -27,6 +27,7 @@
 - 35\. Search Insert Position
 - 36\. Valid Sudoku
 - 39\. Combination Sum
+- 42\. Trapping Rain Water
 - 43\. Multiply Strings
 - 46\. Permutations
 - 48\. Rotate Image
@@ -342,6 +343,7 @@
 - 2079\. Watering Plants
 - 2095\. Delete the Middle Node of a Linked List
 - 2109\. Adding Spaces to a String
+- 2114\. Maximum Number of Words Found in Sentences
 - 2130\. Maximum Twin Sum of a Linked List
 - 2138\. Divide a String Into Groups of Size k
 - 2161\. Partition Array According to Given Pivot
@@ -393,7 +395,7 @@
 - 2873\. Maximum Value of an Ordered Triplet I
 - 2874\. Maximum Value of an Ordered Triplet II
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
-- 2942. Find Words Containing Character
+- 2942\. Find Words Containing Character
 - 2956\. Find Common Elements Between Two Arrays
 - 2965\. Find Missing and Repeated Values
 - 2966\. Divide Array Into Arrays With Max Difference
