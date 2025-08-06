@@ -208,6 +208,7 @@
 - 654\. Maximum Binary Tree
 - 670\. Maximum Swap
 - 677\. Map Sum Pairs
+- 695\. Max Area of Island
 - 697\. Degree of an Array
 - 700\. Search in a Binary Search Tree
 - 701\. Insert into a Binary Search Tree
