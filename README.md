@@ -301,6 +301,7 @@
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1512\. Number of Good Pairs
 - 1550\. Three Consecutive Odds
+- 1552\. Magnetic Force Between Two Balls
 - 1572\. Matrix Diagonal Sum
 - 1600\. Throne Inheritance
 - 1603\. Design Parking System
