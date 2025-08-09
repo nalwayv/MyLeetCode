@@ -113,6 +113,7 @@
 - 226\. Invert Binary Tree
 - 228\. Summary Ranges
 - 230\. Kth Smallest Element in a BST
+- 231\. Power of Two
 - 232\. Implement Queue using Stacks
 - 234\. Palindrome Linked List
 - 235\. Lowest Common Ancestor of a Binary Search Tree
@@ -326,6 +327,7 @@
 - 1823\. Find the Winner of the Circular Game
 - 1828\. Queries on Number of Points Inside a Circle
 - 1845\. Seat Reservation Manager
+- 1860\. Incremental Memory Leak
 - 1861\. Rotating the Box
 - 1863\. Sum of All Subset XOR Totals
 - 1865\. Finding Pairs With a Certain Sum
@@ -365,6 +367,7 @@
 - 2280\. Minimum Lines to Represent a Line Chart
 - 2283\. Check if Number Has Equal Digit Count and Digit Value
 - 2294\. Partition Array Such That Maximum Difference Is K
+- 2296\. Design a Text Editor
 - 2326\. Spiral Matrix IV
 - 2336\. Smallest Number in Infinite Set
 - 2349\. Design a Number Container System
