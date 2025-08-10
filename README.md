@@ -238,6 +238,7 @@
 - 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
 - 860\. Lemonade Change
+- 869\. Reordered Power of 2
 - 872\. Leaf-Similar Trees
 - 874\. Walking Robot Simulation
 - 876\. Middle of the Linked List
