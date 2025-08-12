@@ -379,6 +379,7 @@
 - 2396\. Strictly Palindromic Number
 - 2415\. Reverse Odd Levels of Binary Tree
 - 2419\. Longest Subarray With Maximum Bitwise AND
+- 2438\. Range Product Queries of Powers
 - 2442\. Count Number of Distinct Integers After Reverse Operations
 - 2460\. Apply Operations to an Array
 - 2487\. Remove Nodes From Linked List
@@ -397,6 +398,7 @@
 - 2657\. Find the Prefix Common Array of Two Arrays
 - 2678\. Number of Senior Citizens
 - 2769\. Find the Maximum Achievable Number
+- 2787\. Ways to Express an Integer as Sum of Powers
 - 2807\. Insert Greatest Common Divisors in Linked List
 - 2873\. Maximum Value of an Ordered Triplet I
 - 2874\. Maximum Value of an Ordered Triplet II
