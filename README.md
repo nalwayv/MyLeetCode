@@ -307,6 +307,7 @@
 - 1572\. Matrix Diagonal Sum
 - 1600\. Throne Inheritance
 - 1603\. Design Parking System
+- 1641\. Count Sorted Vowel Strings
 - 1656\. Design an Ordered Stream
 - 1669\. Merge In Between Linked Lists
 - 1670\. Design Front Middle Back Queue
@@ -363,6 +364,7 @@
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
 - 2241\. Design an ATM Machine
+- 2264\. Largest 3-Same-Digit Number in String
 - 2265\. Count Nodes Equal to Average of Subtree
 - 2270\. Number of Ways to Split Array
 - 2280\. Minimum Lines to Represent a Line Chart

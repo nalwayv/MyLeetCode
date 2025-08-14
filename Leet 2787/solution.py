@@ -7,12 +7,13 @@ class Solution:
             if p <= n:
                 nums.append(p)
 
+        mod: int = int(1e9+7)
         dp: list[int] = [0] * (n + 1)
         dp[0] = 1
 
         for num in nums:
             for i in range(n, num - 1, -1):
-                dp[i] += dp[i - num]
+                dp[i] = (dp[i] + dp[i - num]) % mod
         
         return dp[n] % int(1e9+7)
 
