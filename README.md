@@ -267,6 +267,7 @@
 - 1207\. Unique Number of Occurrences
 - 1232\. Check If It Is a Straight Line
 - 1261\. Find Elements in a Contaminated Binary Tree
+- 1277\. Count Square Submatrices with All Ones
 - 1281\. Subtract the Product and Sum of Digits of an Integer
 - 1282\. Group the People Given the Group Size They Belong To
 - 1286\. Iterator for Combination
@@ -400,6 +401,7 @@
 - 2657\. Find the Prefix Common Array of Two Arrays
 - 2678\. Number of Senior Citizens
 - 2769\. Find the Maximum Achievable Number
+- 2785\. Sort Vowels in a String
 - 2787\. Ways to Express an Integer as Sum of Powers
 - 2807\. Insert Greatest Common Divisors in Linked List
 - 2873\. Maximum Value of an Ordered Triplet I
