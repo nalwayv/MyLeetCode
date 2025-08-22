@@ -418,6 +418,7 @@
 - 3160\. Find the Number of Distinct Colors Among the Balls
 - 3163\. String Compression III
 - 3190\. Find Minimum Operations to Make All Elements Divisible by Three
+- 3195\. Find the Minimum Area to Cover All Ones I
 - 3206\. Alternating Groups I
 - 3211\. Generate Binary Strings Without Adjacent Zeros
 - 3217\. Delete Nodes From Linked List Present in Array
