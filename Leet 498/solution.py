@@ -1,107 +1,102 @@
+from typing import Callable
+
+
 class Solution:
-    """
-    498. Diagonal Traverse:
-
-    Given an m x n matrix mat, return an array of all the elements of the array in a diagonal order.
-    
-    Example:
-        
-        Input: mat = [[1,2,3],[4,5,6],[7,8,9]]
-
-        Output: [1,2,4,7,5,3,6,8,9]
-    """
-    def clamp(self, val: int, lo: int, hi: int):
-        """ Clamp value between hi and lo
+    def findDiagonalOrder(self, mat: list[list[int]]) -> list[int]:
         """
-        if val <= lo: 
-            return lo
-        if val >= hi: 
-            return hi
-        return val
+        Returns the elements of the given 2D matrix in diagonal order.
 
-    def solve_square(self, mat:list[list[int]], n: int) -> list[int]:
-        """ Solve for a square matrix
+        The traversal starts from the top-left element and alternates between moving
+        up-right and down-left along the diagonals of the matrix. When the traversal
+        reaches the boundary of the matrix, it changes direction and continues until
+        all elements have been visited.
 
-        for example a 3x3 Matrix
+        Args:
+            mat (list[list[int]]): A 2D list representing the matrix.
+
+        Returns:
+            list[int]: A list of integers representing the matrix elements in diagonal order.
+
+        Example:
+            Input: mat = [
+                [1, 2, 3],
+                [4, 5, 6],
+                [7, 8, 9]
+            ]
+            Output: [1, 2, 4, 7, 5, 3, 6, 8, 9]
         """
+        rows: int = len(mat)
+        cols: int = len(mat[0])
+
+        on_grid: Callable[[int, int], bool] = lambda x, y: x >= 0 and x < rows and y >= 0 and y < cols
+
         result: list[int] = []
+        move_up: bool  = True
+        r: int = 0
+        c: int = 0
+        for _ in range(rows * cols):
+            result.append(mat[r][c])
 
-        for i in range(2 * n - 1):
-            start: int = self.clamp(-n + i + 1, 0, n)
-            stop: int = self.clamp(i + 1, 0, n)
-
-            if i % 2 == 0:
-                for j in range(start, stop):
-                    result.append(mat[i-j][j])
+            if move_up:
+                # diaginal
+                if on_grid(r-1, c+1):
+                    r -= 1
+                    c += 1
+                else:
+                    # across
+                    # down
+                    move_up = False
+                    if on_grid(r, c+1):
+                        c += 1
+                    elif on_grid(r+1, c):
+                        r += 1
             else:
-                for j in reversed(range(start, stop)):
-                    result.append(mat[i-j][j])
+                # diagonal
+                if on_grid(r+1, c-1):
+                    r += 1
+                    c -= 1
+                else:
+                    # down
+                    # across
+                    move_up = True
+                    if on_grid(r+1, c):
+                        r += 1
+                    elif on_grid(r, c+1):
+                        c += 1
 
         return result
 
-    def solve_not_square(self, mat: list[list[int]], m: int, n: int) -> list[int]:
-        """ Solve for a non square matrix
 
-        for example a 2x3 Matrix
-        """
-        result: list[int] = []
+def case_1(sol: Solution) -> None:
+    mat = [[1,2,3],
+           [4,5,6],
+           [7,8,9]]
+    result: list[int] = sol.findDiagonalOrder(mat)
+    print(f"case 1 {result}")
 
-        for i in range((n+m) - 1):
-            start: int = self.clamp(-n + i + 1, 0, m)
-            stop: int = self.clamp(i + 1, 0, m)
 
-            if i % 2 == 0:
-                for j in range(start, stop):
-                    result.append(mat[i-j][j])
-            else:
-                for j in reversed(range(start, stop)):
-                    result.append(mat[i-j][j])
+def case_2(sol: Solution) -> None:
+    mat = [[1,2],
+           [3,4]]
+    result: list[int] = sol.findDiagonalOrder(mat)
+    print(f"case 2 {result}")
 
-        return result
 
-    def solve_m(self, mat: list[list[int]], n: int) -> list[int]:
-        """N = 1 within the m x n matrix
-        """
-        result: list[int] = []
-
-        for i in range(n):
-            result.append(mat[i][0])
-
-        return result
-
-    def solve_n(self, mat: list[list[int]], m: int) -> list[int]:
-        """M = 1 within the m x n matrix
-        """
-        result: list[int] = []
-
-        for i in range(m):
-            result.append(mat[0][i])
-
-        return result
-
-    def findDiagonalOrder2(self, mat: list[list[int]]) -> list[int]:
-        m: int = len(mat)
-        n: int = len(mat[0])
-
-        if m == 1:
-            return self.solve_n(mat, n)
-        
-        if n == 1:
-            return self.solve_m(mat, m)
-        
-        if m != n:
-            return self.solve_not_square(mat, n, m)
-
-        return self.solve_square(mat, m)
+def case_3(sol: Solution) -> None:
+    mat = [
+        [1,2,3,4],
+        [5,6,7,8]]
+    result: list[int] = sol.findDiagonalOrder(mat)
+    print(f"case 3 {result}")
 
 
 def main() -> None:
-    solution = Solution()
-    print(solution.findDiagonalOrder2([[1,2,3],[4,5,6],[7,8,9]]))
-    print(solution.findDiagonalOrder2([[1],[2],[3]]))
-    print(solution.findDiagonalOrder2([[2,5,8], [4,0,-1]]))
-    print(solution.findDiagonalOrder2([[2,5], [4,0], [2,-1]]))
-    print(solution.findDiagonalOrder2([[1]]))
+    print("498. Diagonal Traverse")
+    sol = Solution()
+    case_1(sol)
+    case_2(sol)
+    case_3(sol)
+
 
 if __name__ == "__main__":
     main()
