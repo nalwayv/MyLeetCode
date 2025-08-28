@@ -429,6 +429,7 @@
 - 3242\. Design Neighbor Sum Service
 - 3264\. Final Array State After K Multiplication Operations I
 - 3375\. Minimum Operations to Make Array Values Equal to K
+- 3446\. Sort Matrix by Diagonals
 - 3484\. Design Spreadsheet
 - 3487\. Maximum Unique Subarray Sum After Deletion
 - 3516\. Find Closest Person
