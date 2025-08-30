@@ -142,6 +142,7 @@
 - 328\. Odd Even Linked List
 - 338\. Counting Bits
 - 341\. Flatten Nested List Iterator
+- 342\. Power of Four
 - 344\. Reverse String
 - 345\. Reverse Vowels of a String
 - 347\. Top K Frequent Elements
