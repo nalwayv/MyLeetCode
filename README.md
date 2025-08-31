@@ -314,6 +314,7 @@
 - 1603\. Design Parking System
 - 1641\. Count Sorted Vowel Strings
 - 1656\. Design an Ordered Stream
+- 1668\. Maximum Repeating Substring
 - 1669\. Merge In Between Linked Lists
 - 1670\. Design Front Middle Back Queue
 - 1672\. Richest Customer Wealth
