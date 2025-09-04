@@ -1,29 +1,39 @@
-# Determine which person reaches Person 3 first:
-
-# Return 1 if Person 1 arrives first.
-# Return 2 if Person 2 arrives first.
-# Return 0 if both arrive at the same time.
-# Return the result accordingly.
-
 class Solution:
     def findClosest(self, x: int, y: int, z: int) -> int:
-        xz: int = abs(z - x)
-        yz: int = abs(z - y)
+        """
+        Determines which of two values (x or y) is closer to a target value z.
+        Args:
+            x (int): The first value to compare.
+            y (int): The second value to compare.
+            z (int): The target value.
+        Returns:
+            int: Returns 1 if x is closer to z, 2 if y is closer to z, or 0 if both are equally close.
+        """
+        xz: int = abs(x - z)
+        yz: int = abs(y - z)
 
         if xz < yz:
             return 1
-        
-        if xz > yz:
+
+        if yz < xz:
             return 2
-        
+
         return 0
 
 
 def main() -> None:
     print("3516. Find Closest Person")
-    
-    sol = Solution()
-    print(f"Person {sol.findClosest(2,7,4)} is closest to Person 3")
+
+    solution = Solution()
+
+    case1: int = solution.findClosest(x=2, y=7, z=4)
+    print(f"case 1 should equal 1 ? {case1}")
+
+    case2: int = solution.findClosest(x=2, y=5, z=6)
+    print(f"case 2 should equal 2 ? {case2}")
+
+    case3: int = solution.findClosest(x=1, y=5, z=3)
+    print(f"case 3 should equal 0 ? {case3}")
 
 
 if __name__ == "__main__":
