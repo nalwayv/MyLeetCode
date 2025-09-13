@@ -431,6 +431,7 @@
 - 3206\. Alternating Groups I
 - 3211\. Generate Binary Strings Without Adjacent Zeros
 - 3217\. Delete Nodes From Linked List Present in Array
+- 3227\. Vowels Game in a String
 - 3242\. Design Neighbor Sum Service
 - 3264\. Final Array State After K Multiplication Operations I
 - 3375\. Minimum Operations to Make Array Values Equal to K
