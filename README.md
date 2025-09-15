@@ -256,6 +256,7 @@
 - 933\. Number of Recent Calls
 - 941\. Valid Mountain Array
 - 965\. Univalued Binary Tree
+- 966\. Vowel Spellchecker
 - 976\. Largest Perimeter Triangle
 - 977\. Squares of a Sorted Array
 - 1004\. Max Consecutive Ones III
@@ -345,6 +346,7 @@
 - 1894\. Find the Student that Will Replace the Chalk
 - 1920\. Build Array from Permutation
 - 1929\. Concatenation of Array
+- 1935\. Maximum Number of Words You Can Type
 - 1941\. Check if All Characters Have Equal Number of Occurrences
 - 1945\. Sum of Digits of String After Convert
 - 1957\. Delete Characters to Make Fancy String
