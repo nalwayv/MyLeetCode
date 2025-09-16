@@ -247,6 +247,7 @@
 - 876\. Middle of the Linked List
 - 883\. Projection Area of 3D Shapes
 - 884\. Uncommon Words from Two Sentences
+- 894\. All Possible Full Binary Trees
 - 895\. Maximum Frequency Stack
 - 900\. RLE Iterator
 - 901\. Online Stock Span
