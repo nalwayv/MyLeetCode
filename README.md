@@ -422,6 +422,7 @@
 - 2965\. Find Missing and Repeated Values
 - 2966\. Divide Array Into Arrays With Max Difference
 - 3000\. Maximum Area of Longest Diagonal Rectangle
+- 3005\. Count Elements With Maximum Frequency
 - 3021\. Alice and Bob Playing Flower Game
 - 3043\. Find the Length of the Longest Common Prefix
 - 3105\. Longest Strictly Increasing or Strictly Decreasing Subarray
