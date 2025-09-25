@@ -69,6 +69,7 @@
 - 116\. Populating Next Right Pointers in Each Node
 - 118\. Pascal's Triangle
 - 119\. Pascal's Triangle II
+- 120\. Triangle
 - 121\. Best Time to Buy and Sell Stock
 - 125\. Valid Palindrome
 - 133\. Clone Graph
