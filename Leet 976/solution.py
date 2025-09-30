@@ -10,20 +10,13 @@ class Solution:
             int:
                 max perimeter
         """
-        # being sorted helps with one of the perimeter rules of 'a + b > c'
-        sorted_arr = sorted(nums)
-
-        result: int = 0
-        for i in range(len(sorted_arr) - 2):
-            a: int = sorted_arr[i + 0]
-            b: int = sorted_arr[i + 1]
-            c: int = sorted_arr[i + 2]
-            
-            # if pass store max perimeter
-            if (a + b) > c:
-                result = max(result, a+b+c)
-
-        return result
+        # being sorted helps with one of the perimeter rules of 'a + b > c'    
+        nums.sort()
+        length: int = len(nums)
+        for i in range(length - 1, 1, -1):
+            if nums[i-2] + nums[i-1] > nums[i]:
+                return nums[i-2] + nums[i-1] + nums[i]
+        return 0
 
 
 def case1(sol: Solution) -> None:

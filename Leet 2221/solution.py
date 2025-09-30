@@ -11,23 +11,26 @@ class Solution:
             >>> triangularSum([1,2,3,4,5])
             8
         """
-        while len(nums) > 1:
-            for i in range(len(nums)-1):
-                nums[i] = (nums[i] + nums[i+1]) % 10
-            nums.pop()
+        length: int = len(nums)
+
+        while length > 1:
+            for i in range(length - 1):
+                nums[i] = (nums[i] + nums[i + 1]) % 10
+            length -= 1
+            
         return nums[0]
 
 
 def main() -> None:
-    print("2221. Find Triangular Sum of an Array")
+    print('2221. Find Triangular Sum of an Array')
 
     sol = Solution()
 
-    print(sol.triangularSum(nums=[1,2,3,4,5]), "== 8")
-    print(sol.triangularSum(nums=[5]), "== 5")
-    print(sol.triangularSum(nums=[1,2]), "== 3")
+    print(f'case 1 should equal 8 ? {sol.triangularSum(nums=[1,2,3,4,5])}')
+    print(f'case 2 should equal 5 ? {sol.triangularSum(nums=[5])}')
+    print(f'case 3 should equal 3 ? {sol.triangularSum(nums=[1,2])}')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
         

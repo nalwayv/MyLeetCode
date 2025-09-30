@@ -266,6 +266,7 @@
 - 1004\. Max Consecutive Ones III
 - 1008\. Construct Binary Search Tree from Preorder Traversal
 - 1038\. Binary Search Tree to Greater Sum Tree
+- 1039\. Minimum Score Triangulation of Polygon
 - 1051\. Height Checker
 - 1089\. Duplicate Zeros
 - 1071\. Greatest Common Divisor of Strings
