@@ -315,6 +315,7 @@
 - 1493\. Longest Subarray of 1's After Deleting One Element
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1512\. Number of Good Pairs
+- 1518\. Water Bottles
 - 1550\. Three Consecutive Odds
 - 1552\. Magnetic Force Between Two Balls
 - 1572\. Matrix Diagonal Sum
@@ -429,6 +430,7 @@
 - 3005\. Count Elements With Maximum Frequency
 - 3021\. Alice and Bob Playing Flower Game
 - 3043\. Find the Length of the Longest Common Prefix
+- 3100\. Water Bottles II
 - 3105\. Longest Strictly Increasing or Strictly Decreasing Subarray
 - 3110\. Score of a String
 - 3151\. Special Array I
