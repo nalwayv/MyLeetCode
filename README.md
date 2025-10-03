@@ -163,6 +163,7 @@
 - 394\. Decode String
 - 404\. Sum of Left Leaves
 - 405\. Convert a Number to Hexadecimal
+- 407\. Trapping Rain Water II
 - 409\. Longest Palindrome
 - 412\. Fizz Buzz
 - 413\. Arithmetic Slices
