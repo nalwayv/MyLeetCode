@@ -1,27 +1,21 @@
 class Solution:
     def maxArea(self, height: list[int]) -> int:
-        n: int = len(height)
-        p1: int = 0
-        p2: int = n - 1
+        length: int = len(height)
+        left: int = 0
+        right: int = length - 1
+        max_area: int = 0
 
-        area: int = 0
+        while left < right:
+            # area = width * height
+            width: int = right - left
+            max_area = max(max_area, width * min(height[left], height[right]))
 
-        while p1 < p2:
-            a:int = height[p1]
-            b:int = height[p2]
-
-            # area is difference between p1 and p2 * min between heights
-            new_area: int = (p2 - p1) * min(a, b)
-
-            if new_area >= area:
-                area = new_area
-
-            if a < b:
-                p1 += 1
+            if height[left] < height[right]:
+                left += 1
             else:
-                p2 -= 1
+                right -= 1
 
-        return area
+        return max_area
 
 
 def main() -> None:
