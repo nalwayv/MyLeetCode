@@ -389,6 +389,7 @@
 - 2283\. Check if Number Has Equal Digit Count and Digit Value
 - 2294\. Partition Array Such That Maximum Difference Is K
 - 2296\. Design a Text Editor
+- 2300\. Successful Pairs of Spells and Potions
 - 2326\. Spiral Matrix IV
 - 2336\. Smallest Number in Infinite Set
 - 2349\. Design a Number Container System
