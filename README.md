@@ -436,6 +436,7 @@
 - 3100\. Water Bottles II
 - 3105\. Longest Strictly Increasing or Strictly Decreasing Subarray
 - 3110\. Score of a String
+- 3147\. Taking Maximum Energy From the Mystic Dungeon
 - 3151\. Special Array I
 - 3160\. Find the Number of Distinct Colors Among the Balls
 - 3163\. String Compression III
