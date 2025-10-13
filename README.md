@@ -386,6 +386,7 @@
 - 2264\. Largest 3-Same-Digit Number in String
 - 2265\. Count Nodes Equal to Average of Subtree
 - 2270\. Number of Ways to Split Array
+- 2273\. Find Resultant Array After Removing Anagram
 - 2280\. Minimum Lines to Represent a Line Chart
 - 2283\. Check if Number Has Equal Digit Count and Digit Value
 - 2294\. Partition Array Such That Maximum Difference Is K
