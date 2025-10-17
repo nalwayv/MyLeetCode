@@ -415,6 +415,7 @@
 - 2570\. Merge Two 2D Arrays by Summing Values
 - 2574\. Left and Right Sum Differences
 - 2579\. Count Total Number of Colored Cells
+- 2598\. Smallest Missing Non-negative Integer After Operations
 - 2610\. Convert an Array Into a 2D Array With Conditions
 - 2641\. Cousins in Binary Tree II
 - 2642\. Design Graph With Shortest Path Calculator
