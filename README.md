@@ -34,6 +34,7 @@
 - 48\. Rotate Image
 - 49\. Group Anagrams
 - 50\. Pow(x, n)
+- 53\. Maximum Subarray
 - 54\. Spiral Matrix
 - 58\. Length of Last Word
 - 59\. Spiral Matrix II
