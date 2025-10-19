@@ -325,6 +325,7 @@
 - 1572\. Matrix Diagonal Sum
 - 1600\. Throne Inheritance
 - 1603\. Design Parking System
+- 1625\. Lexicographically Smallest String After Applying Operations
 - 1641\. Count Sorted Vowel Strings
 - 1656\. Design an Ordered Stream
 - 1668\. Maximum Repeating Substring
