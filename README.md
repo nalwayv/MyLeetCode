@@ -139,6 +139,7 @@
 - 284\. Peeking Iterator
 - 289\. Game of Life
 - 290\. Word Pattern
+- 292\. Nim Game
 - 297\. Serialize and Deserialize Binary Tree
 - 303\. Range Sum Query - Immutable
 - 304\. Range Sum Query 2D - Immutable
@@ -190,6 +191,7 @@
 - 496\. Next Greater Element I
 - 498\. Diagonal Traverse
 - 501\. Find Mode in Binary Search Tree
+- 504\. Base 7
 - 507\. Perfect Number
 - 509\. Fibonacci Number
 - 539\. Minimum Time Difference
