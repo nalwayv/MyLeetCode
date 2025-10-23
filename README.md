@@ -459,6 +459,7 @@
 - 3349\. Adjacent Increasing Subarrays Detection I
 - 3375\. Minimum Operations to Make Array Values Equal to K
 - 3446\. Sort Matrix by Diagonals
+- 3461\. Check If Digits Are Equal in String After Operations I
 - 3484\. Design Spreadsheet
 - 3487\. Maximum Unique Subarray Sum After Deletion
 - 3516\. Find Closest Person
