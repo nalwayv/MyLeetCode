@@ -369,6 +369,7 @@
 - 2016\. Maximum Difference Between Increasing Elements
 - 2022\. Convert 1D Array Into 2D Array
 - 2043\. Simple Bank System
+- 2048\. Next Greater Numerically Balanced Number
 - 2053\. Kth Distinct String in an Array
 - 2079\. Watering Plants
 - 2095\. Delete the Middle Node of a Linked List
