@@ -337,6 +337,7 @@
 - 1684\. Count the Number of Consistent Strings
 - 1689\. Partitioning Into Minimum Number Of Deci-Binary Numbers
 - 1695\. Maximum Erasure Value
+- 1716\. Calculate Money in Leetcode Bank
 - 1717\. Maximum Score From Removing Substrings
 - 1721\. Swapping Nodes in a Linked List
 - 1732\. Find the Highest Altitude
@@ -457,6 +458,7 @@
 - 3227\. Vowels Game in a String
 - 3242\. Design Neighbor Sum Service
 - 3264\. Final Array State After K Multiplication Operations I
+- 3289\. The Two Sneaky Numbers of Digitville
 - 3349\. Adjacent Increasing Subarrays Detection I
 - 3375\. Minimum Operations to Make Array Values Equal to K
 - 3446\. Sort Matrix by Diagonals
