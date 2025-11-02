@@ -390,6 +390,7 @@
 - 2235\. Add Two Integers
 - 2236\. Root Equals Sum of Children
 - 2241\. Design an ATM Machine
+- 2257\. Count Unguarded Cells in the Grid
 - 2264\. Largest 3-Same-Digit Number in String
 - 2265\. Count Nodes Equal to Average of Subtree
 - 2270\. Number of Ways to Split Array
