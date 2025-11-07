@@ -325,6 +325,7 @@
 - 1550\. Three Consecutive Odds
 - 1552\. Magnetic Force Between Two Balls
 - 1572\. Matrix Diagonal Sum
+- 1578\. Minimum Time to Make Rope Colorful
 - 1600\. Throne Inheritance
 - 1603\. Design Parking System
 - 1625\. Lexicographically Smallest String After Applying Operations
