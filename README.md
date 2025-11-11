@@ -97,7 +97,10 @@
 - 169\. Majority Element
 - 171\. Excel Sheet Column Number
 - 173\. Binary Search Tree Iterator
+- 175\. Combine Two Tables
 - 179\. Largest Number
+- 181\. Employees Earning More Than Their Managers
+- 182\. Duplicate Emails
 - 189\. Rotate Array
 - 190\. Reverse Bits
 - 191\. Number of 1 Bits
