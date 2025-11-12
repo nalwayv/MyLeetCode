@@ -101,9 +101,11 @@
 - 179\. Largest Number
 - 181\. Employees Earning More Than Their Managers
 - 182\. Duplicate Emails
+- 183\. Customers Who Never Order
 - 189\. Rotate Array
 - 190\. Reverse Bits
 - 191\. Number of 1 Bits
+- 196\. Delete Duplicate Emails
 - 199\. Binary Tree Right Side View
 - 200\. Number of Islands
 - 202\. Happy Number
