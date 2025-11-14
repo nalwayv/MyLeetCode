@@ -200,6 +200,7 @@
 - 504\. Base 7
 - 507\. Perfect Number
 - 509\. Fibonacci Number
+- 511\. Game Play Analysis I
 - 539\. Minimum Time Difference
 - 541\. Reverse String II
 - 542\. 01 Matrix
@@ -209,6 +210,7 @@
 - 563\. Binary Tree Tilt
 - 566\. Reshape the Matrix
 - 572\. Subtree of Another Tree
+- 577\. Employee Bonus
 - 589\. N-ary Tree Preorder Traversal
 - 590\. N-ary Tree Postorder Traversal
 - 592\. Fraction Addition and Subtraction
