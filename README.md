@@ -211,6 +211,8 @@
 - 566\. Reshape the Matrix
 - 572\. Subtree of Another Tree
 - 577\. Employee Bonus
+- 584\. Find Customer Referee
+- 586\. Customer Placing the Largest Number of Orders
 - 589\. N-ary Tree Preorder Traversal
 - 590\. N-ary Tree Postorder Traversal
 - 592\. Fraction Addition and Subtraction
