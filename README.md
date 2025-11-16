@@ -217,8 +217,11 @@
 - 590\. N-ary Tree Postorder Traversal
 - 592\. Fraction Addition and Subtraction
 - 594\. Longest Harmonious Subsequence
+- 595\. Big Countries
+- 596\. Classes With at Least 5 Students
 - 599\. Minimum Index Sum of Two Lists
 - 605\. Can Place Flowers
+- 607\. Sales Person
 - 617\. Merge Two Binary Trees
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
