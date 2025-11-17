@@ -222,6 +222,7 @@
 - 599\. Minimum Index Sum of Two Lists
 - 605\. Can Place Flowers
 - 607\. Sales Person
+- 610\. Triangle Judgement
 - 617\. Merge Two Binary Trees
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
