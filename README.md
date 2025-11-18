@@ -224,6 +224,8 @@
 - 607\. Sales Person
 - 610\. Triangle Judgement
 - 617\. Merge Two Binary Trees
+- 619\. Biggest Single Number
+- 620\. Not Boring Movies
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
 - 637\. Average of Levels in Binary Tree
