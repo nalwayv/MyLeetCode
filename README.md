@@ -228,6 +228,7 @@
 - 620\. Not Boring Movies
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
+- 627\. Swap Sex of Employees
 - 637\. Average of Levels in Binary Tree
 - 641\. Design Circular Deque
 - 643\. Maximum Average Subarray I
@@ -395,6 +396,7 @@
 - 2114\. Maximum Number of Words Found in Sentences
 - 2130\. Maximum Twin Sum of a Linked List
 - 2138\. Divide a String Into Groups of Size k
+- 2154\. Keep Multiplying Found Values by Two
 - 2161\. Partition Array According to Given Pivot
 - 2165\. Smallest Value of the Rearranged Number
 - 2169\. Count Operations to Obtain Zero
