@@ -196,6 +196,7 @@
 - 494\. Target Sum
 - 496\. Next Greater Element I
 - 498\. Diagonal Traverse
+- 500\. Keyboard Row
 - 501\. Find Mode in Binary Search Tree
 - 504\. Base 7
 - 507\. Perfect Number
