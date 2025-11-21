@@ -291,6 +291,7 @@
 - 1025\. Divisor Game
 - 1038\. Binary Search Tree to Greater Sum Tree
 - 1039\. Minimum Score Triangulation of Polygon
+- 1050\. Actors and Directors Who Cooperated At Least Three Times
 - 1051\. Height Checker
 - 1089\. Duplicate Zeros
 - 1071\. Greatest Common Divisor of Strings
