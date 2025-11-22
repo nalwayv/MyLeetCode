@@ -294,6 +294,7 @@
 - 1050\. Actors and Directors Who Cooperated At Least Three Times
 - 1051\. Height Checker
 - 1089\. Duplicate Zeros
+- 1068\. Product Sales Analysis I
 - 1071\. Greatest Common Divisor of Strings
 - 1123\. Lowest Common Ancestor of Deepest Leaves
 - 1137\. N-th Tribonacci Number
