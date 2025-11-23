@@ -296,6 +296,8 @@
 - 1089\. Duplicate Zeros
 - 1068\. Product Sales Analysis I
 - 1071\. Greatest Common Divisor of Strings
+- 1075\. Project Employees I
+- 1084\. Sales Analysis III
 - 1123\. Lowest Common Ancestor of Deepest Leaves
 - 1137\. N-th Tribonacci Number
 - 1161\. Maximum Level Sum of a Binary Tree
