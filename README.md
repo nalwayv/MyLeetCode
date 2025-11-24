@@ -288,6 +288,7 @@
 - 977\. Squares of a Sorted Array
 - 1004\. Max Consecutive Ones III
 - 1008\. Construct Binary Search Tree from Preorder Traversal
+- 1018\. Binary Prefix Divisible By 5
 - 1025\. Divisor Game
 - 1038\. Binary Search Tree to Greater Sum Tree
 - 1039\. Minimum Score Triangulation of Polygon
