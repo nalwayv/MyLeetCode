@@ -301,7 +301,9 @@
 - 1084\. Sales Analysis III
 - 1123\. Lowest Common Ancestor of Deepest Leaves
 - 1137\. N-th Tribonacci Number
+- 1148\. Article Views I
 - 1161\. Maximum Level Sum of a Binary Tree
+- 1179\. Reformat Department Table
 - 1200\. Minimum Absolute Difference
 - 1207\. Unique Number of Occurrences
 - 1232\. Check If It Is a Straight Line
