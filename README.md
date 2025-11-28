@@ -264,6 +264,7 @@
 - 807\. Max Increase to Keep City Skyline
 - 812\. Largest Triangle Area
 - 819\. Most Common Word
+- 821\. Shortest Distance to a Character
 - 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
 - 860\. Lemonade Change
@@ -307,6 +308,7 @@
 - 1200\. Minimum Absolute Difference
 - 1207\. Unique Number of Occurrences
 - 1232\. Check If It Is a Straight Line
+- 1251\. Average Selling Price
 - 1261\. Find Elements in a Contaminated Binary Tree
 - 1277\. Count Square Submatrices with All Ones
 - 1281\. Subtract the Product and Sum of Digits of an Integer
