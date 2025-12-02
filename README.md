@@ -205,6 +205,7 @@
 - 539\. Minimum Time Difference
 - 541\. Reverse String II
 - 542\. 01 Matrix
+- 543\. Diameter of Binary Tree
 - 557\. Reverse Words in a String III
 - 559\. Maximum Depth of N-ary Tree
 - 561\. Array Partition
