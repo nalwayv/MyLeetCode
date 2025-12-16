@@ -169,6 +169,7 @@
 - 389\. Find the Difference
 - 392\. Is Subsequence
 - 394\. Decode String
+- 401\. Binary Watch
 - 404\. Sum of Left Leaves
 - 405\. Convert a Number to Hexadecimal
 - 407\. Trapping Rain Water II
