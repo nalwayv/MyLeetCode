@@ -193,6 +193,7 @@
 - 461\. Hamming Distance
 - 463\. Island Perimeter
 - 476\. Number Complement
+- 482\. License Key Formatting
 - 485\. Max Consecutive Ones
 - 494\. Target Sum
 - 496\. Next Greater Element I
