@@ -54,6 +54,7 @@
 - 83\. Remove Duplicates from Sorted List
 - 86\. Partition List
 - 88\. Merge Sorted Array
+- 89\. Gray Code
 - 92\. Reverse Linked List II
 - 94\. Binary Tree Inorder Traversal
 - 95\. Unique Binary Search Trees II
