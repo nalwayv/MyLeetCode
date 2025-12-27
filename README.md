@@ -6,6 +6,7 @@
 
 - 1\. Two Sum
 - 2\. Add Two Numbers
+- 4\. Median of Two Sorted Arrays
 - 7\. Reverse Integer
 - 8\. String to Integer (atoi)
 - 9\. Palindrome Number
@@ -237,6 +238,7 @@
 - 637\. Average of Levels in Binary Tree
 - 641\. Design Circular Deque
 - 643\. Maximum Average Subarray I
+- 645\. Set Mismatch
 - 652\. Find Duplicate Subtrees
 - 654\. Maximum Binary Tree
 - 670\. Maximum Swap
@@ -331,6 +333,7 @@
 - 1346\. Check If N and Its Double Exist
 - 1352\. Product of the Last K Numbers
 - 1357\. Apply Discount Every n Orders
+- 1365\. How Many Numbers Are Smaller Than the Current Number
 - 1367\. Linked List in Binary Tree
 - 1372\. Longest ZigZag Path in a Binary Tree
 - 1381\. Design a Stack With Increment Operation
@@ -445,9 +448,11 @@
 - 2396\. Strictly Palindromic Number
 - 2415\. Reverse Odd Levels of Binary Tree
 - 2419\. Longest Subarray With Maximum Bitwise AND
+- 2433\. Find The Original Array of Prefix Xor
 - 2438\. Range Product Queries of Powers
 - 2442\. Count Number of Distinct Integers After Reverse Operations
 - 2460\. Apply Operations to an Array
+- 2469\. Convert the Temperature
 - 2487\. Remove Nodes From Linked List
 - 2490\. Circular Sentence
 - 2502\. Design Memory Allocator
