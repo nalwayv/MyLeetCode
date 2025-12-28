@@ -19,6 +19,7 @@
 - 20\. Valid Parentheses
 - 21\. Merge Two Sorted Lists
 - 22\. Generate Parentheses
+- 23\. Merge k Sorted Lists
 - 24\. Swap Nodes in Pairs
 - 26\. Remove Duplicates from Sorted Array
 - 27\. Remove Element
