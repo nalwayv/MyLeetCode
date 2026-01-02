@@ -292,6 +292,7 @@
 - 919\. Complete Binary Tree Inserter
 - 933\. Number of Recent Calls
 - 941\. Valid Mountain Array
+- 961\. N-Repeated Element in Size 2N Array
 - 965\. Univalued Binary Tree
 - 966\. Vowel Spellchecker
 - 976\. Largest Perimeter Triangle
