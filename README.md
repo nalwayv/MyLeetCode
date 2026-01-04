@@ -342,6 +342,7 @@
 - 1372\. Longest ZigZag Path in a Binary Tree
 - 1381\. Design a Stack With Increment Operation
 - 1382\. Balance a Binary Search Tree
+- 1390\. Four Divisors
 - 1394\. Find Lucky Integer in an Array
 - 1396\. Design Underground System
 - 1422\. Maximum Score After Splitting a String
