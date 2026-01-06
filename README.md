@@ -406,6 +406,7 @@
 - 1945\. Sum of Digits of String After Convert
 - 1957\. Delete Characters to Make Fancy String
 - 1971\. Find if Path Exists in Graph
+- 1975\. Maximum Matrix Sum
 - 2011\. Final Value of Variable After Performing Operations
 - 2044\. Count Number of Maximum Bitwise-OR Subsets
 - 2016\. Maximum Difference Between Increasing Elements
