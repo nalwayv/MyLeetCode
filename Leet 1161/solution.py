@@ -10,50 +10,32 @@ class TreeNode:
 
 class Solution:
     def maxLevelSum(self, root: TreeNode|None) -> int:
-        """
-        Return level in tree that has the maximum sum
-        """
-        if root == None:
+        if not root:
             return 0
         
-        que: deque[TreeNode|None] = deque()
-        que.append(root)
+        que = deque([root])
+        result: int = 0
+        max_sum: float = -float('inf')
+        current_level: int = 1
 
-        max_sum: int = root.val
-        max_level: int = 1
-
-        # start at next level 
-        current_level: int = 2
         while que:
-            ln: int = len(que)
-            
+            count: int = len(que)
             current_sum: int = 0
-            children: int = 0
+            for _ in range(count):
+                current = que.popleft()
+                current_sum += current.val
 
-            # check level and sum up total values
-            for _ in range(ln):
-                current: TreeNode|None = que.popleft()
-
-                if current == None:
-                    continue
-                
-                if current.left != None:
+                if current.left:
                     que.append(current.left)
-                    current_sum += current.left.val
-                    children += 1
-
-                if current.right != None:
+                if current.right:
                     que.append(current.right)
-                    current_sum += current.right.val
-                    children += 1
-            
-            if children > 0 and current_sum > max_sum:
-                max_sum = current_sum
-                max_level = current_level
 
+            if current_sum > max_sum:
+                max_sum = current_sum
+                result = current_level
             current_level += 1
 
-        return max_level
+        return result
 
 
 def case1(sol: Solution) -> None:
@@ -64,7 +46,7 @@ def case1(sol: Solution) -> None:
     root.left.right = TreeNode(-8)
 
     level: int = sol.maxLevelSum(root)
-    print(f"case 1 { "pass" if level == 2 else "fail" }")
+    print(f'case 1 { 'pass' if level == 2 else 'fail' }')
 
 
 def case2(sol: Solution) -> None:
@@ -75,7 +57,7 @@ def case2(sol: Solution) -> None:
     root.right.right.right = TreeNode(-32127)
 
     level: int = sol.maxLevelSum(root)
-    print(f"case 2 { "pass" if level == 2 else "fail" }")
+    print(f'case 2 { 'pass' if level == 2 else 'fail' }')
 
 
 def case3(sol: Solution) -> None:
@@ -87,11 +69,11 @@ def case3(sol: Solution) -> None:
     root.right.left = TreeNode(-10)
 
     level: int = sol.maxLevelSum(root)
-    print(f"case 3 { "pass" if level == 3 else "fail" }")
+    print(f'case 3 { 'pass' if level == 3 else 'fail' }')
 
 
 def main() -> None:
-    print("1161. Maximum Level Sum of a Binary Tree")
+    print('1161. Maximum Level Sum of a Binary Tree')
 
     sol = Solution()
     
@@ -100,5 +82,5 @@ def main() -> None:
     case3(sol)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

@@ -32,6 +32,7 @@
 - 35\. Search Insert Position
 - 36\. Valid Sudoku
 - 39\. Combination Sum
+- 40\. Combination Sum II
 - 42\. Trapping Rain Water
 - 43\. Multiply Strings
 - 46\. Permutations
