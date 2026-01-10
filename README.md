@@ -460,6 +460,7 @@
 - 2442\. Count Number of Distinct Integers After Reverse Operations
 - 2460\. Apply Operations to an Array
 - 2469\. Convert the Temperature
+- 2482\. Difference Between Ones and Zeros in Row and Column
 - 2487\. Remove Nodes From Linked List
 - 2490\. Circular Sentence
 - 2502\. Design Memory Allocator
