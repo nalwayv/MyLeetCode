@@ -364,6 +364,7 @@
 - 1518\. Water Bottles
 - 1550\. Three Consecutive Odds
 - 1552\. Magnetic Force Between Two Balls
+- 1561\. Maximum Number of Coins You Can Get
 - 1572\. Matrix Diagonal Sum
 - 1578\. Minimum Time to Make Rope Colorful
 - 1590\. Make Sum Divisible by P
