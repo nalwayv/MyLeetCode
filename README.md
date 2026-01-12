@@ -321,6 +321,7 @@
 - 1232\. Check If It Is a Straight Line
 - 1251\. Average Selling Price
 - 1261\. Find Elements in a Contaminated Binary Tree
+- 1266\. Minimum Time Visiting All Points
 - 1277\. Count Square Submatrices with All Ones
 - 1281\. Subtract the Product and Sum of Digits of an Integer
 - 1282\. Group the People Given the Group Size They Belong To
