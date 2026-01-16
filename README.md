@@ -374,6 +374,7 @@
 - 1625\. Lexicographically Smallest String After Applying Operations
 - 1641\. Count Sorted Vowel Strings
 - 1656\. Design an Ordered Stream
+- 1662\. Check If Two String Arrays are Equivalent
 - 1668\. Maximum Repeating Substring
 - 1669\. Merge In Between Linked Lists
 - 1670\. Design Front Middle Back Queue
@@ -395,6 +396,7 @@
 - 1800\. Maximum Ascending Subarray Sum
 - 1823\. Find the Winner of the Circular Game
 - 1828\. Queries on Number of Points Inside a Circle
+- 1829\. Maximum XOR for Each Query
 - 1845\. Seat Reservation Manager
 - 1860\. Incremental Memory Leak
 - 1861\. Rotating the Box
@@ -454,6 +456,7 @@
 - 2373\. Largest Local Values in a Matrix
 - 2379\. Minimum Recolors to Get K Consecutive Black Blocks
 - 2390\. Removing Stars From a String
+- 2391\. Minimum Amount of Time to Collect Garbage
 - 2396\. Strictly Palindromic Number
 - 2415\. Reverse Odd Levels of Binary Tree
 - 2419\. Longest Subarray With Maximum Bitwise AND

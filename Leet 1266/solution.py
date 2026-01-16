@@ -3,11 +3,8 @@ class Solution:
         result: int = 0
 
         for i in range(len(points) - 1):
-            a: list[int] = points[i]
-            b: list[int] = points[i+1]
-
-            dx: int = abs(a[0] - b[0])
-            dy: int = abs(a[1] - b[1])
+            dx: int = abs(points[i][0] - points[i+1][0])
+            dy: int = abs(points[i][1] - points[i+1][1])
 
             lo: int = min(dx, dy)
             hi: int = max(dx, dy)
