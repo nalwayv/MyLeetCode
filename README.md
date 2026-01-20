@@ -513,6 +513,7 @@
 - 3242\. Design Neighbor Sum Service
 - 3264\. Final Array State After K Multiplication Operations I
 - 3289\. The Two Sneaky Numbers of Digitville
+- 3314\. Construct the Minimum Bitwise Array I
 - 3318\. Find X-Sum of All K-Long Subarrays I
 - 3349\. Adjacent Increasing Subarrays Detection I
 - 3375\. Minimum Operations to Make Array Values Equal to K
