@@ -89,6 +89,7 @@
 - 143\. Reorder List
 - 144\. Binary Tree Preorder Traversal
 - 145\. Binary Tree Postorder Traversal
+- 146\. LRU Cache
 - 148\. Sort List
 - 150\. Evaluate Reverse Polish Notation
 - 151\. Reverse Words in a String
@@ -497,6 +498,7 @@
 - 2966\. Divide Array Into Arrays With Max Difference
 - 3000\. Maximum Area of Longest Diagonal Rectangle
 - 3005\. Count Elements With Maximum Frequency
+- 3010\. Divide an Array Into Subarrays With Minimum Cost I
 - 3021\. Alice and Bob Playing Flower Game
 - 3043\. Find the Length of the Longest Common Prefix
 - 3100\. Water Bottles II
@@ -527,3 +529,4 @@
 - 3512\. Minimum Operations to Make Array Sum Divisible by K
 - 3516\. Find Closest Person
 - 3541\. Find Most Frequent Vowel and Consonant
+- 3637\. Trionic Array I
