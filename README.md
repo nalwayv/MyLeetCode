@@ -522,6 +522,7 @@
 - 3318\. Find X-Sum of All K-Long Subarrays I
 - 3349\. Adjacent Increasing Subarrays Detection I
 - 3375\. Minimum Operations to Make Array Values Equal to K
+- 3379\. Transformed Array
 - 3446\. Sort Matrix by Diagonals
 - 3461\. Check If Digits Are Equal in String After Operations I
 - 3484\. Design Spreadsheet
