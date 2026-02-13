@@ -336,6 +336,7 @@
 - 1310\. XOR Queries of a Subarray
 - 1315\. Sum of Nodes with Even-Valued Grandparent
 - 1317\. Convert Integer to the Sum of Two No-Zero Integers
+- 1327\. List the Products Ordered in a Period
 - 1331\. Rank Transform of an Array
 - 1342\. Number of Steps to Reduce a Number to Zero
 - 1346\. Check If N and Its Double Exist
@@ -378,6 +379,7 @@
 - 1641\. Count Sorted Vowel Strings
 - 1656\. Design an Ordered Stream
 - 1662\. Check If Two String Arrays are Equivalent
+- 1667\. Fix Names in a Table
 - 1668\. Maximum Repeating Substring
 - 1669\. Merge In Between Linked Lists
 - 1670\. Design Front Middle Back Queue
