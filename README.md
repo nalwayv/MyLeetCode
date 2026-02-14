@@ -315,6 +315,7 @@
 - 1084\. Sales Analysis III
 - 1123\. Lowest Common Ancestor of Deepest Leaves
 - 1137\. N-th Tribonacci Number
+- 1141\. User Activity for the Past 30 Days I
 - 1148\. Article Views I
 - 1161\. Maximum Level Sum of a Binary Tree
 - 1179\. Reformat Department Table
@@ -458,6 +459,7 @@
 - 2336\. Smallest Number in Infinite Set
 - 2349\. Design a Number Container System
 - 2352\. Equal Row and Column Pairs
+- 2356\. Number of Unique Subjects Taught by Each Teacher
 - 2373\. Largest Local Values in a Matrix
 - 2379\. Minimum Recolors to Get K Consecutive Black Blocks
 - 2390\. Removing Stars From a String
