@@ -250,6 +250,7 @@
 - 670\. Maximum Swap
 - 677\. Map Sum Pairs
 - 695\. Max Area of Island
+- 696\. Count Binary Substrings
 - 697\. Degree of an Array
 - 700\. Search in a Binary Search Tree
 - 701\. Insert into a Binary Search Tree
@@ -326,6 +327,7 @@
 - 1261\. Find Elements in a Contaminated Binary Tree
 - 1266\. Minimum Time Visiting All Points
 - 1277\. Count Square Submatrices with All Ones
+- 1280\. Students and Examinations
 - 1281\. Subtract the Product and Sum of Digits of an Integer
 - 1282\. Group the People Given the Group Size They Belong To
 - 1286\. Iterator for Combination
@@ -352,6 +354,7 @@
 - 1390\. Four Divisors
 - 1394\. Find Lucky Integer in an Array
 - 1396\. Design Underground System
+- 1407\. Top Travellers
 - 1422\. Maximum Score After Splitting a String
 - 1431\. Kids With the Greatest Number of Candies
 - 1441\. Build an Array With Stack Operations
@@ -373,6 +376,7 @@
 - 1561\. Maximum Number of Coins You Can Get
 - 1572\. Matrix Diagonal Sum
 - 1578\. Minimum Time to Make Rope Colorful
+- 1587\. Bank Account Summary II
 - 1590\. Make Sum Divisible by P
 - 1600\. Throne Inheritance
 - 1603\. Design Parking System
