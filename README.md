@@ -270,6 +270,7 @@
 - 746\. Min Cost Climbing Stairs
 - 747\. Largest Number At Least Twice of Others
 - 752\. Open the Lock
+- 762\. Prime Number of Set Bits in Binary Representation
 - 771\. Jewels and Stones
 - 779\. K-th Symbol in Grammar
 - 796\. Rotate String
