@@ -369,6 +369,7 @@
 - 1472\. Design Browser History
 - 1476\. Subrectangle Queries
 - 1480\. Running Sum of 1d Array
+- 1484\. Group Sold Products By The Date
 - 1493\. Longest Subarray of 1's After Deleting One Element
 - 1508\. Range Sum of Sorted Subarray Sums
 - 1512\. Number of Good Pairs
@@ -391,6 +392,7 @@
 - 1669\. Merge In Between Linked Lists
 - 1670\. Design Front Middle Back Queue
 - 1672\. Richest Customer Wealth
+- 1680\. Concatenation of Consecutive Binary Numbers
 - 1684\. Count the Number of Consistent Strings
 - 1689\. Partitioning Into Minimum Number Of Deci-Binary Numbers
 - 1695\. Maximum Erasure Value
