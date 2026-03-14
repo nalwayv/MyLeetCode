@@ -357,6 +357,7 @@
 - 1394\. Find Lucky Integer in an Array
 - 1396\. Design Underground System
 - 1407\. Top Travellers
+- 1415\. The k-th Lexicographical String of All Happy Strings of Length n
 - 1422\. Maximum Score After Splitting a String
 - 1431\. Kids With the Greatest Number of Candies
 - 1441\. Build an Array With Stack Operations
