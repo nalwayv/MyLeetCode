@@ -419,6 +419,7 @@
 - 1863\. Sum of All Subset XOR Totals
 - 1865\. Finding Pairs With a Certain Sum
 - 1877\. Minimize Maximum Pair Sum in Array
+- 1886\. Determine Whether Matrix Can Be Obtained By Rotation
 - 1894\. Find the Student that Will Replace the Chalk
 - 1920\. Build Array from Permutation
 - 1929\. Concatenation of Array
