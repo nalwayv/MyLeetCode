@@ -506,6 +506,7 @@
 - 2807\. Insert Greatest Common Divisors in Linked List
 - 2873\. Maximum Value of an Ordered Triplet I
 - 2874\. Maximum Value of an Ordered Triplet II
+- 2906\. Construct Product Matrix
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
 - 2942\. Find Words Containing Character
 - 2956\. Find Common Elements Between Two Arrays
@@ -545,6 +546,7 @@
 - 3512\. Minimum Operations to Make Array Sum Divisible by K
 - 3516\. Find Closest Person
 - 3541\. Find Most Frequent Vowel and Consonant
+- 3546\. Equal Sum Grid Partition I
 - 3637\. Trionic Array I
 - 3643\. Flip Square Submatrix Vertically
 - 3794\. Reverse String Prefix
