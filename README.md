@@ -504,6 +504,7 @@
 - 2785\. Sort Vowels in a String
 - 2787\. Ways to Express an Integer as Sum of Powers
 - 2807\. Insert Greatest Common Divisors in Linked List
+- 2840\. Check if Strings Can be Made Equal With Operations II
 - 2873\. Maximum Value of an Ordered Triplet I
 - 2874\. Maximum Value of an Ordered Triplet II
 - 2906\. Construct Product Matrix
