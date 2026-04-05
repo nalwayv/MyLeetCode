@@ -436,6 +436,7 @@
 - 2043\. Simple Bank System
 - 2048\. Next Greater Numerically Balanced Number
 - 2053\. Kth Distinct String in an Array
+- 2075\. Decode the Slanted Ciphertext
 - 2079\. Watering Plants
 - 2095\. Delete the Middle Node of a Linked List
 - 2109\. Adding Spaces to a String
