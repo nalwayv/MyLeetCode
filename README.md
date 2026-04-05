@@ -247,6 +247,7 @@
 - 645\. Set Mismatch
 - 652\. Find Duplicate Subtrees
 - 654\. Maximum Binary Tree
+- 657\. Robot Return to Origin
 - 670\. Maximum Swap
 - 677\. Map Sum Pairs
 - 695\. Max Area of Island
