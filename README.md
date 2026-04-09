@@ -552,4 +552,5 @@
 - 3546\. Equal Sum Grid Partition I
 - 3637\. Trionic Array I
 - 3643\. Flip Square Submatrix Vertically
+- 3653\. XOR After Range Multiplication Queries I
 - 3794\. Reverse String Prefix

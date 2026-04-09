@@ -1,58 +1,36 @@
-import math
-
-class Coord:
-    def __init__(self, x: int = 0, y: int = 0) -> None:
-        self.x: int = x
-        self.y: int = y
-    
-    def length_squared(self) -> int:
-        return self.x * self.x + self.y * self.y
-    
-
 class Solution:
-    def _to_hash(self, x: int, y: int) -> str:
-        return f"({x},{y})"
-
-    def _move_to(self, coord: Coord, length: int, angle: int) -> Coord:
-        r: float = math.radians(angle)
-        x: int = coord.x + length * int(math.cos(r))
-        y: int = coord.y + length * int(math.sin(r))
-
-        return Coord(x, y)
-
     def robotSim(self, commands: list[int], obstacles: list[list[int]]) -> int:
-        blocked: set[str] = set()
+        blocked: set[tuple[int, int]] = set()
         for obs in obstacles:
-            blocked.add(self._to_hash(obs[0], obs[1]))
+            blocked.add((obs[0], obs[1]))
 
-        coord = Coord()
-        direction: int = 90
-        furthest: int = 0
+        directions: list[tuple[int, int]] = [(0, 1),(1, 0),(0, -1),(-1, 0)]
 
-        for move in commands:
-            if move in [-1, -2]:
-                if move == -1:
-                    direction -= 90
+        x: int = 0
+        y: int = 0
+        current_dir: int = 0
+        max_dist: int = 0
 
-                if move == -2:
-                    direction += 90
-
-                direction %= 360
-                if direction < 0:
-                    direction += 360
-
+        for command in commands:
+            if command == -1:
+                current_dir = (current_dir + 1) % 4
+            elif command == -2:
+                current_dir = (current_dir - 1) % 4
             else:
-                for _ in range(move):
-                    step: Coord = self._move_to(coord, 1, direction)
-                    
-                    if self._to_hash(step.x, step.y) in blocked:
+                dir_x, dir_y = directions[current_dir]
+
+                for _ in range(command):
+                    next_x = x + dir_x
+                    next_y = y + dir_y
+
+                    if (next_x, next_y) in blocked:
                         break
+                        
+                    x = next_x
+                    y = next_y
+                    max_dist = max(max_dist, x*x + y*y)
                     
-                    coord = step
-
-                furthest = max(furthest, coord.length_squared())
-
-        return furthest
+        return max_dist
 
 
 def case1(sol: Solution) -> None:
