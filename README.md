@@ -502,6 +502,7 @@
 - 2642\. Design Graph With Shortest Path Calculator
 - 2657\. Find the Prefix Common Array of Two Arrays
 - 2678\. Number of Senior Citizens
+- 2740\. Minimum Distance Between Three Equal Elements I
 - 2769\. Find the Maximum Achievable Number
 - 2785\. Sort Vowels in a String
 - 2787\. Ways to Express an Integer as Sum of Powers
