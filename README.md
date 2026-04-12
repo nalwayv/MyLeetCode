@@ -554,4 +554,5 @@
 - 3637\. Trionic Array I
 - 3643\. Flip Square Submatrix Vertically
 - 3653\. XOR After Range Multiplication Queries I
+- 3741\. Minimum Distance Between Three Equal Elements II
 - 3794\. Reverse String Prefix
