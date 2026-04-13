@@ -415,6 +415,7 @@
 - 1828\. Queries on Number of Points Inside a Circle
 - 1829\. Maximum XOR for Each Query
 - 1845\. Seat Reservation Manager
+- 1848\. Minimum Distance to the Target Element
 - 1860\. Incremental Memory Leak
 - 1861\. Rotating the Box
 - 1863\. Sum of All Subset XOR Totals
