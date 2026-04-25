@@ -513,6 +513,7 @@
 - 2840\. Check if Strings Can be Made Equal With Operations II
 - 2873\. Maximum Value of an Ordered Triplet I
 - 2874\. Maximum Value of an Ordered Triplet II
+- 2833\. Furthest Point From Origin
 - 2906\. Construct Product Matrix
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
 - 2942\. Find Words Containing Character
