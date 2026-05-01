@@ -355,6 +355,7 @@
 - 1382\. Balance a Binary Search Tree
 - 1389\. Create Target Array in the Given Order
 - 1390\. Four Divisors
+- 1391\. Check if There is a Valid Path in a Grid
 - 1394\. Find Lucky Integer in an Array
 - 1396\. Design Underground System
 - 1407\. Top Travellers
@@ -379,6 +380,7 @@
 - 1518\. Water Bottles
 - 1550\. Three Consecutive Odds
 - 1552\. Magnetic Force Between Two Balls
+- 1559\. Detect Cycles in 2D Grid"
 - 1561\. Maximum Number of Coins You Can Get
 - 1572\. Matrix Diagonal Sum
 - 1578\. Minimum Time to Make Rope Colorful
@@ -485,6 +487,7 @@
 - 2433\. Find The Original Array of Prefix Xor
 - 2438\. Range Product Queries of Powers
 - 2442\. Count Number of Distinct Integers After Reverse Operations
+- 2452\. Words Within Two Edits of Dictionary"
 - 2460\. Apply Operations to an Array
 - 2469\. Convert the Temperature
 - 2482\. Difference Between Ones and Zeros in Row and Column
