@@ -274,6 +274,7 @@
 - 762\. Prime Number of Set Bits in Binary Representation
 - 771\. Jewels and Stones
 - 779\. K-th Symbol in Grammar
+- 788\. Rotated Digits
 - 796\. Rotate String
 - 806\. Number of Lines To Write String
 - 807\. Max Increase to Keep City Skyline
