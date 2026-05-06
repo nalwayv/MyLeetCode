@@ -33,14 +33,14 @@ class Solution:
         # simulate gravity
 
         for col in range(cols):
-            j: int = rows - 1
-            for row in reversed(range(rows)):
-                if result[row][col] == "#":
-                    result[row][col], result[j][col] = result[j][col], result[row][col]
-                    j -= 1
-
-                if result[row][col] == "*":
-                    j = row - 1
+            write_pos = rows - 1
+            for row in range(rows - 1, -1, -1):
+                if result[row][col] == '*':
+                    write_pos = row - 1
+                elif result[row][col] == '#':
+                    result[row][col] = '.'
+                    result[write_pos][col] = '#'
+                    write_pos -= 1
 
         return result
 
@@ -61,15 +61,15 @@ def main() -> None:
 
     sol = Solution()
 
-    print("case 1")
-    box_grid_1 = [["#",".","#"]]
-    print_grid(sol.rotateTheBox(box_grid_1))
+    # print("case 1")
+    # box_grid_1 = [["#",".","#"]]
+    # print_grid(sol.rotateTheBox(box_grid_1))
 
-    print("case 2")
-    box_grid_2 = [
-        ["#",".","*","."],
-        ["#","#","*","."]]
-    print_grid(sol.rotateTheBox(box_grid_2))
+    # print("case 2")
+    # box_grid_2 = [
+    #     ["#",".","*","."],
+    #     ["#","#","*","."]]
+    # print_grid(sol.rotateTheBox(box_grid_2))
 
     print("case 3")
     box_grid_3 = [
@@ -78,9 +78,9 @@ def main() -> None:
         ["#","#","#",".","#","."]]
     print_grid(sol.rotateTheBox(box_grid_3))
 
-    print("case 4")
-    box_grid_4 = [["*","#","*",".",".",".","#",".","*","."]]
-    print_grid(sol.rotateTheBox(box_grid_4))
+    # print("case 4")
+    # box_grid_4 = [["*","#","*",".",".",".","#",".","*","."]]
+    # print_grid(sol.rotateTheBox(box_grid_4))
 
 
 if __name__ == "__main__":
