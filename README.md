@@ -499,6 +499,7 @@
 - 2523\. Closest Prime Numbers in Range
 - 2526\. Find Consecutive Integers from a Data Stream
 - 2545\. Sort the Students by Their Kth Score
+- 2553\. Separate the Digits in an Array"
 - 2559\. Count Vowel Strings in Ranges
 - 2570\. Merge Two 2D Arrays by Summing Values
 - 2574\. Left and Right Sum Differences
@@ -511,6 +512,7 @@
 - 2678\. Number of Senior Citizens
 - 2740\. Minimum Distance Between Three Equal Elements I
 - 2769\. Find the Maximum Achievable Number
+- 2770\. Maximum Number of Jumps to Reach the Last Index
 - 2785\. Sort Vowels in a String
 - 2787\. Ways to Express an Integer as Sum of Powers
 - 2807\. Insert Greatest Common Divisors in Linked List
