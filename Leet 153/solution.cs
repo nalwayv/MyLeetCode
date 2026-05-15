@@ -2,33 +2,19 @@
 {
     public int FindMin(int[] nums)
     {
-        int lo = 0;
-        int hi = nums.Length - 1;
-        int min = int.MaxValue;
-
-        // bisect_right
-
-        while (lo <= hi)
+        int result = nums[0];
+        for(int i = 0; i < nums.Length - 1; i++)
         {
-            int mid = lo + (hi - lo) / 2;
-
-            if (nums[mid] < nums[hi])
+            if (nums[i + 1] - nums[i] < 0)
             {
-                hi = mid;
+                result = int.Min(result, nums[i + 1]);
             }
-            else
-            {
-                lo = mid + 1;
-            }
-
-            min = int.Min(min, nums[mid]);
         }
-
-        return min;
+        return result;
     }
 }
 
-internal class Program
+class Program
 {
     private static void Main()
     {
