@@ -340,12 +340,14 @@
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1302\. Deepest Leaves Sum
 - 1305\. All Elements in Two Binary Search Trees
+- 1306\. Jump Game III
 - 1310\. XOR Queries of a Subarray
 - 1315\. Sum of Nodes with Even-Valued Grandparent
 - 1317\. Convert Integer to the Sum of Two No-Zero Integers
 - 1327\. List the Products Ordered in a Period
 - 1331\. Rank Transform of an Array
 - 1342\. Number of Steps to Reduce a Number to Zero
+- 1345\. Jump Game IV
 - 1346\. Check If N and Its Double Exist
 - 1352\. Product of the Last K Numbers
 - 1357\. Apply Discount Every n Orders
