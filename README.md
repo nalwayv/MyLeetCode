@@ -500,6 +500,7 @@
 - 2515\. Shortest Distance to Target String in a Circular Array
 - 2523\. Closest Prime Numbers in Range
 - 2526\. Find Consecutive Integers from a Data Stream
+- 2540\. Minimum Common Value
 - 2545\. Sort the Students by Their Kth Score
 - 2553\. Separate the Digits in an Array"
 - 2559\. Count Vowel Strings in Ranges

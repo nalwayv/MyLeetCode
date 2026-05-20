@@ -1,23 +1,27 @@
 class Solution:
     def findThePrefixCommonArray(self, A: list[int], B: list[int]) -> list[int]:
-        if len(A) != len(B):
-            return []
-
-        a_nums: set[int] = {num for num in A}
+        length: int = min(len(A), len(B))
+        tally: dict[int, int] = {}
         result: list[int] = []
 
-        length: int = len(B)
-        i: int = length
-        while i > 0:
-            count: int = 0
-            for j in range(i):
-                if B[j] in a_nums:
-                    count += 1
+        count: int = 0
 
-            result.insert(0, count)
+        for i in range(length):
+            if A[i] not in tally:
+                tally[A[i]] = 0
 
-            i -= 1
-            a_nums.remove(A[i])
+            tally[A[i]] += 1
+            if tally[A[i]] == 2:
+                count += 1
+            
+            if B[i] not in tally:
+                tally[B[i]] = 0
+
+            tally[B[i]] += 1
+            if tally[B[i]] == 2:
+                count += 1
+                
+            result.append(count)
 
         return result
 
