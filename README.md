@@ -41,6 +41,7 @@
 - 50\. Pow(x, n)
 - 53\. Maximum Subarray
 - 54\. Spiral Matrix
+- 55\. Jump Game
 - 58\. Length of Last Word
 - 59\. Spiral Matrix II
 - 61\. Rotate List

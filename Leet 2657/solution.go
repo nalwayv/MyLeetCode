@@ -10,15 +10,15 @@ func minInt(num1 int, num2 int) int {
 	return num2
 }
 
-// Return the prefix common array between A and B
-func findThePrefixCommonArray(A []int, B []int) []int {
+// Return the prefix common array between A and B (generic over comparable types)
+func findThePrefixCommonArray[T comparable](A []T, B []T) []int {
 	// each array contains distinct integers from 1 to n,
 	// so if the same integer appears in both arrays,
 	// it will be counted as a common integer
 
 	length := minInt(len(A), len(B))
 	result := make([]int, length)
-	tally := make(map[int]int)
+	tally := make(map[T]int)
 
 	var count int = 0
 	for i := 0; i < length; i++ {
