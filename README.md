@@ -539,6 +539,8 @@
 - 3100\. Water Bottles II
 - 3105\. Longest Strictly Increasing or Strictly Decreasing Subarray
 - 3110\. Score of a String
+- 3120\. Count the Number of Special Characters I
+- 3121\. Count the Number of Special Characters II
 - 3147\. Taking Maximum Energy From the Mystic Dungeon
 - 3151\. Special Array I
 - 3160\. Find the Number of Distinct Colors Among the Balls
