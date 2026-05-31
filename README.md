@@ -450,6 +450,7 @@
 - 2095\. Delete the Middle Node of a Linked List
 - 2109\. Adding Spaces to a String
 - 2114\. Maximum Number of Words Found in Sentences
+- 2126\. Destroying Asteroids
 - 2130\. Maximum Twin Sum of a Linked List
 - 2138\. Divide a String Into Groups of Size k
 - 2154\. Keep Multiplying Found Values by Two
