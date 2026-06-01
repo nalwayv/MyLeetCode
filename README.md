@@ -453,6 +453,7 @@
 - 2126\. Destroying Asteroids
 - 2130\. Maximum Twin Sum of a Linked List
 - 2138\. Divide a String Into Groups of Size k
+- 2144\. Minimum Cost of Buying Candies With Discount
 - 2154\. Keep Multiplying Found Values by Two
 - 2161\. Partition Array According to Given Pivot
 - 2165\. Smallest Value of the Rearranged Number

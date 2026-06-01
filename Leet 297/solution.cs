@@ -49,12 +49,13 @@ public class Codec
             }
         }
 
-        // Remove trailing nulls and commas
         string result = sb.ToString();
-        while (result.EndsWith(",null"))
-            result = result.Substring(0, result.Length - 5);
 
-        return result;
+        int end = result.Length;
+        while (end >= 5 && result.AsSpan(end - 5, 5).SequenceEqual(",null"))
+            end -= 5;
+
+        return result[..end];        
     }
 
     private static bool TryGetValue(string[] values, int idx, out int result)
@@ -66,7 +67,7 @@ public class Codec
     }
 
     // Decodes your encoded data to tree.
-    public static TreeNode Deserialize(string data)
+    public static TreeNode? Deserialize(string data)
     {
         if (string.IsNullOrEmpty(data))
             return null;
@@ -117,9 +118,10 @@ class Program
         return root;
     }
 
-    private static void PrintTree(TreeNode root)
+    private static void PrintTree(TreeNode? root)
     {
-        if(root == null) return;
+        if(root == null) 
+            return;
 
         Stack<TreeNode> stk = new();
         stk.Push(root);
@@ -128,13 +130,13 @@ class Program
         {
             var current = stk.Pop();
             
-            if (current == null)
-                continue;
 
             Console.WriteLine(current.val);
+            if (current.left != null)
+                stk.Push(current.left);
 
-            stk.Push(current.left);
-            stk.Push(current.right);
+            if (current.right != null)
+                stk.Push(current.right);
         }
     }
 
