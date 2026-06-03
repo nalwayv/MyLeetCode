@@ -571,6 +571,8 @@
 - 3516\. Find Closest Person
 - 3541\. Find Most Frequent Vowel and Consonant
 - 3546\. Equal Sum Grid Partition I
+- 3633\. Earliest Finish Time for Land and Water Rides I
+- 3635\. Earliest Finish Time for Land and Water Rides II
 - 3637\. Trionic Array I
 - 3643\. Flip Square Submatrix Vertically
 - 3653\. XOR After Range Multiplication Queries I
