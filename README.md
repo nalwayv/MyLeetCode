@@ -577,6 +577,7 @@
 - 3643\. Flip Square Submatrix Vertically
 - 3653\. XOR After Range Multiplication Queries I
 - 3741\. Minimum Distance Between Three Equal Elements II
+- 3751\. Total Waviness of Numbers in Range I
 - 3761\. Minimum Absolute Distance Between Mirror Pairs"
 - 3783\. Mirror Distance of an Integer
 - 3794\. Reverse String Prefix
