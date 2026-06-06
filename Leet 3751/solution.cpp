@@ -4,8 +4,10 @@ class Solution {
 public:
     int totalWaviness(int num1, int num2) {
         int result = 0;
+
         for(int i = num1; i <= num2; i++) {
             std::string num = std::to_string(i);
+            
             if (num.size() < 3)
                 continue;
 

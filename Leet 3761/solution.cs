@@ -1,38 +1,37 @@
-using System.Text;
-
-namespace Leet 
+namespace Leet
 {
-    public class Solution 
+    public class Solution
     {
-        private static string RevserseString(string value)
+        public int MinMirrorPairDistance(int[] nums)
         {
-            StringBuilder sb = new();
-            foreach(var val in value)
-                sb.Insert(0, val);
-
-            // remove any leading zero's
-            while(sb.Length > 0 && sb[0] == '0')
-                sb.Remove(0, 1);
-
-            return sb.ToString();
-        }
-
-        public int MinMirrorPairDistance(int[] nums) 
-        {
-            Dictionary<string, int> map = [];
+            Dictionary<int, int> distances = [];
 
             var minDist = int.MaxValue;
-            for(int i = 0; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length; i++)
             {
-                string strNum = nums[i].ToString();
-                string revNum = RevserseString(strNum);
+                int num = nums[i];
 
-                if (map.ContainsKey(strNum))
-                    minDist = int.Min(minDist, int.Abs(i - map[strNum]));
-                
-                map[revNum] = i;
+                // get reverse of num
+                int reverse = 0;
+                while (num > 0)
+                {
+                    var tmp = num % 10;
+                    reverse = reverse * 10 + tmp;
+                    num /= 10;
+                }
+
+                // reset num
+                num = nums[i];
+
+                // if reverse of num is in dictionary then update mindist
+                if (distances.TryGetValue(num, out int idx))
+                    minDist = int.Min(minDist, int.Abs(i - idx));
+
+                // add reverse and current index to dictionary
+                distances[reverse] = i;
             }
 
+            // return min dist or -1 if non is found
             return minDist == int.MaxValue ? -1 : minDist;
         }
     }
@@ -46,13 +45,13 @@ class Program
 
         Leet.Solution solution = new();
 
-        int testCase1 = solution.MinMirrorPairDistance([12,21,45,33,54]);
+        int testCase1 = solution.MinMirrorPairDistance([12, 21, 45, 33, 54]);
         Console.WriteLine($"Test Case 1: {testCase1}");
 
-        int testCase2 = solution.MinMirrorPairDistance([120,21]);
+        int testCase2 = solution.MinMirrorPairDistance([120, 21]);
         Console.WriteLine($"Test Case 2: {testCase2}");
 
-        int testCase3 = solution.MinMirrorPairDistance([21,120]);
+        int testCase3 = solution.MinMirrorPairDistance([21, 120]);
         Console.WriteLine($"Test Case 3: {testCase3}");
     }
 }
