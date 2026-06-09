@@ -6,31 +6,26 @@ public class Solution
     public bool CanVisitAllRooms(IList<IList<int>> rooms)
     {
         Stack<int> keys = [];
-        // int[] visited = new int[rooms.Count];
 
-        BitArray b = new(rooms.Count);
+        BitArray visited = new(rooms.Count);
 
-        // setup
         for (int i = 0; i < rooms[0].Count; i++)
         {
             keys.Push(rooms[0][i]);
         }
 
-        b.Set(0, true);
-        // visited[0] = 1;
+        visited.Set(0, true);
 
         while (keys.Count > 0)
         {
             int key = keys.Pop();
 
-            // if (visited[key] == 1)
-            if(b.Get(key))
+            if(visited.Get(key))
             {
                 continue;
             }
-            b.Set(key, true);
+            visited.Set(key, true);
 
-            // visited[key] = 1;
 
             // collect keys for current room
             foreach (int newkey in rooms[key])
@@ -39,10 +34,7 @@ public class Solution
             }
         }
 
-        // if visited all rooms sum should be same as rooms count
-        // return visited.Sum() == rooms.Count;
-
-        return b.HasAllSet();
+        return visited.HasAllSet();
     }
 }
 
