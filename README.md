@@ -506,7 +506,7 @@
 - 2526\. Find Consecutive Integers from a Data Stream
 - 2540\. Minimum Common Value
 - 2545\. Sort the Students by Their Kth Score
-- 2553\. Separate the Digits in an Array"
+- 2553\. Separate the Digits in an Array
 - 2559\. Count Vowel Strings in Ranges
 - 2570\. Merge Two 2D Arrays by Summing Values
 - 2574\. Left and Right Sum Differences
@@ -572,6 +572,7 @@
 - 3516\. Find Closest Person
 - 3541\. Find Most Frequent Vowel and Consonant
 - 3546\. Equal Sum Grid Partition I
+- 3558\. Number of Ways to Assign Edge Weights I
 - 3633\. Earliest Finish Time for Land and Water Rides I
 - 3635\. Earliest Finish Time for Land and Water Rides II
 - 3637\. Trionic Array I
