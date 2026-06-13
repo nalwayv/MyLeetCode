@@ -584,3 +584,4 @@
 - 3761\. Minimum Absolute Distance Between Mirror Pairs"
 - 3783\. Mirror Distance of an Integer
 - 3794\. Reverse String Prefix
+- 3838\. Weighted Word Mapping
