@@ -37,21 +37,13 @@ public class Solution
 
     // private static void Dsf(Dictionary<int, int> depths, Dictionary<int, List<int>> tree, int root, int depth)
     // {
-    //     if(!tree.ContainsKey(root))
+    //     depths[root] = depth;
+    //     if (tree.TryGetValue(root, out List<int>? value))
     //     {
-    //         return;
-    //     }
-
-    //     if (!depths.ContainsKey(root)) 
-    //     {
-    //         depths[root] = 0;
-    //     }
-
-    //     depths[root] = int.Max(depths[root], depth);
-
-    //     foreach(var child in tree[root])
-    //     {
-    //         Dsf(depths, tree, child, depth + 1);
+    //         foreach(var child in value)
+    //         {
+    //             Dsf(depths, tree, child, depth + 1);
+    //         }
     //     }
     // }
 
