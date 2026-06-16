@@ -573,6 +573,7 @@
 - 3541\. Find Most Frequent Vowel and Consonant
 - 3546\. Equal Sum Grid Partition I
 - 3558\. Number of Ways to Assign Edge Weights I
+- 3612\. Process String with Special Operations I
 - 3633\. Earliest Finish Time for Land and Water Rides I
 - 3635\. Earliest Finish Time for Land and Water Rides II
 - 3637\. Trionic Array I
@@ -585,3 +586,4 @@
 - 3783\. Mirror Distance of an Integer
 - 3794\. Reverse String Prefix
 - 3838\. Weighted Word Mapping
+- 3959\. Check Good Integer
