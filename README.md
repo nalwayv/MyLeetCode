@@ -349,6 +349,7 @@
 - 1327\. List the Products Ordered in a Period
 - 1331\. Rank Transform of an Array
 - 1342\. Number of Steps to Reduce a Number to Zero
+- 1344\. Angle Between Hands of a Clock"
 - 1345\. Jump Game IV
 - 1346\. Check If N and Its Double Exist
 - 1352\. Product of the Last K Numbers
@@ -585,5 +586,6 @@
 - 3761\. Minimum Absolute Distance Between Mirror Pairs"
 - 3783\. Mirror Distance of an Integer
 - 3794\. Reverse String Prefix
+- 3829\. Design Ride Sharing System
 - 3838\. Weighted Word Mapping
 - 3959\. Check Good Integer
