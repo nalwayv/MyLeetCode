@@ -1,14 +1,11 @@
 class Solution:
     def largestAltitude(self, gain: list[int]) -> int:
-        n: int = len(gain)
-        tmp: list[int] = [0] * (n+1)
-        highest: int = 0
-
-        for i in range(n):
-            tmp[i+1] = tmp[i] + gain[i]
-            highest = max(highest, tmp[i+1])
-            
-        return highest
+        total_tum = 0
+        max_height = 0
+        for g in gain:
+            total_tum += g
+            max_height = max(max_height, total_tum)
+        return max_height
 
 
 def main() -> None:
