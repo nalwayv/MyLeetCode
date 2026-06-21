@@ -31,6 +31,7 @@
 - 34\. Find First and Last Position of Element in Sorted Array
 - 35\. Search Insert Position
 - 36\. Valid Sudoku
+- 38\. Count and Say
 - 39\. Combination Sum
 - 40\. Combination Sum II
 - 42\. Trapping Rain Water
@@ -423,6 +424,7 @@
 - 1823\. Find the Winner of the Circular Game
 - 1828\. Queries on Number of Points Inside a Circle
 - 1829\. Maximum XOR for Each Query
+- 1833\. Maximum Ice Cream Bars
 - 1845\. Seat Reservation Manager
 - 1848\. Minimum Distance to the Target Element
 - 1860\. Incremental Memory Leak
