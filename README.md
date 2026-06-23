@@ -43,6 +43,7 @@
 - 53\. Maximum Subarray
 - 54\. Spiral Matrix
 - 55\. Jump Game
+- 56\. Merge Intervals
 - 58\. Length of Last Word
 - 59\. Spiral Matrix II
 - 61\. Rotate List
@@ -444,6 +445,7 @@
 - 1971\. Find if Path Exists in Graph
 - 1975\. Maximum Matrix Sum
 - 2011\. Final Value of Variable After Performing Operations
+- 2013\. Detect Squares
 - 2044\. Count Number of Maximum Bitwise-OR Subsets
 - 2016\. Maximum Difference Between Increasing Elements
 - 2022\. Convert 1D Array Into 2D Array
