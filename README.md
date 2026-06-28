@@ -7,6 +7,7 @@
 - 1\. Two Sum
 - 2\. Add Two Numbers
 - 4\. Median of Two Sorted Arrays
+- 6\. Zigzag Conversion
 - 7\. Reverse Integer
 - 8\. String to Integer (atoi)
 - 9\. Palindrome Number
@@ -428,6 +429,7 @@
 - 1829\. Maximum XOR for Each Query
 - 1833\. Maximum Ice Cream Bars
 - 1845\. Seat Reservation Manager
+- 1846\. Maximum Element After Decreasing and Rearranging
 - 1848\. Minimum Distance to the Target Element
 - 1860\. Incremental Memory Leak
 - 1861\. Rotating the Box
@@ -587,6 +589,7 @@
 - 3643\. Flip Square Submatrix Vertically
 - 3653\. XOR After Range Multiplication Queries I
 - 3689\. Maximum Total Subarray Value I
+- 3737\. Count Subarrays With Majority Element I
 - 3741\. Minimum Distance Between Three Equal Elements II
 - 3751\. Total Waviness of Numbers in Range I
 - 3761\. Minimum Absolute Distance Between Mirror Pairs"
