@@ -444,6 +444,7 @@
 - 1941\. Check if All Characters Have Equal Number of Occurrences
 - 1945\. Sum of Digits of String After Convert
 - 1957\. Delete Characters to Make Fancy String
+- 1967\. Number of Strings That Appear as Substrings in Word
 - 1971\. Find if Path Exists in Graph
 - 1975\. Maximum Matrix Sum
 - 2011\. Final Value of Variable After Performing Operations
