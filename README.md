@@ -158,6 +158,7 @@
 - 289\. Game of Life
 - 290\. Word Pattern
 - 292\. Nim Game
+- 295\. Find Median from Data Stream
 - 297\. Serialize and Deserialize Binary Tree
 - 303\. Range Sum Query - Immutable
 - 304\. Range Sum Query 2D - Immutable
@@ -358,6 +359,7 @@
 - 1346\. Check If N and Its Double Exist
 - 1352\. Product of the Last K Numbers
 - 1357\. Apply Discount Every n Orders
+- 1358\. Number of Substrings Containing All Three Characters
 - 1365\. How Many Numbers Are Smaller Than the Current Number
 - 1367\. Linked List in Binary Tree
 - 1372\. Longest ZigZag Path in a Binary Tree
