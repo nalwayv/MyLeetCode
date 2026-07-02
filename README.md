@@ -568,6 +568,7 @@
 - 3227\. Vowels Game in a String
 - 3242\. Design Neighbor Sum Service
 - 3264\. Final Array State After K Multiplication Operations I
+- 3286\. Find a Safe Walk Through a Grid
 - 3289\. The Two Sneaky Numbers of Digitville
 - 3300\. Minimum Element After Replacement With Digit Sum
 - 3314\. Construct the Minimum Bitwise Array I

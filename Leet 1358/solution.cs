@@ -12,17 +12,17 @@ class Solution
         int p1 = 0;
         for(int p2 = 0; p2 < str.Length; p2++)
         {
-            if (str[p2] == 'a' || str[p2] == 'b' || str[p2] == 'c')
+            if(!"abc".Contains(str[p2]))
+                continue;
+
+            frequency[str[p2]]++;
+
+            while (frequency['a'] > 0 && frequency['b'] > 0 && frequency['c'] > 0)
             {
-                frequency[str[p2]]++;
+                count += str.Length - p2;
 
-                while (frequency['a'] > 0 && frequency['b'] > 0 && frequency['c'] > 0)
-                {
-                    count += str.Length - p2;
-
-                    frequency[str[p1]]--;
-                    p1++;
-                }
+                frequency[str[p1]]--;
+                p1++;
             }
         }
 
