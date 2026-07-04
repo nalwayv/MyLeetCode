@@ -512,6 +512,7 @@
 - 2482\. Difference Between Ones and Zeros in Row and Column
 - 2487\. Remove Nodes From Linked List
 - 2490\. Circular Sentence
+- 2492\. Minimum Score of a Path Between Two Cities
 - 2502\. Design Memory Allocator
 - 2515\. Shortest Distance to Target String in a Circular Array
 - 2523\. Closest Prime Numbers in Range
