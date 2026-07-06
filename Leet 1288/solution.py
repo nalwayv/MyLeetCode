@@ -18,32 +18,44 @@ def removeCoveredIntervals(intervals: List[List[int]]) -> int:
         """
         return c <= a and b <= d
 
-    s_intervals: List[List[int]] = sorted(intervals, key=lambda x: x[1])
+    # sort intervals by end
+    s_intervals: List[List[int]] = sorted(intervals, key=lambda interval: interval[1])
 
     n: int = len(s_intervals)
     count: int = n
     for i in range(n - 2, -1, -1):
+        a: int = s_intervals[i][0]
+        b: int = s_intervals[i][1]
+        c: int = s_intervals[i + 1][0]
+        d: int = s_intervals[i + 1][1]
+
         # if interval[i] covers interval[i+1] or interval[i+1] covers interval[i] then merge.
-        if is_covered(*s_intervals[i], *s_intervals[i + 1]):
-            s_intervals[i][0] = s_intervals[i + 1][0]
-            s_intervals[i][1] = s_intervals[i + 1][1]
+        if is_covered(a, b, c, d):
+            s_intervals[i][0] = c
+            s_intervals[i][1] = d
             count -= 1
-        elif is_covered(*s_intervals[i + 1], *s_intervals[i]):
-            s_intervals[i + 1][0] = s_intervals[i][0]
-            s_intervals[i + 1][1] = s_intervals[i][1]
+        elif is_covered(c, d, a, b):
+            s_intervals[i + 1][0] = a
+            s_intervals[i + 1][1] = b
             count -= 1
 
     return count
+
+
+def test_case(intervals: List[List[int]], expected: int) -> None:
+    test: bool = removeCoveredIntervals(intervals) == expected
+    result: str = "pass" if test else "fail"
+    print(f"Test Result: {result}")
 
 
 def main() -> None:
     print("1288. Remove Covered Intervals")
 
     intervals_1: List[List[int]] = [[1, 4], [3, 6], [2, 8]]
-    print(removeCoveredIntervals(intervals_1))  # 2
+    test_case(intervals_1, 2)
 
     intervals_2: List[List[int]] = [[1, 4], [2, 3]]
-    print(removeCoveredIntervals(intervals_2))  # 1
+    test_case(intervals_2, 1)
 
     intervals_3: List[List[int]] = [
         [1, 4],
@@ -55,10 +67,10 @@ def main() -> None:
         [5, 6],
         [3, 7],
     ]
-    print(removeCoveredIntervals(intervals_3))
+    test_case(intervals_3, 1)
 
     intervals_4: List[List[int]] = [[3, 10], [4, 10], [5, 11]]
-    print(removeCoveredIntervals(intervals_4))  # 2
+    test_case(intervals_4, 2)
 
 
 if __name__ == "__main__":
