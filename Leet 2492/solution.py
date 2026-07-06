@@ -5,13 +5,13 @@ from typing import Deque, Dict, List, Set
 
 def minScore(roads: List[List[int]]) -> int:
     """
-    Given a bidirectional graph with cities from 1 to n and roads with distanceces 
+    Given a bidirectional graph with cities from 1 to n and roads with distanceces
     between each connected city,
     return the minumum possible score of a path between 1 and n.
 
     Args:
         roads (List[List[int]]): graph with cities labeled from 1 to n and roads with distance costs.
-    
+
     Returns:
         int: min cost of one of the possible roads taken from 1 to n
     """
