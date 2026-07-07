@@ -598,6 +598,7 @@
 - 3737\. Count Subarrays With Majority Element I
 - 3741\. Minimum Distance Between Three Equal Elements II
 - 3751\. Total Waviness of Numbers in Range I
+- 3754\. Concatenate Non-Zero Digits and Multiply by Sum I
 - 3761\. Minimum Absolute Distance Between Mirror Pairs"
 - 3783\. Mirror Distance of an Integer
 - 3794\. Reverse String Prefix
