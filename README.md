@@ -585,6 +585,7 @@
 - 3487\. Maximum Unique Subarray Sum After Deletion
 - 3512\. Minimum Operations to Make Array Sum Divisible by K
 - 3516\. Find Closest Person
+- 3532\. Path Existence Queries in a Graph I
 - 3541\. Find Most Frequent Vowel and Consonant
 - 3546\. Equal Sum Grid Partition I
 - 3558\. Number of Ways to Assign Edge Weights I

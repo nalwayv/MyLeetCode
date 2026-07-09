@@ -1,37 +1,45 @@
-from typing import List
+from typing import Tuple
 
 
 def sumAndMultiply(n: int) -> int:
-    """Break down n into new int of non-zero digits in original order and return
-    and return it multiplied by sum of digits
+    """Rebuild n from its non-zero digits (in original order) and multiply
+    that number by the sum of all its digits
 
     Args:
-        n (int):
+        n (int): non negative number
 
     Returns:
-        non-zero digints * sum of digits
-    """
+        (non zero digits) * (sum of digits)
 
-    def helper(n: int, out: List[int]) -> None:
-        """Helper fn to recursively break down int
+    Raises:
+        ValueError if n < 0
+    """
+    if n < 0:
+        raise ValueError("n must be non negative")
+
+    def helper(n: int) -> Tuple[int, int]:
+        """Helper fn to recursively break down int then rebuild into digits and sum of digits for out parameter
+
         Args:
             n (int): number to break down
-            out (List[int]): out perameters to store results for [non-zero digits, sum of digits]
+            args (Dict[str, int]): dict that contains kwargs 'non_zero_digits' and 'sum_of_digits' to store result from breaking down n
         """
         if n == 0:
-            return
+            return (0, 0)
 
-        helper(n // 10, out)
+        # break down int
+        non_zero_digits, sum_of_digits = helper(n // 10)
 
-        current = n % 10
-        out[1] += current
-        if current != 0:
-            out[0] *= 10
-            out[0] += current
+        digit: int = n % 10
+        sum_of_digits += digit
+        if digit != 0:
+            non_zero_digits *= 10
+            non_zero_digits += digit
+        return (non_zero_digits, sum_of_digits)
 
-    result: List[int] = [0, 0]
-    helper(n, result)
-    return result[0] * result[1]
+    non_zero_digits, sum_of_digits = helper(n)
+
+    return non_zero_digits * sum_of_digits
 
 
 def test_case(n: int, expected: int) -> None:
