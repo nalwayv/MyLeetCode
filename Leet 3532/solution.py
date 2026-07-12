@@ -6,8 +6,8 @@ def pathExistenceQueries(
 ) -> List[bool]:
     """
     Args:
-        n int: range of nodes
-        nums (List[int]): edge costs
+        n int: number of nodes
+        nums (List[int]): costs
         maxDiff int: max diff allowed between two nodes
         queries (List[List[int]]): queries if path exists
 

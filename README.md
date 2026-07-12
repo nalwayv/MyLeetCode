@@ -531,6 +531,7 @@
 - 2642\. Design Graph With Shortest Path Calculator
 - 2657\. Find the Prefix Common Array of Two Arrays
 - 2678\. Number of Senior Citizens
+- 2685\. Count the Number of Complete Components
 - 2740\. Minimum Distance Between Three Equal Elements I
 - 2769\. Find the Maximum Achievable Number
 - 2770\. Maximum Number of Jumps to Reach the Last Index
