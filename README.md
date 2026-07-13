@@ -344,6 +344,7 @@
 - 1286\. Iterator for Combination
 - 1288\. Remove Covered Intervals
 - 1290\. Convert Binary Number in a Linked List to Integer
+- 1291\. Sequential Digits
 - 1295\. Find Numbers with Even Number of Digits
 - 1299\. Replace Elements with Greatest Element on Right Side
 - 1302\. Deepest Leaves Sum
