@@ -597,6 +597,7 @@
 - 3637\. Trionic Array I
 - 3643\. Flip Square Submatrix Vertically
 - 3653\. XOR After Range Multiplication Queries I
+- 3658\. GCD of Odd and Even Sums
 - 3689\. Maximum Total Subarray Value I
 - 3737\. Count Subarrays With Majority Element I
 - 3741\. Minimum Distance Between Three Equal Elements II

@@ -11,9 +11,6 @@ def sequential_digits(low: int, high: int) -> List[int]:
     Returns:
         (List[int]): all numbers that have increasing digits between low and high
     """
-    # NOTE:
-    # Constraints:
-    #   10 <= low <= high <= 10^9
     if low > high:
         raise ValueError("low must be less than or equal to high")
 
