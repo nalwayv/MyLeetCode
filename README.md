@@ -608,4 +608,5 @@
 - 3794\. Reverse String Prefix
 - 3829\. Design Ride Sharing System
 - 3838\. Weighted Word Mapping
+- 3867\. Sum of GCD of Formed Pairs
 - 3959\. Check Good Integer
