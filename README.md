@@ -450,6 +450,7 @@
 - 1957\. Delete Characters to Make Fancy String
 - 1967\. Number of Strings That Appear as Substrings in Word
 - 1971\. Find if Path Exists in Graph
+- 1979\. Find Greatest Common Divisor of Array
 - 1975\. Maximum Matrix Sum
 - 2011\. Final Value of Variable After Performing Operations
 - 2013\. Detect Squares
