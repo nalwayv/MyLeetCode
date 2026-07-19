@@ -162,6 +162,7 @@
 - 297\. Serialize and Deserialize Binary Tree
 - 303\. Range Sum Query - Immutable
 - 304\. Range Sum Query 2D - Immutable
+- 316\. Remove Duplicate Letters
 - 326\. Power of Three
 - 328\. Odd Even Linked List
 - 338\. Counting Bits
@@ -323,6 +324,7 @@
 - 1068\. Product Sales Analysis I
 - 1071\. Greatest Common Divisor of Strings
 - 1075\. Project Employees I
+- 1081\. Smallest Subsequence of Distinct Characters
 - 1084\. Sales Analysis III
 - 1123\. Lowest Common Ancestor of Deepest Leaves
 - 1137\. N-th Tribonacci Number
