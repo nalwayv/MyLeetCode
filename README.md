@@ -337,6 +337,7 @@
 - 1207\. Unique Number of Occurrences
 - 1232\. Check If It Is a Straight Line
 - 1251\. Average Selling Price
+- 1260\. Shift 2D Grid
 - 1261\. Find Elements in a Contaminated Binary Tree
 - 1266\. Minimum Time Visiting All Points
 - 1277\. Count Square Submatrices with All Ones
@@ -588,6 +589,7 @@
 - 3461\. Check If Digits Are Equal in String After Operations I
 - 3484\. Design Spreadsheet
 - 3487\. Maximum Unique Subarray Sum After Deletion
+- 3499\. Maximize Active Section with Trade I
 - 3512\. Minimum Operations to Make Array Sum Divisible by K
 - 3516\. Find Closest Person
 - 3532\. Path Existence Queries in a Graph I
