@@ -589,8 +589,10 @@
 - 3461\. Check If Digits Are Equal in String After Operations I
 - 3484\. Design Spreadsheet
 - 3487\. Maximum Unique Subarray Sum After Deletion
+- 3498\. Reverse Degree of a String"
 - 3499\. Maximize Active Section with Trade I
 - 3512\. Minimum Operations to Make Array Sum Divisible by K
+- 3513\. Number of Unique XOR Triplets I
 - 3516\. Find Closest Person
 - 3532\. Path Existence Queries in a Graph I
 - 3541\. Find Most Frequent Vowel and Consonant
