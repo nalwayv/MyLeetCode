@@ -595,6 +595,7 @@
 - 3513\. Number of Unique XOR Triplets I
 - 3516\. Find Closest Person
 - 3532\. Path Existence Queries in a Graph I
+- 3536\. Maximum Product of Two Digits
 - 3541\. Find Most Frequent Vowel and Consonant
 - 3546\. Equal Sum Grid Partition I
 - 3558\. Number of Ways to Assign Edge Weights I
