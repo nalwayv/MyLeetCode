@@ -48,6 +48,7 @@
 - 58\. Length of Last Word
 - 59\. Spiral Matrix II
 - 61\. Rotate List
+- 62\. Unique Paths
 - 66\. Plus One
 - 67\. Add Binary
 - 69\. Sqrt(x)
@@ -248,6 +249,7 @@
 - 622\. Design Circular Queue
 - 624\. Maximum Distance in Arrays
 - 627\. Swap Sex of Employees
+- 628\. Maximum Product of Three Numbers
 - 637\. Average of Levels in Binary Tree
 - 641\. Design Circular Deque
 - 643\. Maximum Average Subarray I
