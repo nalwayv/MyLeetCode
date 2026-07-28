@@ -596,6 +596,7 @@
 - 3512\. Minimum Operations to Make Array Sum Divisible by K
 - 3513\. Number of Unique XOR Triplets I
 - 3516\. Find Closest Person
+- 3517\. Smallest Palindromic Rearrangement I
 - 3532\. Path Existence Queries in a Graph I
 - 3536\. Maximum Product of Two Digits
 - 3541\. Find Most Frequent Vowel and Consonant
