@@ -559,6 +559,8 @@
 - 3000\. Maximum Area of Longest Diagonal Rectangle
 - 3005\. Count Elements With Maximum Frequency
 - 3010\. Divide an Array Into Subarrays With Minimum Cost I
+- 3014\. Minimum Number of Pushes to Type Word I
+- 3016\. Minimum Number of Pushes to Type Word II
 - 3021\. Alice and Bob Playing Flower Game
 - 3043\. Find the Length of the Longest Common Prefix
 - 3100\. Water Bottles II
