@@ -210,6 +210,7 @@
 - 476\. Number Complement
 - 482\. License Key Formatting
 - 485\. Max Consecutive Ones
+- 486\. Predict the Winner
 - 494\. Target Sum
 - 496\. Next Greater Element I
 - 498\. Diagonal Traverse
@@ -297,6 +298,7 @@
 - 872\. Leaf-Similar Trees
 - 874\. Walking Robot Simulation
 - 876\. Middle of the Linked List
+- 877\. Stone Game
 - 883\. Projection Area of 3D Shapes
 - 884\. Uncommon Words from Two Sentences
 - 894\. All Possible Full Binary Trees
@@ -534,6 +536,7 @@
 - 2579\. Count Total Number of Colored Cells
 - 2598\. Smallest Missing Non-negative Integer After Operations
 - 2610\. Convert an Array Into a 2D Array With Conditions
+- 2634\. Filter Elements from Array
 - 2641\. Cousins in Binary Tree II
 - 2642\. Design Graph With Shortest Path Calculator
 - 2657\. Find the Prefix Common Array of Two Arrays
