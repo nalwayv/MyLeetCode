@@ -615,6 +615,7 @@
 - 3653\. XOR After Range Multiplication Queries I
 - 3658\. GCD of Odd and Even Sums
 - 3689\. Maximum Total Subarray Value I
+- 3731\. Find Missing Elements
 - 3737\. Count Subarrays With Majority Element I
 - 3741\. Minimum Distance Between Three Equal Elements II
 - 3751\. Total Waviness of Numbers in Range I
