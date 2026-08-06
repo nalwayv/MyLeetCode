@@ -586,9 +586,11 @@
 - 3286\. Find a Safe Walk Through a Grid
 - 3289\. The Two Sneaky Numbers of Digitville
 - 3300\. Minimum Element After Replacement With Digit Sum
+- 3310\. Remove Methods From Project
 - 3314\. Construct the Minimum Bitwise Array I
 - 3315\. Construct the Minimum Bitwise Array II
 - 3318\. Find X-Sum of All K-Long Subarrays I
+- 3345\. Smallest Divisible Digit Product I
 - 3349\. Adjacent Increasing Subarrays Detection I
 - 3375\. Minimum Operations to Make Array Values Equal to K
 - 3379\. Transformed Array
