@@ -560,6 +560,7 @@
 - 2956\. Find Common Elements Between Two Arrays
 - 2965\. Find Missing and Repeated Values
 - 2966\. Divide Array Into Arrays With Max Difference
+- 2996\. Smallest Missing Integer Greater Than Sequential Prefix Sum
 - 3000\. Maximum Area of Longest Diagonal Rectangle
 - 3005\. Count Elements With Maximum Frequency
 - 3010\. Divide an Array Into Subarrays With Minimum Cost I
