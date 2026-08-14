@@ -569,6 +569,7 @@
 - 3016\. Minimum Number of Pushes to Type Word II
 - 3021\. Alice and Bob Playing Flower Game
 - 3043\. Find the Length of the Longest Common Prefix
+- 3090\. Maximum Length Substring With Two Occurrences
 - 3100\. Water Bottles II
 - 3105\. Longest Strictly Increasing or Strictly Decreasing Subarray
 - 3110\. Score of a String
