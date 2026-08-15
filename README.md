@@ -621,6 +621,7 @@
 - 3653\. XOR After Range Multiplication Queries I
 - 3658\. GCD of Odd and Even Sums
 - 3689\. Maximum Total Subarray Value I
+- 3702\. Longest Subsequence With Non-Zero Bitwise XOR"
 - 3731\. Find Missing Elements
 - 3737\. Count Subarrays With Majority Element I
 - 3741\. Minimum Distance Between Three Equal Elements II
