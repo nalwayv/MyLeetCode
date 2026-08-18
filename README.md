@@ -404,6 +404,7 @@
 - 1552\. Magnetic Force Between Two Balls
 - 1559\. Detect Cycles in 2D Grid"
 - 1561\. Maximum Number of Coins You Can Get
+- 1563\. Stone Game V
 - 1572\. Matrix Diagonal Sum
 - 1578\. Minimum Time to Make Rope Colorful
 - 1587\. Bank Account Summary II
@@ -465,6 +466,7 @@
 - 2044\. Count Number of Maximum Bitwise-OR Subsets
 - 2016\. Maximum Difference Between Increasing Elements
 - 2022\. Convert 1D Array Into 2D Array
+- 2029\. Stone Game IX
 - 2043\. Simple Bank System
 - 2048\. Next Greater Numerically Balanced Number
 - 2053\. Kth Distinct String in an Array
@@ -600,6 +602,7 @@
 - 3379\. Transformed Array
 - 3446\. Sort Matrix by Diagonals
 - 3461\. Check If Digits Are Equal in String After Operations I
+- 3471\. Find the Largest Almost Missing Integer
 - 3484\. Design Spreadsheet
 - 3487\. Maximum Unique Subarray Sum After Deletion
 - 3498\. Reverse Degree of a String"
