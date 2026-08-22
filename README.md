@@ -619,6 +619,7 @@
 - 3546\. Equal Sum Grid Partition I
 - 3558\. Number of Ways to Assign Edge Weights I
 - 3612\. Process String with Special Operations I
+- 3622\. Check Divisibility by Digit Sum and Product
 - 3633\. Earliest Finish Time for Land and Water Rides I
 - 3635\. Earliest Finish Time for Land and Water Rides II
 - 3637\. Trionic Array I
