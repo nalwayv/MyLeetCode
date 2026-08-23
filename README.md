@@ -453,6 +453,7 @@
 - 1886\. Determine Whether Matrix Can Be Obtained By Rotation
 - 1894\. Find the Student that Will Replace the Chalk
 - 1920\. Build Array from Permutation
+- 1927\. Sum Game
 - 1929\. Concatenation of Array
 - 1935\. Maximum Number of Words You Can Type
 - 1941\. Check if All Characters Have Equal Number of Occurrences
