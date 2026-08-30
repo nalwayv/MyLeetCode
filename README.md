@@ -476,6 +476,7 @@
 - 2075\. Decode the Slanted Ciphertext
 - 2078\. Two Furthest Houses With Different Colors
 - 2079\. Watering Plants
+- 2091\. Removing Minimum and Maximum From Array"
 - 2095\. Delete the Middle Node of a Linked List
 - 2109\. Adding Spaces to a String
 - 2114\. Maximum Number of Words Found in Sentences

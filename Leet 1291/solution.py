@@ -1,7 +1,5 @@
-from typing import Final, List
 
-
-def sequential_digits(low: int, high: int) -> List[int]:
+def sequential_digits(low: int, high: int) -> list[int]:
     """Return a sorted list of all int in range [low, high] that have sequential digits
 
     Args:
@@ -11,19 +9,16 @@ def sequential_digits(low: int, high: int) -> List[int]:
     Returns:
         (List[int]): all numbers that have increasing digits between low and high
     """
-    if low > high:
-        raise ValueError("low must be less than or equal to high")
+    digits: str= "123456789"
 
-    digits: Final[str] = "123456789"
-
-    result: List[int] = []
+    result: list[int] = []
 
     lo: int = len(str(low))
     hi: int = len(str(high))
 
-    for i in range(lo, hi + 1, 1):
+    for i in range(lo, hi + 1):
         # window
-        for k in range(0, 9 - i + 1):
+        for k in range(9 - i + 1):
             num: int = int(digits[k : k + i])
             if low <= num <= high:
                 result.append(num)
