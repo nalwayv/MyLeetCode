@@ -473,6 +473,7 @@
 - 2043\. Simple Bank System
 - 2048\. Next Greater Numerically Balanced Number
 - 2053\. Kth Distinct String in an Array
+- 2058\. Find the Minimum and Maximum Number of Nodes Between Critical Points
 - 2075\. Decode the Slanted Ciphertext
 - 2078\. Two Furthest Houses With Different Colors
 - 2079\. Watering Plants
