@@ -363,7 +363,7 @@
 - 1327\. List the Products Ordered in a Period
 - 1331\. Rank Transform of an Array
 - 1342\. Number of Steps to Reduce a Number to Zero
-- 1344\. Angle Between Hands of a Clock"
+- 1344\. Angle Between Hands of a Clock
 - 1345\. Jump Game IV
 - 1346\. Check If N and Its Double Exist
 - 1352\. Product of the Last K Numbers
@@ -403,7 +403,7 @@
 - 1518\. Water Bottles
 - 1550\. Three Consecutive Odds
 - 1552\. Magnetic Force Between Two Balls
-- 1559\. Detect Cycles in 2D Grid"
+- 1559\. Detect Cycles in 2D Grid
 - 1561\. Maximum Number of Coins You Can Get
 - 1563\. Stone Game V
 - 1572\. Matrix Diagonal Sum
@@ -477,7 +477,7 @@
 - 2075\. Decode the Slanted Ciphertext
 - 2078\. Two Furthest Houses With Different Colors
 - 2079\. Watering Plants
-- 2091\. Removing Minimum and Maximum From Array"
+- 2091\. Removing Minimum and Maximum From Array
 - 2095\. Delete the Middle Node of a Linked List
 - 2109\. Adding Spaces to a String
 - 2114\. Maximum Number of Words Found in Sentences
@@ -524,7 +524,7 @@
 - 2433\. Find The Original Array of Prefix Xor
 - 2438\. Range Product Queries of Powers
 - 2442\. Count Number of Distinct Integers After Reverse Operations
-- 2452\. Words Within Two Edits of Dictionary"
+- 2452\. Words Within Two Edits of Dictionary
 - 2460\. Apply Operations to an Array
 - 2469\. Convert the Temperature
 - 2482\. Difference Between Ones and Zeros in Row and Column
@@ -561,7 +561,7 @@
 - 2873\. Maximum Value of an Ordered Triplet I
 - 2874\. Maximum Value of an Ordered Triplet II
 - 2833\. Furthest Point From Origin
-- 2904\. Shortest and Lexicographically Smallest Beautiful String"
+- 2904\. Shortest and Lexicographically Smallest Beautiful String
 - 2906\. Construct Product Matrix
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
 - 2942\. Find Words Containing Character
@@ -612,7 +612,7 @@
 - 3471\. Find the Largest Almost Missing Integer
 - 3484\. Design Spreadsheet
 - 3487\. Maximum Unique Subarray Sum After Deletion
-- 3498\. Reverse Degree of a String"
+- 3498\. Reverse Degree of a String
 - 3499\. Maximize Active Section with Trade I
 - 3512\. Minimum Operations to Make Array Sum Divisible by K
 - 3513\. Number of Unique XOR Triplets I
@@ -641,11 +641,13 @@
 - 3741\. Minimum Distance Between Three Equal Elements II
 - 3751\. Total Waviness of Numbers in Range I
 - 3754\. Concatenate Non-Zero Digits and Multiply by Sum I
-- 3761\. Minimum Absolute Distance Between Mirror Pairs"
+- 3761\. Minimum Absolute Distance Between Mirror Pairs
 - 3783\. Mirror Distance of an Integer
 - 3794\. Reverse String Prefix
 - 3829\. Design Ride Sharing System
 - 3838\. Weighted Word Mapping
 - 3867\. Sum of GCD of Formed Pairs
+- 3875\. Construct Uniform Parity Array I
+- 3876\. Construct Uniform Parity Array II
 - 3895\. Count Digit Appearances
 - 3959\. Check Good Integer

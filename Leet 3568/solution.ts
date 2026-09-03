@@ -1,11 +1,24 @@
-function findStart(classroom: string[]): { row: number; col: number } {
+type State = {
+  row: number;
+  col: number;
+  mask: number;
+  remainingEnergy: number;
+  steps: number;
+};
+
+type Position = {
+  x: number;
+  y: number;
+}
+
+function findStart(classroom: string[]): Position | null {
   for (let i = 0; i < classroom.length; i++) {
     let idx = classroom[i].indexOf("S");
     if (idx !== -1) {
-      return { row: i, col: idx };
+      return { x: i, y: idx };
     }
   }
-  return { row: -1, col: -1 };
+  return null;
 }
 
 function minMoves(classroom: string[], energy: number): number {
@@ -13,26 +26,22 @@ function minMoves(classroom: string[], energy: number): number {
     return -1;
   }
 
-  let { row: startX, col: startY } = findStart(classroom);
+  const startPos = findStart(classroom);
 
-  if (startX === -1 || startY === -1) {
+  if (startPos === null) {
     return -1;
   }
 
-  // helper functions
-  const mapKey = (row: number, col: number) => `${row},${col}`;
-  const pickUpLitter = (mask: number, litter: number) => mask |= 1 << litter;
-
-  let rows = classroom.length;
-  let cols = classroom[0].length;
+  const rows = classroom.length;
+  const cols = classroom[0].length;
 
   // store classroom litter locations along with id for mask
-  let litter = new Map<string, number>();
+  const litter = new Map<number, number>();
   let id = 0;
   for (let row = 0; row < rows; row++) {
     for (let col = 0; col < cols; col++) {
       if (classroom[row][col] === "L") {
-        litter.set(mapKey(row, col), id++);
+        litter.set(row * cols + col, id++);
       }
     }
   }
@@ -43,26 +52,26 @@ function minMoves(classroom: string[], energy: number): number {
     Array.from({ length: rows }, () => Array(cols).fill(-1)),
   );
 
-
-  let directions = [
+  const directions: Position[] = [
     { x: 0, y: 1 },
     { x: 0, y: -1 },
     { x: 1, y: 0 },
     { x: -1, y: 0 },
   ];
 
-  let frame = [{ row: startX, col: startY, mask: 0, energy: energy, steps: 0 }];
+  let frame: State[] = [{ row: startPos.x, col: startPos.y, mask: 0, remainingEnergy: energy, steps: 0 }];
   while (frame.length > 0) {
-    let { row, col, mask, energy: remainingEnergy, steps } = frame.shift()!;
+    let { row, col, mask, remainingEnergy, steps } = frame.shift()!;
 
     // reset energy
-    if (classroom[row][col] == "R") {
+    if (classroom[row][col] === "R") {
       remainingEnergy = energy;
     }
 
-    let litterID = litter.get(mapKey(row, col));
-    if (litterID !== undefined) {
-      mask = pickUpLitter(mask, litterID);
+    // let litterID = litter.get(mapKey(row, col));
+    let litterId = litter.get(row * cols + col);
+    if (litterId !== undefined) {
+      mask |= 1 << litterId;
     }
 
     // all litter picked up
@@ -100,8 +109,8 @@ function minMoves(classroom: string[], energy: number): number {
       frame.push({
         row: nextRow,
         col: nextCol,
-        mask,
-        energy: remainingEnergy - 1,
+        mask: mask,
+        remainingEnergy: remainingEnergy - 1,
         steps: steps + 1,
       });
     }
