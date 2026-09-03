@@ -51,7 +51,7 @@ function minMoves(classroom: string[], energy: number): number {
   let best: number[][][] = Array.from({ length: target + 1 }, () =>
     Array.from({ length: rows }, () => Array(cols).fill(-1)),
   );
-
+  
   const directions: Position[] = [
     { x: 0, y: 1 },
     { x: 0, y: -1 },
