@@ -650,4 +650,5 @@
 - 3875\. Construct Uniform Parity Array I
 - 3876\. Construct Uniform Parity Array II
 - 3895\. Count Digit Appearances
+- 3903\. Smallest Stable Index I
 - 3959\. Check Good Integer
