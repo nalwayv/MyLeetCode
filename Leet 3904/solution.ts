@@ -26,11 +26,13 @@ function testCase(nums: number[], k: number, expected: number): void {
   let strNums = nums.join(", ");
   let actual = firstStableIndex(nums, k);
   let result = actual === expected ? "Pass" : "Fail";
-  console.log(`${result} firstStableIndex([${strNums}], ${k}) -> expected ${expected} got ${actual}`);
+  console.log(
+    `${result} firstStableIndex([${strNums}], ${k}) -> expected ${expected} got ${actual}`,
+  );
 }
 
 function main(): void {
-  console.log("3903. Smallest Stable Index I");
+  console.log("3904. Smallest Stable Index II");
 
   testCase([5, 0, 1, 4], 3, 3);
   testCase([1, 3, 2, 4, 0], 2, 0);
