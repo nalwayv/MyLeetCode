@@ -310,6 +310,7 @@
 - 912\. Sort an Array
 - 919\. Complete Binary Tree Inserter
 - 933\. Number of Recent Calls
+- 940\. Distinct Subsequences II
 - 941\. Valid Mountain Array
 - 961\. N-Repeated Element in Size 2N Array
 - 965\. Univalued Binary Tree
@@ -648,6 +649,7 @@
 - 3829\. Design Ride Sharing System
 - 3838\. Weighted Word Mapping
 - 3867\. Sum of GCD of Formed Pairs
+- 3870\. Count Commas in Range
 - 3875\. Construct Uniform Parity Array I
 - 3876\. Construct Uniform Parity Array II
 - 3895\. Count Digit Appearances
