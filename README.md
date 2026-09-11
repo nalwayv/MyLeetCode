@@ -613,6 +613,7 @@
 - 3461\. Check If Digits Are Equal in String After Operations I
 - 3471\. Find the Largest Almost Missing Integer
 - 3484\. Design Spreadsheet
+- 3483\. Unique 3-Digit Even Numbers
 - 3487\. Maximum Unique Subarray Sum After Deletion
 - 3498\. Reverse Degree of a String
 - 3499\. Maximize Active Section with Trade I
@@ -650,6 +651,7 @@
 - 3838\. Weighted Word Mapping
 - 3867\. Sum of GCD of Formed Pairs
 - 3870\. Count Commas in Range
+- 3871\. Count Commas in Range II
 - 3875\. Construct Uniform Parity Array I
 - 3876\. Construct Uniform Parity Array II
 - 3895\. Count Digit Appearances
