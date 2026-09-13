@@ -292,6 +292,7 @@
 - 812\. Largest Triangle Area
 - 819\. Most Common Word
 - 821\. Shortest Distance to a Character
+- 835\. Image Overlap
 - 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
 - 860\. Lemonade Change
