@@ -222,6 +222,7 @@
 - 507\. Perfect Number
 - 509\. Fibonacci Number
 - 511\. Game Play Analysis I
+- 520\. Detect Capital
 - 539\. Minimum Time Difference
 - 541\. Reverse String II
 - 542\. 01 Matrix
@@ -293,6 +294,7 @@
 - 819\. Most Common Word
 - 821\. Shortest Distance to a Character
 - 835\. Image Overlap
+- 836\. Rectangle Overlap
 - 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
 - 860\. Lemonade Change

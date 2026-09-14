@@ -1,64 +1,61 @@
 Console.WriteLine("835. Image Overlap");
 
-var solution = new Solution();
+int[,] matrix1 = new int[,] { { 1, 1, 0 }, { 0, 1, 0 }, { 0, 1, 0 } };
+int[,] matrix2 = new int[,] { { 0, 0, 0 }, { 0, 1, 1 }, { 0, 0, 1 } };
+Console.WriteLine($"Result: {Solution.LargestOverlap(matrix1, matrix2)}");
 
-int[][] matrix1 = [[1,1,0],[0,1,0],[0,1,0]];
-int[][] matrix2 = [[0,0,0],[0,1,1],[0,0,1]];
-Console.WriteLine($"Result: {solution.LargestOverlap(matrix1, matrix2)}");
 
 public class Solution
 {
-    public int LargestOverlap(int[][] img1, int[][] img2)
+    public static int LargestOverlap(int[,] img1, int[,] img2)
     {
-        int rows = img1.Length;
-        int cols = img1[0].Length;
+        int rows = img1.GetLength(0);
+        int cols = img1.GetLength(1);
 
-        var coords1 = new List<(int, int)>();
+        var coordsImg1 = new List<(int, int)>();
         for (int r = 0; r < rows; r++)
         {
             for (int c = 0; c < cols; c++)
             {
-                if (img1[r][c] != 1)
+                if (img1[r, c] == 1)
                 {
-                    continue;
+                    coordsImg1.Add((r, c));
                 }
-
-                coords1.Add((r, c));
             }
         }
 
-        var coords2 = new List<(int, int)>();
+        var coordsImg2 = new List<(int, int)>();
         for (int r = 0; r < rows; r++)
         {
             for (int c = 0; c < cols; c++)
             {
-                if (img2[r][c] != 1)
+                if (img2[r, c] == 1)
                 {
-                    continue;
+                    coordsImg2.Add((r, c));
                 }
-                coords2.Add((r, c));
             }
         }
 
         var frequency = new Dictionary<(int, int), int>();
-        int maxV = 0;
+        int maxFrequency = 0;
 
-        foreach (var (ax, ay) in coords1)
+        foreach (var (ax, ay) in coordsImg1)
         {
-            foreach (var (bx, by) in coords2)
+            foreach (var (bx, by) in coordsImg2)
             {
                 var dist = (ax - bx, ay - by);
 
-                if (!frequency.ContainsKey(dist))
+                if (!frequency.TryGetValue(dist, out int value))
                 {
-                    frequency[dist] = 0;
+                    value = 0;
+                    frequency[dist] = value;
                 }
 
-                frequency[dist]++;
-                maxV = Math.Max(frequency[dist], maxV);
+                frequency[dist] = ++value;
+                maxFrequency = Math.Max(value, maxFrequency);
             }
         }
 
-        return maxV;
+        return maxFrequency;
     }
 }
