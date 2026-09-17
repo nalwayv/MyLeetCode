@@ -417,6 +417,7 @@
 - 1590\. Make Sum Divisible by P
 - 1600\. Throne Inheritance
 - 1603\. Design Parking System
+- 1621\. Number of Sets of K Non-Overlapping Line Segments
 - 1625\. Lexicographically Smallest String After Applying Operations
 - 1641\. Count Sorted Vowel Strings
 - 1656\. Design an Ordered Stream
@@ -532,6 +533,7 @@
 - 2452\. Words Within Two Edits of Dictionary
 - 2460\. Apply Operations to an Array
 - 2469\. Convert the Temperature
+- 2472\. Maximum Number of Non-overlapping Palindrome Substrings
 - 2482\. Difference Between Ones and Zeros in Row and Column
 - 2487\. Remove Nodes From Linked List
 - 2490\. Circular Sentence
