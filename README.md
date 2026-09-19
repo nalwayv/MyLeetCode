@@ -385,6 +385,7 @@
 - 1391\. Check if There is a Valid Path in a Grid
 - 1394\. Find Lucky Integer in an Array
 - 1396\. Design Underground System
+- 1401\. Circle and Rectangle Overlapping
 - 1407\. Top Travellers
 - 1415\. The k-th Lexicographical String of All Happy Strings of Length n
 - 1422\. Maximum Score After Splitting a String
@@ -399,6 +400,7 @@
 - 1470\. Shuffle the Array
 - 1472\. Design Browser History
 - 1476\. Subrectangle Queries
+- 1477\. Find Two Non-overlapping Sub-arrays Each With Target Sum
 - 1480\. Running Sum of 1d Array
 - 1484\. Group Sold Products By The Date
 - 1493\. Longest Subarray of 1's After Deleting One Element
