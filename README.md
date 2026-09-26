@@ -446,6 +446,7 @@
 - 1791\. Find Center of Star Graph
 - 1797\. Design Authentication Manager
 - 1800\. Maximum Ascending Subarray Sum
+- 1807\. Evaluate the Bracket Pairs of a String
 - 1823\. Find the Winner of the Circular Game
 - 1828\. Queries on Number of Points Inside a Circle
 - 1829\. Maximum XOR for Each Query
@@ -632,6 +633,7 @@
 - 3536\. Maximum Product of Two Digits
 - 3541\. Find Most Frequent Vowel and Consonant
 - 3546\. Equal Sum Grid Partition I
+- 3550\. Smallest Index With Digit Sum Equal to Index
 - 3558\. Number of Ways to Assign Edge Weights I
 - 3568\. Minimum Moves to Clean the Classroom
 - 3612\. Process String with Special Operations I
