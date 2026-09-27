@@ -342,6 +342,7 @@
 - 1161\. Maximum Level Sum of a Binary Tree
 - 1179\. Reformat Department Table
 - 1189\. Maximum Number of Balloons
+- 1190\. Reverse Substrings Between Each Pair of Parentheses
 - 1200\. Minimum Absolute Difference
 - 1207\. Unique Number of Occurrences
 - 1232\. Check If It Is a Straight Line
