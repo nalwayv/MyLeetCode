@@ -420,6 +420,7 @@
 - 1590\. Make Sum Divisible by P
 - 1600\. Throne Inheritance
 - 1603\. Design Parking System
+- 1614\. Maximum Nesting Depth of the Parentheses
 - 1621\. Number of Sets of K Non-Overlapping Line Segments
 - 1625\. Lexicographically Smallest String After Applying Operations
 - 1641\. Count Sorted Vowel Strings
