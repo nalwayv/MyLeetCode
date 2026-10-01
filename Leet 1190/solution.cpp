@@ -6,12 +6,11 @@ namespace {
     public:
         static std::string reverse_parentheses(const std::string& str) {
             std::vector<std::string> builder;
-            const std::string start {"("};
 
             for (const auto ch: str) {
                 if (ch == ')') {
                     std::vector<std::string> reversed;
-                    while (builder.back() != start) {
+                    while (builder.back() != "(") {
                         reversed.push_back(builder.back());
                         builder.pop_back();
                     }
@@ -28,13 +27,18 @@ namespace {
             for (const auto & b_str : builder) {
                 result += b_str;
             }
+
             return result;
         }
     };
 }
 
 int main() {
+    std::cout << "1190. Reverse Substrings Between Each Pair of Parentheses\n";
+
     const std::string result = Solution::reverse_parentheses("(ed(et(oc))el)");
+    
     std::cout << "Result: " << result << std::endl;
+
     return 0;
 }
