@@ -54,6 +54,11 @@ static int stack_is_empty(const struct stack* st) {
 }
 
 
+static int stack_length(const struct stack* st) {
+    return st->top + 1;
+}
+
+
 static char* reverse_parentheses(const char* s) {
     const int len = (int)strlen(s);
 
@@ -75,7 +80,7 @@ static char* reverse_parentheses(const char* s) {
             stack_pop(&s1);
 
             // copy over
-            for (int j = 0; j <= s2.top; j++) {
+            for (int j = 0; j < stack_length(&s2); j++) {
                 stack_push(&s1, s2.data[j]);
             }
 
@@ -84,12 +89,12 @@ static char* reverse_parentheses(const char* s) {
         }
     }
 
-    // create result string. + 2 for <= top and \0
-    char* new_cstring = malloc(s1.top + 2);
-    for (int j = 0; j <= s1.top; j++) {
+    const int length = stack_length(&s1);
+    char* new_cstring = malloc(length + 1);
+    for (int j = 0; j < length j++) {
         new_cstring[j] = s1.data[j];
     }
-    new_cstring[s1.top + 1] = '\0';
+    new_cstring[length] = '\0';
 
     // clean up
     stack_delete(&s1);
