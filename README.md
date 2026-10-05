@@ -263,6 +263,7 @@
 - 657\. Robot Return to Origin
 - 670\. Maximum Swap
 - 677\. Map Sum Pairs
+- 678\. Valid Parenthesis String
 - 695\. Max Area of Island
 - 696\. Count Binary Substrings
 - 697\. Degree of an Array
@@ -298,6 +299,7 @@
 - 836\. Rectangle Overlap
 - 840\. Magic Squares In Grid
 - 841\. Keys and Rooms
+- 856\. Score of Parentheses
 - 860\. Lemonade Change
 - 869\. Reordered Power of 2
 - 872\. Leaf-Similar Trees
