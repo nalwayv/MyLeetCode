@@ -1,5 +1,5 @@
-#include "string.h"
-#include "stdio.h"
+#include <string.h>
+#include <stdio.h>
 
 static int check_valid_string(const char* s) {
     const int n = (int)strlen(s);
@@ -40,7 +40,7 @@ static int check_valid_string(const char* s) {
 }
 
 int main(void) {
-    printf("678. Valid Parenthesis String");
+    printf("678. Valid Parenthesis String\n");
 
     int result = check_valid_string("(*))");
     printf("(*)) is valid? %s\n", result == 1 ? "Pass": "Fail");

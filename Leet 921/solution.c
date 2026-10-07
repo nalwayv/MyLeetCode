@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 int min_add_to_make_valid(char* s) {
     int unbalanced = 0;
@@ -20,7 +20,7 @@ int min_add_to_make_valid(char* s) {
 }
 
 int main(void) {
-    printf("921. Minimum Add to Make Parentheses Valid");
+    printf("921. Minimum Add to Make Parentheses Valid\n");
 
     const int result = min_add_to_make_valid("())");
     printf("- ()) equals %d\n", result);
