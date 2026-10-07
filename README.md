@@ -315,6 +315,7 @@
 - 905\. Sort Array By Parity
 - 912\. Sort an Array
 - 919\. Complete Binary Tree Inserter
+- 921\. Minimum Add to Make Parentheses Valid
 - 933\. Number of Recent Calls
 - 940\. Distinct Subsequences II
 - 941\. Valid Mountain Array
