@@ -415,6 +415,7 @@
 - 1510\. Stone Game IV
 - 1512\. Number of Good Pairs
 - 1518\. Water Bottles
+- 1541\. Minimum Insertions to Balance a Parentheses String
 - 1550\. Three Consecutive Odds
 - 1552\. Magnetic Force Between Two Balls
 - 1559\. Detect Cycles in 2D Grid
@@ -571,6 +572,7 @@
 - 2740\. Minimum Distance Between Three Equal Elements I
 - 2769\. Find the Maximum Achievable Number
 - 2770\. Maximum Number of Jumps to Reach the Last Index
+- 2778\. Sum of Squares of Special Elements
 - 2784\. Check if Array is Good
 - 2785\. Sort Vowels in a String
 - 2787\. Ways to Express an Integer as Sum of Powers
@@ -656,6 +658,7 @@
 - 3702\. Longest Subsequence With Non-Zero Bitwise XOR
 - 3718\. Smallest Missing Multiple of K
 - 3720\. Lexicographically Smallest Permutation Greater Than Target
+- 3727\. Maximum Alternating Sum of Squares
 - 3731\. Find Missing Elements
 - 3737\. Count Subarrays With Majority Element I
 - 3741\. Minimum Distance Between Three Equal Elements II
