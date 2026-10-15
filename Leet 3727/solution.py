@@ -5,15 +5,14 @@ def maxAlternatingSum(nums: list[int]) -> int:
     n: int = len(cpy)
 
     result: int = 0
-    for i in range(n // 2):
-        end: int = cpy[n - i - 1]
-        start: int = cpy[i]
+    for lo in range(n // 2):
+        hi: int = n - lo - 1
 
-        result += end * end
-        result -= start * start
+        result += cpy[hi] * cpy[hi]
+        result -= cpy[lo] * cpy[lo]
 
     if n % 2 == 1:
-        mid: int = cpy[n // 2]
-        result += mid * mid
+        mid: int = n // 2
+        result += cpy[mid] * cpy[mid]
 
     return result

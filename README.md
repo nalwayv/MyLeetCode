@@ -583,6 +583,7 @@
 - 2833\. Furthest Point From Origin
 - 2904\. Shortest and Lexicographically Smallest Beautiful String
 - 2906\. Construct Product Matrix
+- 2913\. Subarrays Distinct Element Sum of Squares I
 - 2914\. Minimum Number of Changes to Make Binary String Beautiful
 - 2942\. Find Words Containing Character
 - 2956\. Find Common Elements Between Two Arrays
@@ -658,6 +659,7 @@
 - 3702\. Longest Subsequence With Non-Zero Bitwise XOR
 - 3718\. Smallest Missing Multiple of K
 - 3720\. Lexicographically Smallest Permutation Greater Than Target
+- 3723\. Maximize Sum of Squares of Digits
 - 3727\. Maximum Alternating Sum of Squares
 - 3731\. Find Missing Elements
 - 3737\. Count Subarrays With Majority Element I
