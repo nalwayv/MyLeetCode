@@ -645,6 +645,7 @@
 - 3541\. Find Most Frequent Vowel and Consonant
 - 3546\. Equal Sum Grid Partition I
 - 3550\. Smallest Index With Digit Sum Equal to Index
+- 3551\. Minimum Swaps to Sort by Digit Sum
 - 3558\. Number of Ways to Assign Edge Weights I
 - 3568\. Minimum Moves to Clean the Classroom
 - 3612\. Process String with Special Operations I
