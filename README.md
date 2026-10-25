@@ -353,6 +353,7 @@
 - 1207\. Unique Number of Occurrences
 - 1232\. Check If It Is a Straight Line
 - 1251\. Average Selling Price
+- 1254\. Number of Closed Islands
 - 1260\. Shift 2D Grid
 - 1261\. Find Elements in a Contaminated Binary Tree
 - 1266\. Minimum Time Visiting All Points
@@ -538,6 +539,7 @@
 - 2390\. Removing Stars From a String
 - 2391\. Minimum Amount of Time to Collect Garbage
 - 2396\. Strictly Palindromic Number
+- 2409\. Count Days Spent Together
 - 2415\. Reverse Odd Levels of Binary Tree
 - 2419\. Longest Subarray With Maximum Bitwise AND
 - 2433\. Find The Original Array of Prefix Xor
