@@ -652,12 +652,13 @@
 - 3558\. Number of Ways to Assign Edge Weights I
 - 3568\. Minimum Moves to Clean the Classroom
 - 3612\. Process String with Special Operations I
+- 3619\. Count Islands With Total Value Divisible by K
 - 3622\. Check Divisibility by Digit Sum and Product
 - 3633\. Earliest Finish Time for Land and Water Rides I
 - 3635\. Earliest Finish Time for Land and Water Rides II
 - 3637\. Trionic Array I
 - 3643\. Flip Square Submatrix Vertically
-- 3644. Maximum K to Sort a Permutation
+- 3644\. Maximum K to Sort a Permutation
 - 3653\. XOR After Range Multiplication Queries I
 - 3658\. GCD of Odd and Even Sums
 - 3689\. Maximum Total Subarray Value I
