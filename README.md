@@ -686,3 +686,4 @@
 - 3903\. Smallest Stable Index I
 - 3904\. Smallest Stable Index II
 - 3959\. Check Good Integer
+- 3963\. Create Grid With Exactly One Path
