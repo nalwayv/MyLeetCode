@@ -206,8 +206,10 @@
 - 448\. Find All Numbers Disappeared in an Array
 - 449\. Serialize and Deserialize BST
 - 450\. Delete Node in a BST
+- 453\. Minimum Moves to Equal Array Elements
 - 454\. 4Sum II
 - 461\. Hamming Distance
+- 462\. Minimum Moves to Equal Array Elements II
 - 463\. Island Perimeter
 - 476\. Number Complement
 - 482\. License Key Formatting
@@ -687,3 +689,4 @@
 - 3904\. Smallest Stable Index II
 - 3959\. Check Good Integer
 - 3963\. Create Grid With Exactly One Path
+- 3970\. Shortest Path With At Most K Consecutive Identical Characters
