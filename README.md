@@ -359,6 +359,7 @@
 - 1260\. Shift 2D Grid
 - 1261\. Find Elements in a Contaminated Binary Tree
 - 1266\. Minimum Time Visiting All Points
+- 1267\. Count Servers that Communicate
 - 1277\. Count Square Submatrices with All Ones
 - 1280\. Students and Examinations
 - 1281\. Subtract the Product and Sum of Digits of an Integer
@@ -389,6 +390,7 @@
 - 1372\. Longest ZigZag Path in a Binary Tree
 - 1381\. Design a Stack With Increment Operation
 - 1382\. Balance a Binary Search Tree
+- 1385\. Find the Distance Value Between Two Arrays
 - 1386\. Cinema Seat Allocation
 - 1389\. Create Target Array in the Given Order
 - 1390\. Four Divisors
@@ -670,6 +672,7 @@
 - 3723\. Maximize Sum of Squares of Digits
 - 3727\. Maximum Alternating Sum of Squares
 - 3731\. Find Missing Elements
+- 3736\. Minimum Moves to Equal Array Elements III
 - 3737\. Count Subarrays With Majority Element I
 - 3741\. Minimum Distance Between Three Equal Elements II
 - 3751\. Total Waviness of Numbers in Range I
