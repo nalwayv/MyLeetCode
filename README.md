@@ -666,6 +666,7 @@
 - 3653\. XOR After Range Multiplication Queries I
 - 3658\. GCD of Odd and Even Sums
 - 3689\. Maximum Total Subarray Value I
+- 3693\. Climbing Stairs II
 - 3702\. Longest Subsequence With Non-Zero Bitwise XOR
 - 3718\. Smallest Missing Multiple of K
 - 3720\. Lexicographically Smallest Permutation Greater Than Target
